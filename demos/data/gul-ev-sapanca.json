@@ -1,0 +1,76 @@
+{
+  "name": "Gül Ev Sapanca",
+  "slug": "gul-ev-sapanca",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Uzunkum, Sapanca",
+  "eyebrow": "Uzunkum, Sapanca",
+  "headline": "Gölün huzurunda özel villa.",
+  "description": "Gül Ev Sapanca; göle 500 metre mesafede, ısıtmalı özel havuzu, jakuzisi ve şöminesiyliyle dört mevsim konforlu tatil sunan özel bir villa konaklama alanıdır.",
+  "type": "Villa konaklama",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Göle 500 metre",
+      "body": "Sapanca Gölü'ne yürüyüş mesafesinde, Uzunkum Mahallesi'nin sakinliğinde konumlanan özel villa."
+    },
+    {
+      "title": "Isıtmalı özel havuz",
+      "body": "Dört mevsim kullanılabilen ısıtmalı havuz ve jakuzi ile eşsiz bir tatil konforu."
+    },
+    {
+      "title": "4 yatak odası",
+      "body": "Büyük aile ve arkadaş grupları için ideal; geniş yaşam alanı ve özel bahçe."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Isıtmalı havuz",
+      "body": "Kış aylarında bile kullanabileceğiniz ısıtmalı özel yüzme havuzu."
+    },
+    {
+      "title": "Jakuzi",
+      "body": "İçeride özel jakuzi ile tam bir dinlenme ve rahatlama deneyimi."
+    },
+    {
+      "title": "Şömine",
+      "body": "Kış gecelerini sıcak tutacak şömineli oturma odası."
+    },
+    {
+      "title": "4 yatak odası",
+      "body": "Büyük gruplar için uygun; konforlu ve geniş oda düzeni."
+    },
+    {
+      "title": "Özel bahçe",
+      "body": "Geniş ve bakımlı özel bahçe alanı, barbekü imkanı."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Uzunkum Mahallesi, Sapanca — gölün huzurunda doğanın içinde."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Geniş bahçe ve güvenli havuzuyla aileler için mükemmel tatil ortamı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 549 501 00 54",
+    "whatsapp": "905495010054",
+    "email": "",
+    "address": "Uzunkum Mahallesi, Sapanca, Sakarya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://savibu.org.tr/ilan/gul-ev-sapanca"
+  ]
+}
