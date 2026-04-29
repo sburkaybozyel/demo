@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build:demos"
+  publish = "demos/public"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
