@@ -1,0 +1,76 @@
+{
+  "name": "Kocbey Butik Otel",
+  "slug": "kocbey-butik-otel",
+  "demoNotice": "Demo taslak, resmi site degildir.",
+  "location": "Yanik Mahallesi, Sapanca",
+  "eyebrow": "Yanik Mahallesi, Sapanca",
+  "headline": "Dogan icinde butik konaklama.",
+  "description": "Kocbey Butik Otel; kapali isitmali havuzu, spa jakuzisi, genis bahcesi ve barbeku alaniyla Sapanca'nin kalbinde sessiz ve ozel bir tatil sunar.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&h=1000&fit=crop",
+  "featureImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=900&h=900&fit=crop",
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900&h=1200&fit=crop",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=700&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=700&h=500&fit=crop",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=700&h=500&fit=crop"
+  ],
+  "features": [
+    {
+      "title": "Kapali isitmali havuz",
+      "body": "4x8 metre kapali isitmali havuz ile her mevsim yuzme keyfi."
+    },
+    {
+      "title": "Spa jakuzi",
+      "body": "2x2 metre ic mekan spa jakuzisi ile tam bir dinlenme deneyimi."
+    },
+    {
+      "title": "Ozel bahce ve barbeku",
+      "body": "Genis bahce alani ve barbeku imkani ile acik havada keyifli vakitler."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Isitmali havuz",
+      "body": "Yil boyunca kullanilabilen kapali isitmali havuz."
+    },
+    {
+      "title": "Spa ve jakuzi",
+      "body": "Ic mekanda ozel jakuzi ile nefes kesici bir rahatlama deneyimi."
+    },
+    {
+      "title": "Genis bahce",
+      "body": "Dinlenme ve barbeku icin genis, ozel bahce alani."
+    },
+    {
+      "title": "Butik konsept",
+      "body": "Az odayla cok ozel, kisisel hizmet odakli konaklama anlayisi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunusla hazir mesaj, aninda rezervasyon."
+    },
+    {
+      "title": "Sapanca manzarasi",
+      "body": "Yanik Mahallesi'nin huzurlu atmosferi, doga ile ic ice."
+    },
+    {
+      "title": "Ailelere uygun",
+      "body": "Cocuklar ve yetiskinler icin guvenli, ferah alan."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Sapanca golu ve Kirkpinar bolgesine yakin, ulasimi kolay."
+    }
+  ],
+  "contact": {
+    "phone": "+90 533 232 33 74",
+    "whatsapp": "905332323374",
+    "email": "",
+    "address": "Yanik Mahallesi, Sapanca, Sakarya",
+    "instagram": "kocbeybutikotelsapanca"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/kocbeybutikotelsapanca/"
+  ]
+}
