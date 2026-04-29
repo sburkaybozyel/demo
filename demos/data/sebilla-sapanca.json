@@ -1,11 +1,11 @@
 {
   "name": "Sebilla Sapanca",
   "slug": "sebilla-sapanca",
-  "demoNotice": "Demo taslak. Resmi site degildir.",
-  "location": "Yanik Mahallesi, Sapanca",
-  "eyebrow": "Yanik Mahallesi, Sapanca",
-  "headline": "Gol kiyisinda sakin villa.",
-  "description": "Sebilla Sapanca; gole sifir konumu, ozel bahce alani, serinleme havuzu ve dag-gol manzarasiyla ailelere uygun bir konaklama alani sunar.",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Yanık Mahallesi, Sapanca",
+  "eyebrow": "Yanık Mahallesi, Sapanca",
+  "headline": "Göl kıyısında sakin villa.",
+  "description": "Sebilla Sapanca; göle sıfır konumu, özel bahçe alanı, serinleme havuzu ve dağ-göl manzarasıyla ailelere uygun bir konaklama alanı sunar.",
   "type": "Villa konaklama",
   "heroImage": "https://static.wixstatic.com/media/30a3b4_10d5c502e32846ee8336a31a7325755d~mv2.jpg/v1/fill/w_1600,h_1000,al_c,q_85,enc_avif,quality_auto/30a3b4_10d5c502e32846ee8336a31a7325755d~mv2.jpg",
   "featureImage": "https://static.wixstatic.com/media/30a3b4_0fb0847aff1e458dbd28fc615d5c91b9~mv2.jpg/v1/fill/w_900,h_900,al_c,q_85,enc_avif,quality_auto/30a3b4_0fb0847aff1e458dbd28fc615d5c91b9~mv2.jpg",
@@ -17,57 +17,57 @@
   ],
   "features": [
     {
-      "title": "Gole sifir konum",
-      "body": "Tesisin gole sifir oldugu ve panoramik dag-gol manzarasina sahip oldugu bilgisi kaynak sayfada yer aliyor."
+      "title": "Göle sıfır konum",
+      "body": "Panoramik dağ-göl manzarasına sahip, göle sıfır konumuyla misafirlere eşsiz bir doğa deneyimi sunuyor."
     },
     {
-      "title": "Ozel bahce ve barbeku",
-      "body": "Her konaklama icin ozel bahce alani ve barbeku kullanimi one cikariliyor."
+      "title": "Özel bahçe ve barbekü",
+      "body": "Her konaklama için özel bahçe alanı ve barbekü kullanımı — açık havada yemek keyfi garantili."
     },
     {
       "title": "Serinleme havuzu",
-      "body": "Villalarda 3 metreye 2 metre ozel serinleme havuzu bilgisi mevcut."
+      "body": "Villalarda 3×2 metre özel serinleme havuzu ile sıcak yaz günlerinde ferahlayın."
     }
   ],
   "amenities": [
     {
-      "title": "Gol ve dag manzarasi",
-      "body": "Manzara vurgusu ilk ekranda gorunur."
+      "title": "Göl ve dağ manzarası",
+      "body": "Her açıdan doğayla iç içe, nefes kesen göl-dağ manzarası."
     },
     {
-      "title": "Ozel bahce",
-      "body": "Bahce ve barbeku alani ayri bir satis noktasidir."
+      "title": "Özel bahçe",
+      "body": "Barbekü alanıyla komşulardan bağımsız, tamamen size özel bahçe."
     },
     {
-      "title": "Donanimli mutfak",
-      "body": "Ocak, firin, su isitici, kahve makinesi ve mutfak esyalari bilgisi eklenmistir."
+      "title": "Donanımlı mutfak",
+      "body": "Ocak, fırın, su ısıtıcı, kahve makinesi ve tüm mutfak ekipmanları mevcut."
     },
     {
-      "title": "Klima ve jenerator",
-      "body": "Konfor ve kesinti durumuna hazirlik bilgisi net verilir."
+      "title": "Klima ve jeneratör",
+      "body": "Tüm mevsimlerde konfor; elektrik kesintisine karşı jeneratör desteği."
     },
     {
       "title": "WhatsApp rezervasyon",
-      "body": "Misafir, tek dokunusla hazir mesaj acar."
+      "body": "Tek dokunuşla hazır mesaj — anında iletişim, hızlı rezervasyon."
     },
     {
-      "title": "Konum bilgisi",
-      "body": "Yanik Mahallesi, Sapanca bilgisi sade bicimde gosterilir."
+      "title": "Konum",
+      "body": "Yanık Mahallesi, Sapanca — şehrin gürültüsünden uzak, doğanın içinde."
     },
     {
-      "title": "Yakin cevre",
-      "body": "Kirkpinar Bagdat Caddesi mesafesi kaynak bilgiye gore belirtilebilir."
+      "title": "Yakın çevre",
+      "body": "Kırkpınar Bağdat Caddesi'ne yakın; alışveriş ve ulaşım kolaylığı."
     },
     {
-      "title": "SSS alani",
-      "body": "Giris-cikis, evcil hayvan ve kahvalti gibi bilgiler isletme onayiyla doldurulur."
+      "title": "Aile dostu",
+      "body": "Geniş alan, güvenli bahçe ve özel havuzuyla aileler için ideal."
     }
   ],
   "contact": {
     "phone": "+90 546 796 90 33",
     "whatsapp": "905467969033",
     "email": "sebillasapanca@gmail.com",
-    "address": "Yanik Mahallesi, Sapanca, Sakarya",
+    "address": "Yanık Mahallesi, Sapanca, Sakarya",
     "instagram": ""
   },
   "sourceLinks": [
