@@ -1,0 +1,76 @@
+{
+  "name": "Villa Blue Sapanca",
+  "slug": "villa-blue-sapanca",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Sapanca",
+  "eyebrow": "Sapanca",
+  "headline": "Doğanın içinde mavi huzur.",
+  "description": "Villa Blue Sapanca; özel ısıtmalı havuzu, geniş bahçesi ve ferah iç mekanlarıyla büyük gruplar için ideal, Sapanca'nın sakin doğasında bir tatil köşesi.",
+  "type": "Villa konaklama",
+  "heroImage": "https://img.otelz.com/s3/size(1200,500,max,mc)/turkiye/sakarya/sapanca/blue-house-sapanca-184aabd6.jpg",
+  "featureImage": "https://d3m404n3ahyqc3.cloudfront.net/images/product/1/2/0/2/2/323196/blue_house_sapanca_323196.jpg",
+  "gallery": [
+    "https://d3m404n3ahyqc3.cloudfront.net/images/product/1/2/0/2/2/323197/blue_house_sapanca_323197.jpg",
+    "https://d3m404n3ahyqc3.cloudfront.net/images/product/1/2/0/2/2/323198/blue_house_sapanca_323198.jpg",
+    "https://d3m404n3ahyqc3.cloudfront.net/images/product/1/2/0/2/2/323199/blue_house_sapanca_323199.jpg",
+    "https://img.otelz.com/s3/size(1200,500,max,mc)/turkiye/sakarya/sapanca/blue-house-sapanca-03af4d14.jpg"
+  ],
+  "features": [
+    {
+      "title": "9 kişilik kapasite",
+      "body": "Büyük aile ve arkadaş grupları için uygun; geniş yaşam alanı ve çok odalı konforlu yapı."
+    },
+    {
+      "title": "Özel ısıtmalı havuz",
+      "body": "Dört mevsim keyif veren ısıtmalı özel yüzme havuzu ile unutulmaz bir tatil deneyimi."
+    },
+    {
+      "title": "Geniş bahçe",
+      "body": "Bakımlı geniş bahçe alanı ve açık oturma köşesiyle doğanın tadını çıkarın."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Isıtmalı havuz",
+      "body": "Kış aylarında bile kullanılabilen ısıtmalı özel yüzme havuzu."
+    },
+    {
+      "title": "9 kişi kapasiteli",
+      "body": "4 banyolu, geniş odalarıyla büyük gruplar için ideal alan."
+    },
+    {
+      "title": "Özel bahçe",
+      "body": "Komşulardan bağımsız, geniş ve bakımlı özel bahçe."
+    },
+    {
+      "title": "Donanımlı mutfak",
+      "body": "Tüm ekipmanlarıyla tam donanımlı mutfak; yemek pişirme konforu."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Sapanca'nın sakin doğasında, şehrin gürültüsünden uzak özel tatil köşesi."
+    },
+    {
+      "title": "Barbekü alanı",
+      "body": "Açık havada mangal ve barbekü keyfi için özel alan."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Geniş bahçe ve güvenli havuzuyla aileler için mükemmel tatil ortamı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 538 073 21 72",
+    "whatsapp": "905380732172",
+    "email": "",
+    "address": "Sapanca, Sakarya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.otelz.com/hotel/blue-house-sapanca"
+  ]
+}
