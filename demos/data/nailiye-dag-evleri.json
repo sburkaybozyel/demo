@@ -1,0 +1,76 @@
+{
+  "name": "Nailiye Dağ Evleri",
+  "slug": "nailiye-dag-evleri",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Sapanca Merkez, Sakarya",
+  "eyebrow": "Sapanca Merkez, Sakarya",
+  "headline": "Doğanın kalbinde jakuzili dağ evi.",
+  "description": "Nailiye Dağ Evleri; jakuzisi, şöminesi, özel havuzu ve geniş bahçesiyle Sapanca'nın eşsiz doğasında huzur ve konforun mükemmel birleşimini sunar.",
+  "type": "Bungalov",
+  "heroImage": "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-0-4198.jpeg",
+  "featureImage": "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-2-1712.jpeg",
+  "gallery": [
+    "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-0-4198.jpeg",
+    "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-1-2740.jpeg",
+    "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-3-1508.jpeg",
+    "https://cdn.heryervilla.com/uploads/bs-v1-bungalov-dag-evi-1-4-3693.jpeg"
+  ],
+  "features": [
+    {
+      "title": "Jakuzi",
+      "body": "İç mekanda özel jakuzi ile dört mevsim dinlenme keyfi."
+    },
+    {
+      "title": "Şömine",
+      "body": "Kış gecelerini şömine başında sıcacık geçirin."
+    },
+    {
+      "title": "Özel havuz ve bahçe",
+      "body": "Korunaklı özel havuz ve geniş bahçe alanı ile tam anlamıyla mahremiyet."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Jakuzi",
+      "body": "Dört mevsim kullanılabilen iç mekan jakuzi."
+    },
+    {
+      "title": "Şömine",
+      "body": "Kış tatillerinizi şömine başında geçirin."
+    },
+    {
+      "title": "Özel havuz",
+      "body": "Korunaklı özel yüzme havuzu."
+    },
+    {
+      "title": "Geniş bahçe",
+      "body": "Dinlenme için ferah, özel bahçe alanı."
+    },
+    {
+      "title": "Tam donanımlı mutfak",
+      "body": "Fırın, bulaşık makinesi ve tüm mutfak ekipmanları mevcut."
+    },
+    {
+      "title": "Ailelere uygun",
+      "body": "Bebek ve çocuklara uygun, güvenli ortam."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj, anında rezervasyon."
+    },
+    {
+      "title": "Klima",
+      "body": "Tüm odalarda klima ile dört mevsim konfor."
+    }
+  ],
+  "contact": {
+    "phone": "+90 532 113 03 88",
+    "whatsapp": "905321130388",
+    "email": "",
+    "address": "Sapanca Merkez, Sakarya",
+    "instagram": "nailiyedagevlerisapanca"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/nailiyedagevlerisapanca/"
+  ]
+}
