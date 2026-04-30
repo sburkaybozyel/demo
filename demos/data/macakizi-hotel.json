@@ -6,13 +6,13 @@
   "headline": "Türkbükü'nün en ikonik adresi.",
   "description": "Macakizi, Bodrum'un efsanevi Türkbükü koyunda yarım asrı aşkın geçmişiyle şekillenmiş; Michelin yıldızlı restoranı, özel iskelesi ve butik odalarıyla Ege'nin en ayrıcalıklı konaklama deneyimini sunar.",
   "type": "Butik Otel",
-  "heroImage": "https://www.macakizi.com/wp-content/uploads/2025/02/home_hero.jpeg",
-  "featureImage": "https://www.macakizi.com/wp-content/uploads/2025/02/home_4.jpeg",
+  "heroImage": "/images/macakizi/hero.jpg",
+  "featureImage": "/images/macakizi/img3.jpg",
   "gallery": [
-    "https://www.macakizi.com/wp-content/uploads/2025/02/home_hero.jpeg",
-    "https://www.macakizi.com/wp-content/uploads/2025/02/home_2.jpeg",
-    "https://www.macakizi.com/wp-content/uploads/2025/02/home_4.jpeg",
-    "https://www.macakizi.com/wp-content/uploads/2025/12/PHOTO-1.jpg"
+    "/images/macakizi/hero.jpg",
+    "/images/macakizi/beach.jpg",
+    "/images/macakizi/room1.jpg",
+    "/images/macakizi/villa.jpg"
   ],
   "features": [
     {
