@@ -1,0 +1,80 @@
+{
+  "name": "Avcıoğlu Konak Otel",
+  "slug": "avcioglu-konak-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Çavuş Mahallesi, Safranbolu / Karabük",
+  "eyebrow": "Safranbolu, Karabük",
+  "headline": "Safranbolu'nun tarihi dokusunda butik konaklama.",
+  "description": "Avcıoğlu Konak Otel; Safranbolu Eski Çarşı hattına yakın konumu, tarihi konak atmosferi ve sıcak butik otel deneyimiyle kısa tatiller için sade ve güven veren bir konaklama alternatifi sunar.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyNzI_20220815182021.JPG",
+  "featureImage": "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0Mzg_20220815191011.JPG",
+  "gallery": [
+    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyNzI_20220815182021.JPG",
+    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0Mzg_20220815191011.JPG",
+    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyOTE_20220815183318.JPG",
+    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0MzU_20220815191011.JPG"
+  ],
+  "features": [
+    {
+      "title": "Tarihi konak atmosferi",
+      "body": "Safranbolu'nun geleneksel dokusunu taşıyan butik konak yapısı karar sürecinde öne çıkarılır."
+    },
+    {
+      "title": "Eski Çarşı'ya yakın konum",
+      "body": "Tarihi çarşı, konaklar ve gezilecek alanlara erişimi kolay bir merkez vitrini."
+    },
+    {
+      "title": "Doğrudan rezervasyon akışı",
+      "body": "Platformlara dağılmış bilgileri tek ekranda toplayan, WhatsApp odaklı sade rezervasyon yönlendirmesi."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Butik otel",
+      "body": "Kişisel hizmet hissini öne çıkaran küçük ölçekli konaklama yapısı."
+    },
+    {
+      "title": "Tarihi doku",
+      "body": "Safranbolu konak kültürünü yansıtan mimari atmosfer."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Eski Çarşı ve şehir içi gezi noktalarına yakın konum anlatımı."
+    },
+    {
+      "title": "Aile odaları",
+      "body": "Farklı oda seçenekleri ve aile konaklamaları için net bilgilendirme alanı."
+    },
+    {
+      "title": "Kahvaltı bilgisi",
+      "body": "Kahvaltı ve hizmet detayları final yayında işletme onayıyla netleştirilir."
+    },
+    {
+      "title": "Otopark bilgisi",
+      "body": "Araçla gelen misafirler için ulaşım ve park bilgileri görünür hale gelir."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek dokunuşla müsaitlik sorma ve rezervasyon ön talebi."
+    },
+    {
+      "title": "Fotoğraflı vitrin",
+      "body": "Oda, manzara ve genel alan fotoğraflarıyla hızlı karar desteği."
+    }
+  ],
+  "contact": {
+    "phone": "+90 533 200 28 17",
+    "whatsapp": "905332002817",
+    "email": "",
+    "address": "Çavuş Mahallesi, Celal Bayar Caddesi No:19, Safranbolu / Karabük",
+    "instagram": "avcioglukonaklari"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/avcioglukonaklari/",
+    "https://www.tumisyeri.com/avcioglu-butik-otel-0533-200-28-17",
+    "https://www.ubfly.co/otel/Avcioglu-Konak-Otel",
+    "https://www.obilet.com/en/hotel/avcioglu-konak-otel",
+    "https://www.otelegidelim.com/otel-19518-karabuk-safranbolu-avcioglu-konak-otel"
+  ]
+}
