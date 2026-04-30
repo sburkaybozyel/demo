@@ -468,13 +468,21 @@ const CSS = `
   }
 `;
 
-function render(property) {
+function resolveImg(src, depth) {
+  if (!src) return src;
+  if (/^https?:\/\//.test(src)) return src;
+  return depth === 1 ? "../" + src : src;
+}
+
+function render(property, depth = 0) {
   required(property, ["name","slug","location","headline","description","heroImage","contact.phone"]);
   if (!slugSafe(property.slug)) throw new Error(`Invalid slug: ${property.slug}`);
 
   const wa = whatsappUrl(property);
-  const featureImage = property.featureImage || property.heroImage;
-  const firstGallery = property.gallery?.[0] || property.heroImage;
+  const ri = (src) => resolveImg(src, depth);
+  const featureImage = ri(property.featureImage || property.heroImage);
+  const heroImage = ri(property.heroImage);
+  const gallery = (property.gallery || [property.heroImage]).map(ri);
 
   return `<!doctype html>
 <html lang="tr">
@@ -504,7 +512,7 @@ function render(property) {
   </nav>
 
   <header class="hero">
-    <div class="hero-bg" style="background-image:url('${cssUrl(property.heroImage)}')"></div>
+    <div class="hero-bg" style="background-image:url('${cssUrl(heroImage)}')"></div>
     <div class="hero-grid">
       <div>
         <p class="eyebrow">${escapeHtml(property.eyebrow || property.location)}</p>
@@ -580,7 +588,7 @@ function render(property) {
           </div>
           <p class="lead">İyi kurulmuş bir site, doğru görsellerle platformlara kıyasla çok daha yüksek dönüşüm sağlar.</p>
         </div>
-        <div class="gallery" aria-label="${escapeHtml(property.name)} galeri">${renderGallery(property.gallery || [property.heroImage])}</div>
+        <div class="gallery" aria-label="${escapeHtml(property.name)} galeri">${renderGallery(gallery)}</div>
       </div>
     </section>
 
@@ -596,7 +604,7 @@ function render(property) {
           <p class="lead">Aracı platform yok. Misafir doğrudan sizi arar, ödeme direkt size gelir.</p>
         </div>
         <div class="contact-grid">
-          <div class="map-card" style="background-image:url('${cssUrl(firstGallery)}')">
+          <div class="map-card" style="background-image:url('${cssUrl(gallery[0] || heroImage)}')">
             <p class="kicker">Konum</p>
             <h3>${escapeHtml(property.location)}</h3>
             <p>Detaylı konum ve çevre rehberi yayın aşamasında eklenir.</p>
@@ -642,12 +650,13 @@ let firstHtml = "";
 
 for (const file of fs.readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   const property = JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
-  const html = render(property);
+  const html = render(property, 0);
+  const htmlSub = render(property, 1);
   if (!firstHtml) firstHtml = html;
   fs.writeFileSync(path.join(outDir, property.slug + ".html"), html);
   const slugDir = path.join(outDir, property.slug);
   fs.mkdirSync(slugDir, { recursive: true });
-  fs.writeFileSync(path.join(slugDir, "index.html"), html);
+  fs.writeFileSync(path.join(slugDir, "index.html"), htmlSub);
   built.push({ name: property.name, slug: property.slug, location: property.location, type: property.type });
   console.log(`built demos/public/${property.slug}.html`);
 }
