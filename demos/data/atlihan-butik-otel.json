@@ -1,0 +1,80 @@
+{
+  "name": "Atlıhan Butik Otel",
+  "slug": "atlihan-butik-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Yeşilyurt Köyü, Ayvacık / Çanakkale",
+  "eyebrow": "Yeşilyurt Köyü, Ayvacık",
+  "headline": "Kazdağları eteklerinde sakin butik otel.",
+  "description": "Atlıhan Butik Otel; Yeşilyurt Köyü'nde tarihi doku, bahçeli alanlar ve ev konforuna yakın butik konaklama anlayışıyla Kazdağları hattında sakin bir kaçamak sunar.",
+  "type": "Butik Otel",
+  "heroImage": "https://img.balnet.net/cdn/hotel/24233/Resim10003347701495-imgprms-default.jpg",
+  "featureImage": "https://img.balnet.net/cdn/hotel/24233/Resim5260305709308-imgprms-default.jpg",
+  "gallery": [
+    "https://img.balnet.net/cdn/hotel/24233/Resim10003347701495-imgprms-default.jpg",
+    "https://img.balnet.net/cdn/hotel/24233/Resim5260305709308-imgprms-default.jpg",
+    "https://img.balnet.net/cdn/hotel/24233/Resim8647756881183-imgprms-default.jpg",
+    "https://img.balnet.net/cdn/hotel/24233/Resim237722701496-imgprms-default.jpg"
+  ],
+  "features": [
+    {
+      "title": "Yeşilyurt Köyü dokusu",
+      "body": "Kazdağları çevresindeki taş yapı ve köy atmosferi karar sürecinde güçlü bir hikaye oluşturur."
+    },
+    {
+      "title": "Bahçeli butik konaklama",
+      "body": "Teras, bahçe ve ortak alan kullanımıyla sakin tatil beklentisine uygun bir vitrin."
+    },
+    {
+      "title": "Doğrudan rezervasyon yolu",
+      "body": "Dağınık platform bilgilerinin tek sayfada toplanması ve WhatsApp ile hızlı ön talep."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Butik otel",
+      "body": "Küçük ölçekli, kişisel temas hissi veren konaklama yapısı."
+    },
+    {
+      "title": "Bahçe",
+      "body": "Açık alanda dinlenme ve sakin vakit geçirme imkanı."
+    },
+    {
+      "title": "Teras",
+      "body": "Yeşilyurt Köyü atmosferini destekleyen açık alan kullanımı."
+    },
+    {
+      "title": "Wi-Fi",
+      "body": "Ortak alanlar ve odalarda bağlantı beklentisini karşılayan temel imkan."
+    },
+    {
+      "title": "Klima",
+      "body": "Yaz sezonu konaklamaları için oda konforu."
+    },
+    {
+      "title": "Serpme kahvaltı",
+      "body": "Kahvaltı ve yeme içme detayları final yayında işletme onayıyla netleştirilir."
+    },
+    {
+      "title": "Otopark",
+      "body": "Araçla gelen misafirler için park bilgisini görünür hale getirir."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek dokunuşla müsaitlik sorma ve rezervasyon ön talebi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 286 752 66 55",
+    "whatsapp": "902867526655",
+    "email": "",
+    "address": "Yeşilyurt Köyü İç Yolu, 17980 Yeşilyurt / Ayvacık / Çanakkale",
+    "instagram": "atlihanbutikotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/atlihanbutikotel/",
+    "https://www.tumisyeri.com/atl%C4%B1han-butik-otel_1I-0286-752-66-55",
+    "https://balnet.net/atlihan-butik-otel",
+    "https://www.obilet.com/otel/atlihan-butik-otel",
+    "https://www.hotels.com/ho871282592/atlihan-butik-otel-ayvacik-turkey/"
+  ]
+}
