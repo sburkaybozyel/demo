@@ -1,0 +1,76 @@
+{
+  "name": "Shiva Camp Kabak",
+  "slug": "shiva-camp-kabak",
+  "location": "Kabak, Fethiye, Muğla",
+  "eyebrow": "Kabak Koyu, Fethiye",
+  "headline": "Kabak'ın huzurunda doğayla baş başa.",
+  "description": "Kabak Koyu'nun eşsiz doğasında, dingin ve samimi bir kamp deneyimi. Deniz, orman ve sessizlik — şehrin gürültüsünden uzaklaşmak isteyenler için.",
+  "type": "Kamp & Bungalov",
+  "heroImage": "images/shiva-camp-kabak/hero.jpg",
+  "featureImage": "images/shiva-camp-kabak/img2.jpg",
+  "gallery": [
+    "images/shiva-camp-kabak/hero.jpg",
+    "images/shiva-camp-kabak/img2.jpg",
+    "images/shiva-camp-kabak/img3.jpg",
+    "images/shiva-camp-kabak/img4.jpg"
+  ],
+  "features": [
+    {
+      "title": "Kabak Koyu'nda huzur",
+      "body": "Türkiye'nin en güzel doğa noktalarından Kabak'ta, sessiz ve otantik bir kamp."
+    },
+    {
+      "title": "Denize yürüme mesafesi",
+      "body": "Kabak'ın el değmemiş plajına yürüyerek ulaşın."
+    },
+    {
+      "title": "Samimi atmosfer",
+      "body": "Küçük ve kişisel tesis — her misafire özel ilgi ve sıcak ortam."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Doğa içi bungalovlar",
+      "body": "Ağaçların altında, doğayla iç içe konaklama alanları."
+    },
+    {
+      "title": "Kabak plajına yakın",
+      "body": "El değmemiş Kabak plajına yürüyüş mesafesinde."
+    },
+    {
+      "title": "Kahvaltı & yemek",
+      "body": "Ev yapımı yemekler ve taze sabah kahvaltısı."
+    },
+    {
+      "title": "Sosyal & ortak alanlar",
+      "body": "Akşam sohbeti için rahat ortak oturma köşeleri."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Komisyon ödemeden, direkt bizimle iletişim."
+    },
+    {
+      "title": "Yoga & meditasyon",
+      "body": "Doğa içinde yoga ve meditasyon alanı."
+    },
+    {
+      "title": "Likya Yolu",
+      "body": "Türkiye'nin ünlü yürüyüş rotasına çıkış noktası."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Tesis içi araç park alanı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 554 770 73 73",
+    "whatsapp": "905547707373",
+    "email": "",
+    "address": "Kabak Koyu, Fethiye, Muğla",
+    "instagram": "Kabakshiva"
+  },
+  "sourceLinks": [
+    "https://www.fethiyetatilkonaklama.com/bungalov-evler/shiva-camp-kabak-2158",
+    "https://www.instagram.com/Kabakshiva/"
+  ]
+}
