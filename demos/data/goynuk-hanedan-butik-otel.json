@@ -1,0 +1,79 @@
+{
+  "name": "Göynük Hanedan Butik Otel",
+  "slug": "goynuk-hanedan-butik-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Cuma Mahallesi, Göynük / Bolu",
+  "eyebrow": "Göynük, Bolu",
+  "headline": "Akşemseddin'in kasabasında tarihi konakta, yöresel lezzetlerle butik konaklama.",
+  "description": "Göynük Hanedan Butik Otel; Gazi Süleyman Paşa Camii ve Akşemseddin Hz. Türbesi'nin hemen karşısında, restore edilmiş tipik bir Göynük evi içinde özgün bir konaklama deneyimi sunuyor. Yöresel yemekler, kahvaltı ve sıcak butik otel atmosferiyle Bolu'nun saklı incisinde kendinizi evde hissedeceksiniz.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    {
+      "title": "Tarihi Konumda Eşsiz Atmosfer",
+      "body": "Akşemseddin Hz. Türbesi ve Gazi Süleyman Paşa Camii'nin karşısında, Göynük'ün tarihi dokusunun tam kalbinde."
+    },
+    {
+      "title": "Yöresel Lezzetler",
+      "body": "Bakır sahanlarda sunulan yöresel Bolu mutfağı ve zengin açık büfe kahvaltı ile her sabah ayrı bir keyif."
+    },
+    {
+      "title": "Doğrudan Rezervasyon",
+      "body": "Platform komisyonu olmadan, WhatsApp üzerinden hızlı iletişim ve direkt rezervasyon imkânı."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "8 Oda, 18 Yatak Kapasitesi",
+      "body": "Her odada özel banyo, saç kurutma makinesi, dolap ve balkon bulunuyor."
+    },
+    {
+      "title": "Yöresel Yemek Evi",
+      "body": "Bakır sahanlarda servis edilen geleneksel Bolu yemekleri ile unutulmaz bir sofra deneyimi."
+    },
+    {
+      "title": "Açık Büfe Kahvaltı",
+      "body": "Her sabah zengin yöresel ürünlerle hazırlanan açık büfe kahvaltı dahil."
+    },
+    {
+      "title": "24 Saat Sıcak Su & Kalorifer",
+      "body": "Tüm sezonlarda konforlu konaklama için kesintisiz ısıtma ve sıcak su."
+    },
+    {
+      "title": "Kafeterya",
+      "body": "İstenilen her an çay ve kahve içilebilen kafeterya alanı."
+    },
+    {
+      "title": "Bahçe & Koşu Parkuru",
+      "body": "Doğayla iç içe bahçe dinlenmesi ve sabah yürüyüşü için koşu parkuru."
+    },
+    {
+      "title": "Tarihi Gezinti Noktaları",
+      "body": "Akşemseddin Türbesi, Zafer Kulesi ve Göynük'ün taş sokaklarına yürüme mesafesinde."
+    },
+    {
+      "title": "WhatsApp Rezervasyon",
+      "body": "Tek mesajla müsaitlik sorgulama ve hızlı rezervasyon ön talebi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 533 320 49 04",
+    "whatsapp": "905333204904",
+    "email": "",
+    "address": "Cuma Mahallesi, Dere Kenarı Sokak, Göynük / Bolu",
+    "instagram": "goynuk_hanedan"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/goynuk_hanedan/",
+    "https://www.tripadvisor.com/Hotel_Review-g2187642-d12985779-Reviews-Goynuk_Hanedan_Butik_Otel-Goynuk_Bolu_Province_Turkish_Black_Sea_Coast.html",
+    "https://www.goynukluler.com/hanedan-butik-otel/",
+    "https://bolu.net.tr/rehber/27616/hanedan-butik-otel-ampamp-yoresel-yemek-evi-goynuk"
+  ]
+}
