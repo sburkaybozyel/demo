@@ -1,0 +1,28 @@
+{
+  "name": "Göçebe Kamp & Bungalov",
+  "slug": "gocebe-kamp-bungalov",
+  "location": "Göllüce, İznik",
+  "headline": "Gölün kıyısında, özgür ve doğal bir konaklama deneyimi.",
+  "description": "Göçebe Kamp; İznik Gölü'nün en sakin kıyısında, bungalov ve kamp seçenekleriyle doğa tutkunlarını ağırlıyor. Zeytin ağaçları altında huzur dolu bir tatil için doğru adrestesiniz.",
+  "type": "Bungalov & Kamp",
+  "heroImage": "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    { "title": "Göl Kenarı", "body": "Sabah göl sesiyle uyanın." },
+    { "title": "Doğal Yaşam", "body": "Zeytinlikler içinde izole tatil." },
+    { "title": "Ateş Keyfi", "body": "Her akşam kamp ateşi imkanı." }
+  ],
+  "amenities": [
+    { "title": "Barbekü", "body": "Özel alan." },
+    { "title": "Otopark", "body": "Ücretsiz." },
+    { "title": "WiFi", "body": "Doğada bile." },
+    { "title": "Duş", "body": "Sıcak su." }
+  ],
+  "contact": { "phone": "0535 229 87 11", "whatsapp": "905352298711" }
+}

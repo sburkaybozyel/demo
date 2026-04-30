@@ -1,0 +1,28 @@
+{
+  "name": "İznik Kır Evleri",
+  "slug": "iznik-kir-evleri",
+  "location": "İznik",
+  "headline": "Asırlık zeytinlikler arasında, müstakil bir kır hayatı.",
+  "description": "İznik Kır Evleri; doğanın sessizliğini dinlemek isteyenler için, geleneksel mimariyle modern konforu birleştiren müstakil ev seçenekleri sunuyor.",
+  "type": "Kır Evi & Bungalov",
+  "heroImage": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/206661/pexels-photo-206661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/206661/pexels-photo-206661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    { "title": "Doğa İle İç İçe", "body": "Zeytin ağaçları arasında sessizlik." },
+    { "title": "Müstakil Yapı", "body": "Tamamen size ait bir ev." },
+    { "title": "Şömine", "body": "Kışın sıcak ve otantik atmosfer." }
+  ],
+  "amenities": [
+    { "title": "Şömine", "body": "Odunlu." },
+    { "title": "Tam Mutfak", "body": "Kendi yemeğinizi hazırlayın." },
+    { "title": "Bahçe", "body": "Geniş peyzaj alanı." },
+    { "title": "WiFi", "body": "Ücretsiz." }
+  ],
+  "contact": { "phone": "İletişime Geçin", "whatsapp": "" }
+}
