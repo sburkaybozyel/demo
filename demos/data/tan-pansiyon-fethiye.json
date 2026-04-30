@@ -1,0 +1,77 @@
+{
+  "name": "Tan Pansiyon Fethiye",
+  "slug": "tan-pansiyon-fethiye",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Fethiye / Muğla",
+  "eyebrow": "Fethiye, Muğla",
+  "headline": "Fethiye'de sade pansiyon konaklaması için direkt rezervasyon vitrini.",
+  "description": "Tan Pansiyon Fethiye için hazırlanan bu taslak; pansiyon bilgilerini, görsel alanları ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
+  "type": "Pansiyon",
+  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/40f017b8-7eae-421a-8999-945985536890.jpg",
+  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/812d7a1f-f4c1-49a4-b370-885044455581.jpg",
+  "gallery": [
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/40f017b8-7eae-421a-8999-945985536890.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/812d7a1f-f4c1-49a4-b370-885044455581.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/7f41b7a7-8c0f-42d5-9663-4e4d5bfd7b9b.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/40f017b8-7eae-421a-8999-945985536890.jpg"
+  ],
+  "features": [
+    {
+      "title": "Fethiye pansiyon aramalarına uygun",
+      "body": "Misafirlerin fiyat, konum ve iletişim sorularını tek sayfada karşılar."
+    },
+    {
+      "title": "Basit rezervasyon yolu",
+      "body": "WhatsApp üzerinden tarih ve kişi sayısı alarak hızlı ön talep oluşturur."
+    },
+    {
+      "title": "Platform dışı görünürlük",
+      "body": "Google ve Instagram trafiğini doğrudan işletmenin kendi kanalına taşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Pansiyon",
+      "body": "Sade, ulaşılabilir ve doğrudan konaklama algısı."
+    },
+    {
+      "title": "Merkezi Fethiye",
+      "body": "Fethiye araması yapan misafir için net lokasyon."
+    },
+    {
+      "title": "Oda bilgileri",
+      "body": "Oda tipleri final yayında işletme onayıyla eklenir."
+    },
+    {
+      "title": "Galeri",
+      "body": "Misafir kararını hızlandıran görsel alan."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek tıkla işletmeye direkt ulaşım."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram'dan gelen ziyaretçiler için hızlı sayfa."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico bilgisi final kurulumda eklenebilir."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Aracı platform dışı rezervasyon alternatifi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 505 592 59 48",
+    "whatsapp": "905055925948",
+    "email": "",
+    "address": "Fethiye / Muğla",
+    "instagram": "Tanpansiyonfethiye"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/Tanpansiyonfethiye",
+    "https://www.fethiyetatilkonaklama.com/pansiyonlar/tan-pansiyon-fethiye-2171"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Bağ Camp Kabak",
+  "slug": "bag-camp-kabak",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Kabak Koyu, Fethiye / Muğla",
+  "eyebrow": "Kabak Koyu, Fethiye",
+  "headline": "Kabak Koyu'nda deniz ve doğa odaklı kamp deneyimi.",
+  "description": "Bağ Camp Kabak için hazırlanan bu taslak; çadır, kamp, bungalov ve karavan konaklama seçeneklerini görsellerle birlikte doğrudan rezervasyon akışına bağlar.",
+  "type": "Kamp Alanı",
+  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/a7083f35-7504-4b95-a149-ab9514a5a1d3.jpg",
+  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/03c11aad-5c7b-4830-8687-cb77a0ef8915.jpg",
+  "gallery": [
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/a7083f35-7504-4b95-a149-ab9514a5a1d3.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/03c11aad-5c7b-4830-8687-cb77a0ef8915.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/63c2acb2-f1f4-4eb7-8a44-f35f86a3f2bb.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/d09dc1de-3f2d-42ea-bf87-fef5dccd3f3a.jpg"
+  ],
+  "features": [
+    {
+      "title": "Kabak rotasına uygun vitrin",
+      "body": "Doğal güzellik, koy konumu ve kamp imkanları tek sayfada görünür hale gelir."
+    },
+    {
+      "title": "Konaklama seçenekleri",
+      "body": "Çadır, bungalov ve karavan bilgileri final yayında net paketlerle sunulur."
+    },
+    {
+      "title": "Direkt WhatsApp talebi",
+      "body": "Misafir, tarih ve kişi sayısını doğrudan işletmeye iletir."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Çadır kampı",
+      "body": "Kendi çadırıyla gelen misafirler için kamp alanı anlatımı."
+    },
+    {
+      "title": "Bungalov",
+      "body": "Doğada daha konforlu konaklama isteyen misafirler için seçenek."
+    },
+    {
+      "title": "Karavan alanı",
+      "body": "Karavanla gelen misafirleri yakalayan bilgi alanı."
+    },
+    {
+      "title": "Restoran",
+      "body": "Yeme içme detayları finalde işletme onayıyla tamamlanır."
+    },
+    {
+      "title": "Wi-Fi",
+      "body": "Tesis imkanlarını arayan misafir için hızlı cevap."
+    },
+    {
+      "title": "Otopark",
+      "body": "Araçla gelen misafirler için pratik bilgi."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Müsaitlik sorusu ve rezervasyon ön talebi için direkt kanal."
+    },
+    {
+      "title": "Komisyonsuz rezervasyon",
+      "body": "Booking/Airbnb dışı doğrudan satış kanalı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 532 553 04 48",
+    "whatsapp": "905325530448",
+    "email": "",
+    "address": "Kabak Koyu, Fethiye / Muğla",
+    "instagram": "bagcampkabak"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/bagcampkabak",
+    "https://www.fethiyetatilkonaklama.com/cadir-kamp-alani-sahilorman-ucretsizucretsiz/bag-camp-kabak-5503"
+  ]
+}

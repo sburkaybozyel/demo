@@ -32,13 +32,13 @@
 ## Mesaj Şablonu — Muğla Versiyonu
 
 > Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum. Muğla'daki konaklama işletmelerini incelerken [İŞLETME ADI]'na denk geldim ve sizin için ücretsiz bir taslak hazırladım:
-> 👉 sburkaybozyel.github.io/demo/[SLUG]
+> Link: https://sburkaybozyel.github.io/demo/[SLUG]/
 >
 > Kendi web siteniz olduğunda:
-> ✅ Booking.com & Airbnb komisyonlarından (%15–25) kurtulursunuz
-> ✅ IBAN veya Iyzico ile direkt ödeme alırsınız, aracı olmaz
-> ✅ Misafirler sizi Google'da bulur, WhatsApp'tan direkt rezervasyon yapar
-> ✅ 7 günde yayında, tek seferlik ücret — aylık maliyet yok
+> - Booking.com & Airbnb komisyonlarından (%15–25) kurtulursunuz
+> - IBAN veya Iyzico ile direkt ödeme alırsınız, aracı olmaz
+> - Misafirler sizi Google'da bulur, WhatsApp'tan direkt rezervasyon yapar
+> - 7 günde yayında, tek seferlik ücret — aylık maliyet yok
 >
 > Dönüşünüz için buradayım, iyi günler dilerim.
 
@@ -48,11 +48,11 @@
 
 | # | İşletme | Telefon | Instagram | Demo | Durum |
 |---|---------|---------|-----------|------|-------|
-| 1 | Labranda Butik Otel Bodrum | 0252 313 68 69 | @labrandabutik | [link](https://sburkaybozyel.github.io/demo/labranda-butik-otel-bodrum/) | ✅ |
-| 2 | Marphe Hotel Bodrum | 0252 316 18 00 | @marphehotel | [link](https://sburkaybozyel.github.io/demo/marphe-hotel-bodrum/) | ✅ |
-| 3 | Catamaran Resort Hotel | 0252 317 00 00 | @catamaranresort | [link](https://sburkaybozyel.github.io/demo/catamaran-resort-hotel/) | ✅ |
-| 4 | Kempinski Hotel Barbaros Bay | 0252 311 03 03 | | [link](https://sburkaybozyel.github.io/demo/kempinski-hotel-barbaros-bay/) | ✅ |
-| 5 | Bitez Garden Life Hotel | 0252 363 70 00 | @bitezgardenlife | [link](https://sburkaybozyel.github.io/demo/bitez-garden-life-hotel/) | ✅ |
+| 1 | Labranda Butik Otel Bodrum | 0252 313 68 69 | @labrandabutik | ⬜ | ⬜ |
+| 2 | Marphe Hotel Bodrum | 0252 316 18 00 | @marphehotel | ⬜ | ⬜ |
+| 3 | Catamaran Resort Hotel | 0252 317 00 00 | @catamaranresort | ⬜ | ⬜ |
+| 4 | Kempinski Hotel Barbaros Bay | 0252 311 03 03 | | ⬜ | ⬜ |
+| 5 | Bitez Garden Life Hotel | 0252 363 70 00 | @bitezgardenlife | ⬜ | ⬜ |
 | 6 | Bodrum Bay Resort | 0252 317 00 17 | | ⬜ | ⬜ |
 | 7 | Salmakis Resort & Spa | 0252 316 61 00 | | ⬜ | ⬜ |
 | 8 | Antik Theatre Hotel | 0252 316 60 53 | @antiktheatre | ⬜ | ⬜ |
@@ -177,3 +177,15 @@
 | 2 | 150 | | | | |
 | 3 | 200 | | | | |
 | 4 | 200 | | | | |
+
+---
+
+## Bugünkü 5'li Batch — Web Sitesi Görünmeyen Küçük İşletmeler
+
+| # | İşletme | İlçe/Bölge | Telefon | Instagram | Demo | Durum |
+|---|---------|------------|---------|-----------|------|-------|
+| 1 | Aşiyan Kamp 7/24 | Fethiye / Kabak Koyu | 0537 375 91 41 | @kabakasiyan | [link](https://sburkaybozyel.github.io/demo/asiyan-kamp-724/) | ✅ |
+| 2 | Bağ Camp Kabak | Fethiye / Kabak Koyu | 0532 553 04 48 | @bagcampkabak | [link](https://sburkaybozyel.github.io/demo/bag-camp-kabak/) | ✅ |
+| 3 | Tan Pansiyon Fethiye | Fethiye | 0505 592 59 48 | @Tanpansiyonfethiye | [link](https://sburkaybozyel.github.io/demo/tan-pansiyon-fethiye/) | ✅ |
+| 4 | Dove Apart Hotel | Fethiye / Çalış | 0536 743 10 21 | @dove____hotel | [link](https://sburkaybozyel.github.io/demo/dove-apart-hotel/) | ✅ |
+| 5 | Asgard Camping & Bungalov Otel | Fethiye | 0543 673 15 31 | @Asgardcamping | [link](https://sburkaybozyel.github.io/demo/asgard-camping-bungalov-otel/) | ✅ |
