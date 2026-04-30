@@ -1,0 +1,76 @@
+{
+  "name": "Özcan Apart Pansiyon",
+  "slug": "ozcan-apart-pansiyon",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Zeytinlik Mahallesi, Sinop",
+  "eyebrow": "Zeytinlik Mahallesi, Sinop",
+  "headline": "Karadeniz'de huzurlu apart konaklama.",
+  "description": "Özcan Apart Pansiyon; Sinop'un tarihi merkezinde, ev konforu ve apart imkanını bir arada sunan, aile işletmesi sıcaklığıyla misafirlerini ağırlayan bir konaklama alanıdır.",
+  "type": "Apart pansiyon",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Apart konfor",
+      "body": "Mutfaklı apart odalarıyla ev konforu ve bağımsızlığında uzun ya da kısa konaklamalar."
+    },
+    {
+      "title": "Aile işletmesi sıcaklığı",
+      "body": "Güler yüzlü ve samimi hizmetiyle misafirlerini ev gibi ağırlayan aile pansiyonu."
+    },
+    {
+      "title": "Sinop merkezinde",
+      "body": "Tarihi Sinop kalesi, liman ve tüm gezilecek noktalara yakın merkezi konum."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Mutfaklı apart",
+      "body": "Kendi yemeğinizi pişirebileceğiniz tam donanımlı mutfaklı apart odalar."
+    },
+    {
+      "title": "Uzun konaklama uygun",
+      "body": "Haftalık ve aylık konaklama seçenekleriyle uzun süreli konaklar için ideal."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Zeytinlik Mah. Sinop'un kalbinde, her yere yürüme mesafesinde."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve konforlu odalar."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Zeytinlik Mah. Gündoğusu Sok. No:22, Sinop — şehrin tam merkezinde."
+    },
+    {
+      "title": "Karadeniz havası",
+      "body": "Sinop'un eşsiz Karadeniz iklimiyle dinlendirici ve ferah konaklama."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Geniş apart odalar ve sıcak aile ortamıyla aileler için ideal."
+    }
+  ],
+  "contact": {
+    "phone": "+90 542 804 05 21",
+    "whatsapp": "905428040521",
+    "email": "",
+    "address": "Zeytinlik Mah. Gündoğusu Sok. No:22, Sinop",
+    "instagram": "ozcanapartpansiyon"
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Ozcan-Apart-Pansiyon"
+  ]
+}
