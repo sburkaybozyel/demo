@@ -7,13 +7,13 @@
   "headline": "Fethiye'de sade pansiyon konaklaması için direkt rezervasyon vitrini.",
   "description": "Tan Pansiyon Fethiye için hazırlanan bu taslak; pansiyon bilgilerini, görsel alanları ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
   "type": "Pansiyon",
-  "heroImage": "/demo/assets/prospects/tan-pansiyon-fethiye-local-01.jpg",
-  "featureImage": "/demo/assets/prospects/tan-pansiyon-fethiye-local-02.jpg",
+  "heroImage": "/demo/assets/prospects/tan-pansiyon-fethiye-clean-01.jpg",
+  "featureImage": "/demo/assets/prospects/tan-pansiyon-fethiye-clean-02.jpg",
   "gallery": [
-    "/demo/assets/prospects/tan-pansiyon-fethiye-local-01.jpg",
-    "/demo/assets/prospects/tan-pansiyon-fethiye-local-02.jpg",
-    "/demo/assets/prospects/tan-pansiyon-fethiye-local-03.jpg",
-    "/demo/assets/prospects/tan-pansiyon-fethiye-local-01.jpg"
+    "/demo/assets/prospects/tan-pansiyon-fethiye-clean-01.jpg",
+    "/demo/assets/prospects/tan-pansiyon-fethiye-clean-02.jpg",
+    "/demo/assets/prospects/tan-pansiyon-fethiye-clean-03.jpg",
+    "/demo/assets/prospects/tan-pansiyon-fethiye-clean-04.jpg"
   ],
   "features": [
     {
@@ -72,6 +72,7 @@
   },
   "sourceLinks": [
     "https://www.instagram.com/Tanpansiyonfethiye",
+    "https://www.hostelworld.com/hotels/p/300843/tan-pansiyon/",
     "https://www.fethiyetatilkonaklama.com/pansiyonlar/tan-pansiyon-fethiye-2171"
   ]
 }
