@@ -1,0 +1,76 @@
+{
+  "name": "Mor Salkım Konağı",
+  "slug": "mor-salkim-konagi",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Hacı İlyas Mahallesi, Amasya",
+  "eyebrow": "Hacı İlyas Mahallesi, Amasya",
+  "headline": "Yeşilırmak manzaralı tarihi konak.",
+  "description": "Mor Salkım Konağı; Amasya'nın kalbinde, Yeşilırmak manzarasına nazır, 2021'de hizmete açılan modern konforlu ve zarif bir konak konaklama alanıdır.",
+  "type": "Konak konaklama",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Mor-Salkim-Konagi/Mor-Salkim-Konagi-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Amasya'nın simgesi Yeşilırmak'a nazır, tarihi konaklar ve kaya mezarlarıyla çevrili eşsiz konum."
+    },
+    {
+      "title": "Zarif ve konforlu odalar",
+      "body": "Minibar, saç kurutma makinesi, TV ve Wi-Fi ile tam donanımlı, şık döşenmiş odalar."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Amasya'nın tarihi merkezi, kale ve tüm gezilecek noktalara yürüme mesafesinde."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Odalardan ve ortak alandan Yeşilırmak ve tarihi konak manzarası."
+    },
+    {
+      "title": "Kahvaltı",
+      "body": "Geleneksel Türk kahvaltısıyla güne taze ve enerjik başlayın."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda hızlı ve ücretsiz internet bağlantısı."
+    },
+    {
+      "title": "Minibar",
+      "body": "Her odada minibar ile ihtiyacınız olan her şey elinizin altında."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Hacı İlyas Mah. Ulubatlı Hasan Sk. No:21, Amasya — tarihin kalbinde."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve şık odalar."
+    },
+    {
+      "title": "Tarihe yakın",
+      "body": "Amasya kalesi, Pontus kaya mezarları ve tarihi konaklar yürüme mesafesinde."
+    }
+  ],
+  "contact": {
+    "phone": "+90 539 842 02 06",
+    "whatsapp": "905398420206",
+    "email": "",
+    "address": "Hacı İlyas Mah. Ulubatlı Hasan Sk. No:21, Amasya",
+    "instagram": "morsalkim.konagi"
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Mor-Salkim-Konagi"
+  ]
+}
