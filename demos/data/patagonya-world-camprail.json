@@ -1,0 +1,79 @@
+{
+  "name": "Patagonya World Camprail",
+  "slug": "patagonya-world-camprail",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Çalköy, Kandıra / Kocaeli",
+  "eyebrow": "Kandıra, Kocaeli",
+  "headline": "Kamp, tiny house ve etkinlik alanı tek vitrinde.",
+  "description": "Patagonya World Camprail; Kandıra Çalköy'de karavan park, tiny house, çadır konaklama ve açık hava etkinliklerini bir araya getiren doğa odaklı bir kamp alanı.",
+  "type": "Kamp ve etkinlik alanı",
+  "heroImage": "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1500&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1526491109672-74740652b963?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1478827536114-da961b7f86d2?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Karavan ve kamp alanı",
+      "body": "Geniş arazi içinde karavan parkı, çadır konaklama ve doğa odaklı kullanım alanları."
+    },
+    {
+      "title": "Tiny house konaklama",
+      "body": "Kamp deneyimini daha konforlu yaşamak isteyen misafirler için tiny house alternatifi."
+    },
+    {
+      "title": "Açık hava etkinlikleri",
+      "body": "Festival, kamp ve sosyal etkinlikleri tek marka vitrini altında anlatan sade yapı."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Karavan park",
+      "body": "Karavanla gelen misafirler için park ve konaklama alanı."
+    },
+    {
+      "title": "Tiny house",
+      "body": "Doğa içinde daha kontrollü ve konforlu konaklama alternatifi."
+    },
+    {
+      "title": "Çadır alanı",
+      "body": "Kendi çadırıyla gelen veya tesis çadırı tercih eden misafirler için alan."
+    },
+    {
+      "title": "Elektrik",
+      "body": "Kamp ve karavan konaklamalarında ihtiyaç duyulan temel altyapı bilgisi."
+    },
+    {
+      "title": "Su ve WC",
+      "body": "Günlük kamp ihtiyaçları için temel tesis olanakları."
+    },
+    {
+      "title": "Market",
+      "body": "Misafirlerin konaklama sırasında temel ihtiyaçlarını karşılayabileceği alan."
+    },
+    {
+      "title": "Etkinlik alanı",
+      "body": "Festival, kamp ve açık hava programları için ayrı tanıtım yüzeyi."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Rezervasyon ve bilgi alma sürecini hızlandıran doğrudan iletişim."
+    }
+  ],
+  "contact": {
+    "phone": "+90 544 793 20 22",
+    "whatsapp": "905447932022",
+    "email": "",
+    "address": "Çalköy, 41600 Kandıra / Kocaeli",
+    "instagram": "patagonyaworld"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/patagonyaworld/",
+    "https://www.ioverlander.com/places/310085-patagonya-world-camprail",
+    "https://bugece.co/en/venues/patagonya-world-camprail--81f776e2",
+    "https://lnk.bio/PatagonyaWorld"
+  ]
+}
