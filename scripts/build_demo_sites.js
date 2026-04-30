@@ -100,7 +100,7 @@ function renderWhySection(wa) {
             </ul>
           </div>
           <div class="why-card why-cta">
-            <div class="why-label why-label--cta">Vent ile başlamak</div>
+            <div class="why-label why-label--cta">Kendi sitenizle başlamak</div>
             <ul>
               <li>7 günde yayında, hızlı kurulum</li>
               <li>Mobil uyumlu ve hızlı yüklenen tasarım</li>
@@ -629,7 +629,7 @@ function render(property) {
 
   <footer>
     <span>${escapeHtml(property.name)} — ${escapeHtml(property.location)}</span>
-    <span>Taslak <a href="${wa}" target="_blank" rel="nofollow">Vent</a> tarafından hazırlandı · Yayına almak için iletişime geçin</span>
+    <span>Bu ücretsiz taslak Burkay tarafından hazırlandı · Yayına almak için iletişime geçin</span>
   </footer>
 
 </body>
@@ -671,7 +671,7 @@ fs.writeFileSync(path.join(outDir, "list.html"), `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Konaklama Demo Vitrinleri — Vent</title>
+  <title>Konaklama Demo Vitrinleri</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;700&display=swap');
     body{margin:0;font-family:'Inter',ui-sans-serif,sans-serif;background:#f4f0e6;color:#0f1a15;-webkit-font-smoothing:antialiased}
