@@ -6,13 +6,13 @@
   "headline": "Fethiye'nin gizli köşesinde kamp ve bungalov.",
   "description": "Fethiye'nin Alınca köyünde, doğanın tam kalbinde bungalov ve kamp alanı. Sessizlik, temiz hava ve samimi atmosfer — şehrin koşuşturmacasından gerçek bir kaçış.",
   "type": "Kamp & Bungalov",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/1860d441-a396-4c11-8afd-2b922eaa0303.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/194ecb9b-35bf-4d69-909a-dbe52443158d.jpg",
+  "heroImage": "images/catchy-camping/hero.jpg",
+  "featureImage": "images/catchy-camping/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/1860d441-a396-4c11-8afd-2b922eaa0303.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/194ecb9b-35bf-4d69-909a-dbe52443158d.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/2b8bc715-4981-4641-a5fd-b4e7bcde9915.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/bb1a1353-63c9-4d73-9d45-f188d919f69d.jpg"
+    "images/catchy-camping/hero.jpg",
+    "images/catchy-camping/img2.jpg",
+    "images/catchy-camping/img3.jpg",
+    "images/catchy-camping/img4.jpg"
   ],
   "features": [
     {

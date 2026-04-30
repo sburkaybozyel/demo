@@ -6,13 +6,13 @@
   "headline": "Kabak'ın eşsiz doğasında bungalov.",
   "description": "Fethiye'nin gizli cenneti Kabak Koyu'nda deniz manzaralı bungalovlar. Doğanın tam kalbinde, kalabalıktan uzak, huzurlu bir tatil.",
   "type": "Bungalov",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/0223ffad-0d09-4315-a7f5-49f38369462e.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/1002dc92-cc47-40cd-88e1-4391ace196df.jpg",
+  "heroImage": "images/sea-valley/hero.jpg",
+  "featureImage": "images/sea-valley/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/0223ffad-0d09-4315-a7f5-49f38369462e.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/1002dc92-cc47-40cd-88e1-4391ace196df.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/21882979-dd6e-405c-a5b5-bfd49e936151.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/2d8f2d69-5fa9-49b7-859c-d1adc18e2360.jpg"
+    "images/sea-valley/hero.jpg",
+    "images/sea-valley/img2.jpg",
+    "images/sea-valley/img3.jpg",
+    "images/sea-valley/img4.jpg"
   ],
   "features": [
     {

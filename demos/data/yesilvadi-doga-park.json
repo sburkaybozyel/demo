@@ -6,13 +6,13 @@
   "headline": "Yeşilin içinde doğa kampı ve bungalov.",
   "description": "Fethiye'nin yeşil vadisinde, doğa severler için bungalov ve kamp alanı. Temiz hava, sessizlik ve doğa aktiviteleri — şehirden kaçmak isteyenler için.",
   "type": "Doğa Kampı & Bungalov",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/2f79c81e-aa22-40c0-80e0-cba781585652.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/604fbe88-8d16-4534-b1f7-a80a8e270a84.jpg",
+  "heroImage": "images/yesilvadi/hero.jpg",
+  "featureImage": "images/yesilvadi/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/2f79c81e-aa22-40c0-80e0-cba781585652.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/604fbe88-8d16-4534-b1f7-a80a8e270a84.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/4770530b-82bd-43ba-97a7-eec27af546b4.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/66c5eeab-1d13-4049-88dd-9d767d5df697.jpg"
+    "images/yesilvadi/hero.jpg",
+    "images/yesilvadi/img2.jpg",
+    "images/yesilvadi/img3.jpg",
+    "images/yesilvadi/img4.jpg"
   ],
   "features": [
     {

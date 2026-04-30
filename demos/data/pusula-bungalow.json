@@ -6,13 +6,13 @@
   "headline": "Fethiye'nin doğasında pusula gibi huzur.",
   "description": "Fethiye'nin yeşil doğasında, şehrin gürültüsünden uzakta bungalov konforу. Doğayla iç içe, samimi ve huzurlu konaklama.",
   "type": "Bungalov",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b6921b56-58d9-4fc9-8794-0bcf9c6a3ddd.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/8efc8b1d-4d82-4674-97e6-2105536e73cc.jpg",
+  "heroImage": "images/pusula-bungalow/hero.jpg",
+  "featureImage": "images/pusula-bungalow/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b6921b56-58d9-4fc9-8794-0bcf9c6a3ddd.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/8efc8b1d-4d82-4674-97e6-2105536e73cc.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/0c5af30e-ee95-424e-9277-39c06f9f68d4.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/a4e5b7f6-d062-447a-9e26-f6bac1ce1cb1.jpg"
+    "images/pusula-bungalow/hero.jpg",
+    "images/pusula-bungalow/img2.jpg",
+    "images/pusula-bungalow/img3.jpg",
+    "images/pusula-bungalow/hero.jpg"
   ],
   "features": [
     {
