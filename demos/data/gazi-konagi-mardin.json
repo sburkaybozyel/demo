@@ -1,0 +1,78 @@
+{
+  "name": "Gazi Konağı Butik Hotel",
+  "slug": "gazi-konagi-mardin",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Şehidiye Mahallesi, Mardin",
+  "eyebrow": "Mardin",
+  "headline": "Mezopotamya'nın üzerinde, sarı taşın içinde tarihi konak konaklaması.",
+  "description": "Gazi Konağı Butik Hotel; Mardin'in efsanevi sarı taş konakları arasında, Mezopotamya ovasına bakan manzarasıyla tarihi dokuyu yaşatan 29 odalı özgün bir konaklama deneyimi sunuyor.",
+  "type": "Butik Otel",
+  "heroImage": "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368262/photo-gazi-konagi-butik-hotel-mardin-1.JPEG",
+  "featureImage": "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15255/1525521/1525521244/photo-gazi-konagi-butik-hotel-mardin-3.JPEG",
+  "gallery": [
+    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368262/photo-gazi-konagi-butik-hotel-mardin-1.JPEG",
+    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/16308/1630876/1630876884/photo-gazi-konagi-butik-hotel-mardin-2.JPEG",
+    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15255/1525521/1525521244/photo-gazi-konagi-butik-hotel-mardin-3.JPEG",
+    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368790/photo-gazi-konagi-butik-hotel-mardin-4.JPEG"
+  ],
+  "features": [
+    {
+      "title": "Mezopotamya Manzarası",
+      "body": "Mardin Kalesi yamaçlarında, ova manzarasına karşı nefes kesen bir konum ve tarihi konak atmosferi."
+    },
+    {
+      "title": "Özgün Taş Mimari",
+      "body": "Mardin'in simgesi sarı taş işçiliğiyle inşa edilmiş, yüzyıllık konak yapısı içinde modern konfor."
+    },
+    {
+      "title": "Doğrudan Rezervasyon",
+      "body": "Platform komisyonu olmadan, WhatsApp ve telefon üzerinden hızlı iletişim ve direkt rezervasyon imkânı."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "29 Oda",
+      "body": "Her biri ayrı dekore edilmiş, klimalı ve uydu TV'li odalarda tarihi konak konforu."
+    },
+    {
+      "title": "Balkonlu & Manzaralı Odalar",
+      "body": "Seçili odalarda Mezopotamya ovası ve Mardin şehir manzarasına açılan balkonlar."
+    },
+    {
+      "title": "Özel Banyo",
+      "body": "Her odada duş, saç kurutma makinesi ve ücretsiz banyo malzemeleri mevcut."
+    },
+    {
+      "title": "Klima & Isıtma",
+      "body": "Tüm sezonlarda konforlu konaklama için her odada bireysel klima sistemi."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Otel genelinde yüksek hızlı kablosuz internet bağlantısı."
+    },
+    {
+      "title": "Kale & Müze Yakını",
+      "body": "Mardin Kalesi, Zinciriye Medresesi, kiliseler ve çarşıya yürüme mesafesinde konum."
+    },
+    {
+      "title": "Oda Güvenlik Kasası",
+      "body": "Değerli eşyalar için her odada kişisel kasa imkânı."
+    },
+    {
+      "title": "WhatsApp Rezervasyon",
+      "body": "Tek mesajla müsaitlik sorgulama ve hızlı rezervasyon ön talebi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 482 213 03 33",
+    "whatsapp": "905412130333",
+    "email": "info@gazikonagi.com",
+    "address": "Şehidiye Mahallesi, Üçyol Mevkii Çınar Sokak No:2, Mardin",
+    "instagram": "gazikonagihotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/gazikonagihotel/",
+    "https://www.tripadvisor.com/Hotel_Review-g672951-d3962427-Reviews-Gazi_Konagi_Butik_Hotel-Mardin_Mardin_Province.html",
+    "https://gazikonagibutikmardin.tr-hotels.com/en/"
+  ]
+}
