@@ -1,0 +1,76 @@
+{
+  "name": "Ergün Pansiyon Amasya",
+  "slug": "ergun-pansiyon-amasya",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Dereboyu, Amasya",
+  "eyebrow": "Dereboyu, Amasya",
+  "headline": "Yeşilırmak kıyısında sıcak konaklama.",
+  "description": "Ergün Pansiyon; Amasya'nın tarihi Dereboyu caddesi üzerinde, Yeşilırmak kıyısında, misafirlerine sıcak ve samimi bir aile pansiyonu deneyimi sunan köklü bir konaklama alanıdır.",
+  "type": "Pansiyon",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Amasya'nın simgesi Yeşilırmak'a nazır, tarihi Dereboyu caddesinde eşsiz konum."
+    },
+    {
+      "title": "Sıcak aile ortamı",
+      "body": "Ev sıcaklığında, samimi ve güler yüzlü hizmetiyle misafirlerini ağırlayan köklü pansiyon."
+    },
+    {
+      "title": "Tarihe yakın",
+      "body": "Amasya kalesi, tarihi konaklar ve tüm gezilecek noktalara yürüme mesafesinde."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Odalardan ve balkonden Yeşilırmak ve tarihi konak manzarası."
+    },
+    {
+      "title": "Kahvaltı",
+      "body": "Geleneksel Türk kahvaltısıyla güne taze ve enerjik başlayın."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Dereboyu caddesi üzerinde, Amasya'nın tüm tarihi noktalarına yürüme mesafesi."
+    },
+    {
+      "title": "Temiz ve bakımlı odalar",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve konforlu odalar."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Kirazlıdere, Aydoğan Sk. No:1, Amasya — tarihin tam kalbinde."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Sıcak pansiyon ortamı ve güler yüzlü hizmetiyle aileler için ideal."
+    },
+    {
+      "title": "Restoran",
+      "body": "Geleneksel Amasya mutfağından lezzetler sunan restoran hizmeti."
+    }
+  ],
+  "contact": {
+    "phone": "+90 545 779 38 41",
+    "whatsapp": "905457793841",
+    "email": "",
+    "address": "Kirazlıdere, Aydoğan Sk. No:1, Amasya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Ergun-Pansiyon"
+  ]
+}
