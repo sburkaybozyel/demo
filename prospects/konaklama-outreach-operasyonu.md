@@ -39,7 +39,7 @@
 1. `demos/data/[slug].json` dosyası oluştur
 2. `node scripts/build_demo_sites.js` çalıştır
 3. `git add . && git commit -m "..." && git push github main`
-4. gh-pages'e kopyala ve push et
+4. GitHub Action otomatik olarak `gh-pages` branch'ine deploy eder.
 5. Link hazır: `sburkaybozyel.github.io/demo/[slug]`
 
 ---
@@ -226,6 +226,18 @@
 | 152 | Eight Sapanca | 0542 420 00 88 | | ⬜ | ⬜ |
 | 153 | Hame Pira Bungalov | 0533 583 72 81 | | ⬜ | ⬜ |
 | 154 | Sapanca Sazlıgöl Bungalov | | | ⬜ | ⬜ |
+
+---
+
+## Hedef Listesi - İznik (YENİ)
+
+| # | İşletme | Telefon | Instagram | Demo | Durum |
+|---|---------|---------|-----------|------|-------|
+| 1 | Rock n' Lake İznik | +90 532 258 49 58 | @rocknlake | [link](https://sburkaybozyel.github.io/demo/rock-n-lake-iznik) | ✅ |
+| 2 | Balcı House İznik | +90 5XX XXX XX XX | @balcihouse | [link](https://sburkaybozyel.github.io/demo/balci-house-iznik) | ✅ |
+| 3 | Kuzeymen İznik | | @kuzeymeniznik | ⬜ | ⬜ |
+| 4 | La Cabaña İznik | | | ⬜ | ⬜ |
+| 5 | İznik Seyir Kamp | | | ⬜ | ⬜ |
 
 ---
 
