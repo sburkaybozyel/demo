@@ -1,0 +1,76 @@
+{
+  "name": "Villa Focus Sapanca",
+  "slug": "villa-focus-sapanca",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Sapanca",
+  "eyebrow": "Sapanca",
+  "headline": "Odaklanın, dinlenin, tazelenin.",
+  "description": "Villa Focus Sapanca; doğanın huzurunda, özel bahçesi ve konforlu yaşam alanlarıyla zihin ve beden dinlenmesi için tasarlanmış, gruplara uygun bir tatil villası.",
+  "type": "Villa konaklama",
+  "heroImage": "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0024_909.jpg",
+  "featureImage": "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0028_454.jpg",
+  "gallery": [
+    "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0036_570.jpg",
+    "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0022_728.jpg",
+    "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0006_666.jpg",
+    "https://www.villadiyari.com.tr/uploads/iMG-20251103-WA0026_915.jpg"
+  ],
+  "features": [
+    {
+      "title": "Tam anlamıyla özel",
+      "body": "Komşulardan bağımsız, tamamen size özel villa alanıyla gerçek bir tatil huzuru."
+    },
+    {
+      "title": "Geniş iç mekan",
+      "body": "Büyük gruplar için uygun geniş oturma, yemek ve uyku alanları."
+    },
+    {
+      "title": "Sapanca doğası",
+      "body": "Temiz havası ve yeşillikleriyle Sapanca'nın en güzel doğasının kalbinde tatil."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Özel bahçe",
+      "body": "Geniş ve bakımlı özel bahçe alanı ile tamamen özgür tatil keyfi."
+    },
+    {
+      "title": "Donanımlı mutfak",
+      "body": "Tüm ekipmanlarıyla tam donanımlı mutfak; kendi yemeğinizi pişirme konforu."
+    },
+    {
+      "title": "Barbekü alanı",
+      "body": "Açık havada mangal ve barbekü keyfi için hazır alan."
+    },
+    {
+      "title": "Geniş otopark",
+      "body": "Araçlarınız için geniş ve güvenli otopark imkanı."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Sapanca, Sakarya — İstanbul'a yakın, doğanın içinde mükemmel tatil noktası."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve bakımlı villa."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Güvenli bahçe ve geniş alanıyla aileler ve büyük gruplar için ideal."
+    }
+  ],
+  "contact": {
+    "phone": "+90 505 296 78 56",
+    "whatsapp": "905052967856",
+    "email": "",
+    "address": "Sapanca, Sakarya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.villadiyari.com.tr/villa-focus"
+  ]
+}

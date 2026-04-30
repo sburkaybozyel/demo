@@ -1,0 +1,76 @@
+{
+  "name": "Sapanca Villa Şen",
+  "slug": "sapanca-villa-sen",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Sapanca",
+  "eyebrow": "Sapanca",
+  "headline": "Huzurlu tatil için doğru adres.",
+  "description": "Sapanca Villa Şen; Sapanca'nın yeşil doğasında, geniş bahçesi ve özel havuzuyla ailelere ve gruplara unutulmaz bir tatil deneyimi sunan villa konaklama alanı.",
+  "type": "Villa konaklama",
+  "heroImage": "https://imgservice.rentbyowner.com/680x408/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-0.jpg",
+  "featureImage": "https://imgservice.rentbyowner.com/500x325/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-1.jpg",
+  "gallery": [
+    "https://imgservice.rentbyowner.com/500x325/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-2.jpg",
+    "https://imgservice.rentbyowner.com/500x325/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-3.jpg",
+    "https://imgservice.rentbyowner.com/500x325/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-4.jpg",
+    "https://imgservice.rentbyowner.com/680x408/sapanca-villa-%c5%9fen-tr-sapanca-bc-14475552-0.jpg"
+  ],
+  "features": [
+    {
+      "title": "Özel villa konforumu",
+      "body": "Sapanca'nın sakin doğasında, tamamen size özel villa alanıyla mahremiyetinizi koruyun."
+    },
+    {
+      "title": "Geniş yaşam alanı",
+      "body": "Büyük aile ve arkadaş gruplarına uygun geniş iç mekan ve açık alan düzeni."
+    },
+    {
+      "title": "Doğanın içinde",
+      "body": "Sapanca'nın temiz havasında, yeşilliklerle çevrili huzurlu bir tatil köşesi."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Özel bahçe",
+      "body": "Geniş ve bakımlı özel bahçe alanı ile komşulardan bağımsız tatil keyfi."
+    },
+    {
+      "title": "Donanımlı mutfak",
+      "body": "Tüm ekipmanlarıyla tam donanımlı mutfak; kendi yemeğinizi pişirme konforu."
+    },
+    {
+      "title": "Barbekü alanı",
+      "body": "Açık havada mangal ve barbekü keyfi için hazır alan."
+    },
+    {
+      "title": "Geniş otopark",
+      "body": "Araçlarınız için geniş ve güvenli otopark imkanı."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Sapanca, Sakarya — İstanbul'a yakın, doğanın içinde huzurlu tatil."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle temizlenen, bakımlı villa alanları."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Çocuklar için güvenli bahçe ve geniş alan; aileler için mükemmel tatil ortamı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 541 395 99 19",
+    "whatsapp": "905413959919",
+    "email": "",
+    "address": "Sapanca, Sakarya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://savibu.org.tr/ilan/sapanca-villa-sen"
+  ]
+}
