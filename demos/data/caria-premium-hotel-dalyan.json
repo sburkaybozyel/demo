@@ -1,0 +1,76 @@
+{
+  "name": "Caria Premium Hotel",
+  "slug": "caria-premium-hotel-dalyan",
+  "location": "Dalyan, Muğla",
+  "eyebrow": "Dalyan, Muğla",
+  "headline": "Dalyan'ın kalbinde, doğayla baş başa.",
+  "description": "Caria Premium Hotel, Dalyan'ın eşsiz doğasında — İztuzu plajına, kaplumbağa koyuna ve Kaunos antik kentine yakın konumuyla bölgenin en özgün butik otellerinden. Nehir kenarı atmosferi ve kişisel hizmet anlayışıyla öne çıkar.",
+  "type": "Butik Otel",
+  "heroImage": "https://cariahotel.com/wp-content/uploads/2025/05/CARIAX11199-kopyas1i.jpg",
+  "featureImage": "https://cariahotel.com/wp-content/uploads/2025/05/cariahotel2-1200x800.jpg",
+  "gallery": [
+    "https://cariahotel.com/wp-content/uploads/2025/05/CARIAX11199-kopyas1i.jpg",
+    "https://cariahotel.com/wp-content/uploads/2025/05/cariahotel2-1200x800.jpg",
+    "https://cariahotel.com/wp-content/uploads/2025/05/CARIAX11199-kopyas1i-661x800.jpg",
+    "https://cariahotel.com/wp-content/uploads/2025/05/CARIAX11199-kopyas1i.jpg"
+  ],
+  "features": [
+    {
+      "title": "İztuzu Plajı'na yakın",
+      "body": "Caretta caretta kaplumbağalarının yuvası İztuzu Plajı'na 10 dakika — dünyanın sayılı koruma alanlarından."
+    },
+    {
+      "title": "Dalyan nehir turu",
+      "body": "Kaunos antik kentine ve çamur banyosuna giden tekne turlarına otel iskelesinden kolayca çıkış."
+    },
+    {
+      "title": "Butik hizmet anlayışı",
+      "body": "Az sayıda odayla misafire tam odaklanma — kalabalık tesislerin gürültüsünden uzak, sakin tatil."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Nehir & doğa manzarası",
+      "body": "Dalyan nehrinin yeşiline bakan, sakin otel atmosferi."
+    },
+    {
+      "title": "Yüzme havuzu",
+      "body": "Bahçe içinde ferahlatıcı açık havuz."
+    },
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Her sabah taze, yerel ürünlerle hazırlanan Ege kahvaltısı."
+    },
+    {
+      "title": "Tekne turu organizasyonu",
+      "body": "Kaunos, İztuzu, çamur banyosu — rehberli tur ayarlaması."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Komisyon yok — direkt iletişim ve anında yer ayırtma."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Araçla gelen misafirler için geniş park alanı."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Oda ve bahçede kesintisiz internet."
+    },
+    {
+      "title": "Transfer hizmeti",
+      "body": "Dalaman Havalimanı'ndan özel transfer."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 284 24 24",
+    "whatsapp": "902522842424",
+    "email": "",
+    "address": "Dalyan, Ortaca, Muğla",
+    "instagram": "cariahotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/cariahotel/",
+    "https://cariahotel.com"
+  ]
+}

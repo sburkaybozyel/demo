@@ -31,16 +31,15 @@
 
 ## Mesaj Şablonu — Muğla Versiyonu
 
-> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum. Muğla'daki konaklama işletmelerini incelerken [İŞLETME ADI]'na denk geldim ve sizin için ücretsiz bir taslak hazırladım:
-> Link: https://sburkaybozyel.github.io/demo/[SLUG]/
+> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum.
 >
-> Kendi web siteniz olduğunda:
-> - Booking.com & Airbnb komisyonlarından (%15–25) kurtulursunuz
-> - IBAN veya Iyzico ile direkt ödeme alırsınız, aracı olmaz
-> - Misafirler sizi Google'da bulur, WhatsApp'tan direkt rezervasyon yapar
-> - 7 günde yayında, tek seferlik ücret — aylık maliyet yok
+> [İŞLETME ADI] için ücretsiz bir web sitesi taslağı hazırladım:
+> [LINK]
 >
-> Dönüşünüz için buradayım, iyi günler dilerim.
+> Kendi siteniz olursa misafirler sizi Google'da bulup WhatsApp'tan direkt rezervasyon yapabilir. Booking/Airbnb komisyonu ödemezsiniz.
+>
+> Bakabilirseniz fikrinizi merak ederim.
+> İyi günler.
 
 ---
 
