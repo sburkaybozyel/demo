@@ -23,14 +23,38 @@
 
 ---
 
-## Mesaj Şablonu
+## Mesaj Şablonları
 
-> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum. Sapanca'daki konaklama işletmelerini incelerken [İŞLETME ADI]'na denk geldim. Dijitalde daha güçlü bir varlık oluşturmanın işletmenize ciddi katkı sağlayacağını düşündüm; misafirler sizi çok daha kolay bulur, rezervasyon süreci hızlanır ve platformlara olan bağımlılık azalır.
+### Ana Şablon (WhatsApp / Instagram DM)
+
+> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum. [İLÇE/BÖLGE]'deki konaklama işletmelerini incelerken [İŞLETME ADI]'na denk geldim ve sizin için ücretsiz bir taslak hazırladım:
+> 👉 sburkaybozyel.github.io/demo/[SLUG]
 >
-> Bu düşünceyle sizin için ücretsiz bir taslak hazırladım:
-> sburkaybozyel.github.io/demo/[SLUG]
+> Kendi web siteniz olduğunda:
+> ✅ Booking.com & Airbnb komisyonlarından (%15–25) kurtulursunuz
+> ✅ IBAN veya Iyzico ile direkt ödeme alırsınız, aracı olmaz
+> ✅ Misafirler sizi Google'da bulur, WhatsApp'tan direkt rezervasyon yapar
+> ✅ 7 günde yayında, tek seferlik ücret — aylık maliyet yok
 >
 > Dönüşünüz için buradayım, iyi günler dilerim.
+
+---
+
+### Kısa Versiyon (Instagram DM — karakter sınırı)
+
+> Merhaba, ben Burkay. [İŞLETME ADI] için ücretsiz site taslağı hazırladım 👇
+> sburkaybozyel.github.io/demo/[SLUG]
+> Booking komisyonundan kurtulun, direkt rezervasyon alın. Bakar mısınız?
+
+---
+
+### Geri Dönüş Geldiğinde — Takip Mesajı
+
+> Merhaba, geçen gün site taslağını göndermiştim. Bakabildiyseniz ne düşündüğünüzü merak ettim.
+>
+> Kısaca: Booking.com/Airbnb'ye ödediğiniz komisyon biter, misafirler direkt sizi arar, ödemeyi kendiniz alırsınız. Fiyat 7.500 TL, 7 günde yayında.
+>
+> Uygunsa 15 dakikalık kısa bir görüşme yapabilir miyiz?
 
 ---
 
