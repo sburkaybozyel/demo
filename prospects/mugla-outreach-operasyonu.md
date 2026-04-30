@@ -26,6 +26,8 @@
 4. Gönderimden sonra tabloyu güncelle
 5. Günde minimum 30 işletmeye yazılır
 6. Geri dönüş yapanlara 24 saat içinde yanıt verilir
+7. İlk mesaj her zaman kısa ve net olur: sadece işletme adı, demo linki ve "ilgilenirseniz detaylar için buradayım" cümlesi kullanılır
+8. İlk mesajda kendini tanıtma, avantaj anlatma, komisyon/ödeme/Google detayı, emoji ve uzun satış metni kullanılmaz
 
 ---
 

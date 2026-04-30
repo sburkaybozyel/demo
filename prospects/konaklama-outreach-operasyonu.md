@@ -20,6 +20,8 @@
 4. Gönderimden sonra tabloyu güncelle
 5. Günde minimum 30-40 işletmeye yazılır
 6. Geri dönüş yapanlara 24 saat içinde yanıt verilir
+7. İlk mesaj her zaman kısa ve net olur: sadece işletme adı, demo linki ve "ilgilenirseniz detaylar için buradayım" cümlesi kullanılır
+8. İlk mesajda kendini tanıtma, avantaj anlatma, komisyon/ödeme/Google detayı, emoji ve uzun satış metni kullanılmaz
 
 ---
 
@@ -27,24 +29,21 @@
 
 ### Ana Şablon (WhatsApp / Instagram DM)
 
-> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum. [İLÇE/BÖLGE]'deki konaklama işletmelerini incelerken [İŞLETME ADI]'na denk geldim ve sizin için ücretsiz bir taslak hazırladım:
-> 👉 sburkaybozyel.github.io/demo/[SLUG]
+> Merhaba, [İŞLETME ADI] için ücretsiz bir web sitesi taslağı hazırladım:
+> https://sburkaybozyel.github.io/demo/[SLUG]/
 >
-> Kendi web siteniz olduğunda:
-> ✅ Booking.com & Airbnb komisyonlarından (%15–25) kurtulursunuz
-> ✅ IBAN veya Iyzico ile direkt ödeme alırsınız, aracı olmaz
-> ✅ Misafirler sizi Google'da bulur, WhatsApp'tan direkt rezervasyon yapar
-> ✅ 7 günde yayında, tek seferlik ücret — aylık maliyet yok
->
-> Dönüşünüz için buradayım, iyi günler dilerim.
+> İlgilenirseniz detaylar için buradayım.
+> İyi günler.
 
 ---
 
 ### Kısa Versiyon (Instagram DM — karakter sınırı)
 
-> Merhaba, ben Burkay. [İŞLETME ADI] için ücretsiz site taslağı hazırladım 👇
-> sburkaybozyel.github.io/demo/[SLUG]
-> Booking komisyonundan kurtulun, direkt rezervasyon alın. Bakar mısınız?
+> Merhaba, [İŞLETME ADI] için ücretsiz bir web sitesi taslağı hazırladım:
+> https://sburkaybozyel.github.io/demo/[SLUG]/
+>
+> İlgilenirseniz detaylar için buradayım.
+> İyi günler.
 
 ---
 
