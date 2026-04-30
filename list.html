@@ -5,211 +5,471 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Konaklama Demo Vitrinleri</title>
   <style>
-    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f7f3eb;color:#17211b}
-    main{width:min(860px,calc(100vw - 36px));margin:0 auto;padding:56px 0}
-    h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,7vw,76px);line-height:1;margin:0 0 14px}
-    p{color:#66736c;font-size:17px;line-height:1.6;margin:0 0 28px}
-    .list{display:grid;gap:12px}
-    .demo{display:grid;gap:6px;padding:18px 20px;border:1px solid #dfe6df;border-radius:8px;background:#fffdf8;text-decoration:none;color:inherit}
-    .demo strong{font-size:20px}.demo span{color:#66736c}
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;700&display=swap');
+    body{margin:0;font-family:'Inter',ui-sans-serif,sans-serif;background:#f4f0e6;color:#0f1a15;-webkit-font-smoothing:antialiased}
+    main{width:min(820px,calc(100vw - 36px));margin:0 auto;padding:72px 0}
+    h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,7vw,68px);line-height:1;margin:0 0 12px;letter-spacing:-.02em}
+    .sub{color:#5a6b62;font-size:16px;line-height:1.7;margin:0 0 40px}
+    .list{display:grid;gap:8px}
+    .demo-item{
+      display:flex;justify-content:space-between;align-items:center;gap:16px;
+      padding:18px 22px;
+      border:1.5px solid #dde6df;border-radius:10px;
+      background:#fdfcf7;text-decoration:none;color:inherit;
+      transition:border-color .18s,box-shadow .18s,transform .15s;
+    }
+    .demo-item:hover{border-color:#3d6b52;box-shadow:0 6px 20px rgba(15,26,21,.1);transform:translateX(3px)}
+    .demo-item strong{display:block;font-size:17px;font-weight:700;margin-bottom:3px}
+    .demo-item span{color:#5a6b62;font-size:13.5px}
+    .arrow{color:#1a3d28;font-size:20px;opacity:.4;flex-shrink:0}
+    .demo-item:hover .arrow{opacity:.8}
   </style>
 </head>
 <body>
   <main>
-    <h1>Konaklama demo vitrinleri</h1>
-    <p>Bu sayfalar satış öncesi demo taslaklarıdır. Resmi işletme sitesi olarak sunulmaz.</p>
+    <h1>Demo vitrinler</h1>
+    <p class="sub">İşletmeler için özel hazırlanmış taslak siteler. Komisyon ödemeden direkt rezervasyon.</p>
     <div class="list">
-      <a class="demo" href="atlihan-butik-otel.html">
-        <strong>Atlıhan Butik Otel</strong>
-        <span>Butik Otel - Yeşilyurt Köyü, Ayvacık / Çanakkale</span>
+      <a class="demo-item" href="alarga-boutique-bodrum.html">
+        <div>
+          <strong>Alarga Boutique Hotel</strong>
+          <span>Butik Otel — Türkbükü, Bodrum, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="avcioglu-konak-otel.html">
-        <strong>Avcıoğlu Konak Otel</strong>
-        <span>Butik Otel - Çavuş Mahallesi, Safranbolu / Karabük</span>
+      <a class="demo-item" href="atlihan-butik-otel.html">
+        <div>
+          <strong>Atlıhan Butik Otel</strong>
+          <span>Butik Otel — Yeşilyurt Köyü, Ayvacık / Çanakkale</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="badeli-konak.html">
-        <strong>Badeli Konak Safranbolu</strong>
-        <span>Konak konaklama - Hüseyinçelebi, Safranbolu</span>
+      <a class="demo-item" href="avcioglu-konak-otel.html">
+        <div>
+          <strong>Avcıoğlu Konak Otel</strong>
+          <span>Butik Otel — Çavuş Mahallesi, Safranbolu / Karabük</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="balci-house-iznik.html">
-        <strong>Balcı House İznik</strong>
-        <span>Müstakil Villa - Mustafalı Köyü, İznik / Bursa</span>
+      <a class="demo-item" href="badeli-konak.html">
+        <div>
+          <strong>Badeli Konak Safranbolu</strong>
+          <span>Konak konaklama — Hüseyinçelebi, Safranbolu</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="cebeci-kutlu-apart.html">
-        <strong>Cebeci Kutlu Apart</strong>
-        <span>Apart otel - Cebeci, Kandıra / Kocaeli</span>
+      <a class="demo-item" href="balci-house-iznik.html">
+        <div>
+          <strong>Balcı House İznik</strong>
+          <span>Müstakil Villa — Mustafalı Köyü, İznik / Bursa</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="cifte-konak-amasya.html">
-        <strong>Çifte Konak Butik Otel</strong>
-        <span>Butik otel - Pirinççi Mahallesi, Amasya</span>
+      <a class="demo-item" href="caria-premium-hotel-dalyan.html">
+        <div>
+          <strong>Caria Premium Hotel</strong>
+          <span>Butik Otel — Dalyan, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="elysium-sapanca.html">
-        <strong>Elysium Sapanca</strong>
-        <span>Lüks Villa - Sapanca</span>
+      <a class="demo-item" href="cebeci-kutlu-apart.html">
+        <div>
+          <strong>Cebeci Kutlu Apart</strong>
+          <span>Apart otel — Cebeci, Kandıra / Kocaeli</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="ergun-pansiyon-amasya.html">
-        <strong>Ergün Pansiyon Amasya</strong>
-        <span>Pansiyon - Dereboyu, Amasya</span>
+      <a class="demo-item" href="cetin-apart-pansiyon.html">
+        <div>
+          <strong>Çetin Apart &amp; Pansiyon</strong>
+          <span>Apart &amp; Pansiyon — Fethiye Merkez / Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="gazi-konagi-mardin.html">
-        <strong>Gazi Konağı Butik Hotel</strong>
-        <span>Butik Otel - Şehidiye Mahallesi, Mardin</span>
+      <a class="demo-item" href="cifte-konak-amasya.html">
+        <div>
+          <strong>Çifte Konak Butik Otel</strong>
+          <span>Butik otel — Pirinççi Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="gocebe-kamp-bungalov.html">
-        <strong>Göçebe Kamp &amp; Bungalov</strong>
-        <span>Bungalov &amp; Kamp - Göllüce, İznik</span>
+      <a class="demo-item" href="dove-apart-hotel.html">
+        <div>
+          <strong>Dove Apart Hotel</strong>
+          <span>Apart Hotel — Çalış, Fethiye / Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="gonul-sefasi-amasya.html">
-        <strong>Gönül Sefası Butik Otel</strong>
-        <span>Butik otel - Hatuniye Mahallesi, Amasya</span>
+      <a class="demo-item" href="elysium-sapanca.html">
+        <div>
+          <strong>Elysium Sapanca</strong>
+          <span>Lüks Villa — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="goynuk-hanedan-butik-otel.html">
-        <strong>Göynük Hanedan Butik Otel</strong>
-        <span>Butik Otel - Cuma Mahallesi, Göynük / Bolu</span>
+      <a class="demo-item" href="ergun-pansiyon-amasya.html">
+        <div>
+          <strong>Ergün Pansiyon Amasya</strong>
+          <span>Pansiyon — Dereboyu, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="gul-ev-sapanca.html">
-        <strong>Gül Ev Sapanca</strong>
-        <span>Villa konaklama - Uzunkum, Sapanca</span>
+      <a class="demo-item" href="eski-datca-pansiyon.html">
+        <div>
+          <strong>Eski Datça Pansiyon</strong>
+          <span>Pansiyon — Eski Datça, Datça, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="hasirci-konaklari.html">
-        <strong>Hasırcı Konakları</strong>
-        <span>Konak konaklama - Hatuniye Mahallesi, Amasya</span>
+      <a class="demo-item" href="feryal-apart-gocek.html">
+        <div>
+          <strong>Feryal Apart</strong>
+          <span>Apart Otel — İnlice, Göcek, Fethiye, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="ilk-konak-amasya.html">
-        <strong>İlk Konak Butik Otel</strong>
-        <span>Butik otel - Amasya Merkez</span>
+      <a class="demo-item" href="gazi-konagi-mardin.html">
+        <div>
+          <strong>Gazi Konağı Butik Hotel</strong>
+          <span>Butik Otel — Şehidiye Mahallesi, Mardin</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-gokbayrak-bungalov.html">
-        <strong>İznik Gökbayrak Bungalov</strong>
-        <span>Göl Kenarı Bungalov - Göllüce, İznik</span>
+      <a class="demo-item" href="gocebe-kamp-bungalov.html">
+        <div>
+          <strong>Göçebe Kamp &amp; Bungalov</strong>
+          <span>Bungalov &amp; Kamp — Göllüce, İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-gokyuzubungalov.html">
-        <strong>İznik Gökyüzü Bungalov</strong>
-        <span>Panorama Bungalov - İznik</span>
+      <a class="demo-item" href="gonul-sefasi-amasya.html">
+        <div>
+          <strong>Gönül Sefası Butik Otel</strong>
+          <span>Butik otel — Hatuniye Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-kir-evleri.html">
-        <strong>İznik Kır Evleri</strong>
-        <span>Kır Evi &amp; Bungalov - İznik</span>
+      <a class="demo-item" href="goynuk-hanedan-butik-otel.html">
+        <div>
+          <strong>Göynük Hanedan Butik Otel</strong>
+          <span>Butik Otel — Cuma Mahallesi, Göynük / Bolu</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-lotus-bungalov.html">
-        <strong>İznik Lotus Bungalov</strong>
-        <span>Butik Göl Bungalov - İznik</span>
+      <a class="demo-item" href="gul-ev-sapanca.html">
+        <div>
+          <strong>Gül Ev Sapanca</strong>
+          <span>Villa konaklama — Uzunkum, Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-seyir-kamp.html">
-        <strong>İznik Seyir Kamp</strong>
-        <span>Glamping &amp; Kamp - Dırazali, İznik</span>
+      <a class="demo-item" href="hasirci-konaklari.html">
+        <div>
+          <strong>Hasırcı Konakları</strong>
+          <span>Konak konaklama — Hatuniye Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="iznik-villa-atasoy.html">
-        <strong>İznik Villa Atasoy</strong>
-        <span>Lüks Butik Villa - İznik</span>
+      <a class="demo-item" href="ilk-konak-amasya.html">
+        <div>
+          <strong>İlk Konak Butik Otel</strong>
+          <span>Butik otel — Amasya Merkez</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="karauzumler-konagi.html">
-        <strong>Karaüzümler Konağı</strong>
-        <span>Konak konaklama - Hacı Halil Mahallesi, Safranbolu</span>
+      <a class="demo-item" href="iznik-gokbayrak-bungalov.html">
+        <div>
+          <strong>İznik Gökbayrak Bungalov</strong>
+          <span>Göl Kenarı Bungalov — Göllüce, İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="kerpe-gebes-camping.html">
-        <strong>Kerpe Gebeş Camping</strong>
-        <span>Kamp alanı - Kıncıllı, Kandıra / Kocaeli</span>
+      <a class="demo-item" href="iznik-gokyuzubungalov.html">
+        <div>
+          <strong>İznik Gökyüzü Bungalov</strong>
+          <span>Panorama Bungalov — İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="kocbey-butik-otel.html">
-        <strong>Koçbey Butik Otel</strong>
-        <span>Butik Otel - Yanık Mahallesi, Sapanca</span>
+      <a class="demo-item" href="iznik-kir-evleri.html">
+        <div>
+          <strong>İznik Kır Evleri</strong>
+          <span>Kır Evi &amp; Bungalov — İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="kule-sapanca.html">
-        <strong>Kule Sapanca</strong>
-        <span>Butik Konaklama - Şükriye Mahallesi, Sapanca</span>
+      <a class="demo-item" href="iznik-lotus-bungalov.html">
+        <div>
+          <strong>İznik Lotus Bungalov</strong>
+          <span>Butik Göl Bungalov — İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="kuzeymen-iznik.html">
-        <strong>Kuzeymen İznik</strong>
-        <span>Taş Ev &amp; Bungalov - Elbeyli, İznik</span>
+      <a class="demo-item" href="iznik-seyir-kamp.html">
+        <div>
+          <strong>İznik Seyir Kamp</strong>
+          <span>Glamping &amp; Kamp — Dırazali, İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="la-cabana-iznik.html">
-        <strong>La Cabaña İznik</strong>
-        <span>Göl Kenarı Bungalov - Göllüce, İznik</span>
+      <a class="demo-item" href="iznik-villa-atasoy.html">
+        <div>
+          <strong>İznik Villa Atasoy</strong>
+          <span>Lüks Butik Villa — İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="lulja-alacati.html">
-        <strong>Lulja Alaçatı</strong>
-        <span>Butik Otel - Alaçatı, Çeşme / İzmir</span>
+      <a class="demo-item" href="kabak-mammas-hostel.html">
+        <div>
+          <strong>Kabak Mamma&#039;s Hostel</strong>
+          <span>Hostel — Kabak Koyu, Fethiye / Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="mavi-karavan-iznik.html">
-        <strong>Mavi Karavan İznik</strong>
-        <span>Butik Karavan &amp; Bungalov - İznik</span>
+      <a class="demo-item" href="karauzumler-konagi.html">
+        <div>
+          <strong>Karaüzümler Konağı</strong>
+          <span>Konak konaklama — Hacı Halil Mahallesi, Safranbolu</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="melek-butik-otel-halfeti.html">
-        <strong>Melek Butik Otel Halfeti</strong>
-        <span>Butik Otel - Eski Halfeti, Şanlıurfa</span>
+      <a class="demo-item" href="kerpe-gebes-camping.html">
+        <div>
+          <strong>Kerpe Gebeş Camping</strong>
+          <span>Kamp alanı — Kıncıllı, Kandıra / Kocaeli</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="melekli-konak.html">
-        <strong>Melekli Konak</strong>
-        <span>Konak konaklama - Pirinçci Mahallesi, Amasya</span>
+      <a class="demo-item" href="kilinc-apart.html">
+        <div>
+          <strong>Kılınç Apart</strong>
+          <span>Apart — Fethiye / Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="mor-salkim-konagi.html">
-        <strong>Mor Salkım Konağı</strong>
-        <span>Konak konaklama - Hacı İlyas Mahallesi, Amasya</span>
+      <a class="demo-item" href="kocbey-butik-otel.html">
+        <div>
+          <strong>Koçbey Butik Otel</strong>
+          <span>Butik Otel — Yanık Mahallesi, Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="nailiye-dag-evleri.html">
-        <strong>Nailiye Dağ Evleri</strong>
-        <span>Bungalov - Sapanca Merkez, Sakarya</span>
+      <a class="demo-item" href="kule-sapanca.html">
+        <div>
+          <strong>Kule Sapanca</strong>
+          <span>Butik Konaklama — Şükriye Mahallesi, Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="nil-konaklama-sapanca.html">
-        <strong>Nil Konaklama Sapanca</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="kuzeymen-iznik.html">
+        <div>
+          <strong>Kuzeymen İznik</strong>
+          <span>Taş Ev &amp; Bungalov — Elbeyli, İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="nimet-hanim-konagi.html">
-        <strong>Nimet Hanım Konağı</strong>
-        <span>Konak konaklama - Barış Mahallesi, Safranbolu</span>
+      <a class="demo-item" href="la-cabana-iznik.html">
+        <div>
+          <strong>La Cabaña İznik</strong>
+          <span>Göl Kenarı Bungalov — Göllüce, İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="ozcan-apart-pansiyon.html">
-        <strong>Özcan Apart Pansiyon</strong>
-        <span>Apart pansiyon - Zeytinlik Mahallesi, Sinop</span>
+      <a class="demo-item" href="lulja-alacati.html">
+        <div>
+          <strong>Lulja Alaçatı</strong>
+          <span>Butik Otel — Alaçatı, Çeşme / İzmir</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="rock-n-lake-iznik.html">
-        <strong>Rock n&#039; Lake İznik</strong>
-        <span>Bungalov &amp; Tiny House - Müşküle Mah., İznik / Bursa</span>
+      <a class="demo-item" href="macakizi-hotel.html">
+        <div>
+          <strong>Macakizi Hotel</strong>
+          <span>Butik Otel — Türkbükü, Bodrum, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sapanca-ayisigi-bungalov.html">
-        <strong>Sapanca Ayışığı Bungalov</strong>
-        <span>Romantik Bungalov - Sapanca</span>
+      <a class="demo-item" href="mavi-karavan-iznik.html">
+        <div>
+          <strong>Mavi Karavan İznik</strong>
+          <span>Butik Karavan &amp; Bungalov — İznik</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sapanca-doga-evleri.html">
-        <strong>Sapanca Doğa Evleri</strong>
-        <span>Müstakil Doğa Evi - Sapanca</span>
+      <a class="demo-item" href="melek-butik-otel-halfeti.html">
+        <div>
+          <strong>Melek Butik Otel Halfeti</strong>
+          <span>Butik Otel — Eski Halfeti, Şanlıurfa</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sapanca-isikli-bahce.html">
-        <strong>Sapanca Işıklı Bahçe Villa &amp; Bungalov</strong>
-        <span>Villa ve bungalov - Sapanca</span>
+      <a class="demo-item" href="melekli-konak.html">
+        <div>
+          <strong>Melekli Konak</strong>
+          <span>Konak konaklama — Pirinçci Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sapanca-melih-villa.html">
-        <strong>Sapanca Melih Villa</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="meri-hotel-oludeniz.html">
+        <div>
+          <strong>Meri Hotel</strong>
+          <span>Otel — Ölüdeniz, Fethiye, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sapanca-villa-sen.html">
-        <strong>Sapanca Villa Şen</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="mor-salkim-konagi.html">
+        <div>
+          <strong>Mor Salkım Konağı</strong>
+          <span>Konak konaklama — Hacı İlyas Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="sebilla-sapanca.html">
-        <strong>Sebilla Sapanca</strong>
-        <span>Villa konaklama - Yanık Mahallesi, Sapanca</span>
+      <a class="demo-item" href="nailiye-dag-evleri.html">
+        <div>
+          <strong>Nailiye Dağ Evleri</strong>
+          <span>Bungalov — Sapanca Merkez, Sakarya</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="selvi-life-villas.html">
-        <strong>Selvi Life Villas Sapanca</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="nil-konaklama-sapanca.html">
+        <div>
+          <strong>Nil Konaklama Sapanca</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="semay-otel-amasya.html">
-        <strong>Semay Otel</strong>
-        <span>Butik otel - Hatuniye Mahallesi, Amasya</span>
+      <a class="demo-item" href="nimet-hanim-konagi.html">
+        <div>
+          <strong>Nimet Hanım Konağı</strong>
+          <span>Konak konaklama — Barış Mahallesi, Safranbolu</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="villa-azul-verde.html">
-        <strong>Villa Azul &amp; Verde</strong>
-        <span>Butik Villa &amp; Bungalov - Sapanca</span>
+      <a class="demo-item" href="ozcan-apart-pansiyon.html">
+        <div>
+          <strong>Özcan Apart Pansiyon</strong>
+          <span>Apart pansiyon — Zeytinlik Mahallesi, Sinop</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="villa-blue-sapanca.html">
-        <strong>Villa Blue Sapanca</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="palmiye-apart-akyaka.html">
+        <div>
+          <strong>Palmiye Apart</strong>
+          <span>Apart — Akyaka, Ula, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
       </a>
-      <a class="demo" href="villa-focus-sapanca.html">
-        <strong>Villa Focus Sapanca</strong>
-        <span>Villa konaklama - Sapanca</span>
+      <a class="demo-item" href="pasha-bungalows-marmaris.html">
+        <div>
+          <strong>Pasha Bungalows</strong>
+          <span>Bungalov — Kızkumu, Marmaris, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="rock-n-lake-iznik.html">
+        <div>
+          <strong>Rock n&#039; Lake İznik</strong>
+          <span>Bungalov &amp; Tiny House — Müşküle Mah., İznik / Bursa</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sapanca-ayisigi-bungalov.html">
+        <div>
+          <strong>Sapanca Ayışığı Bungalov</strong>
+          <span>Romantik Bungalov — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sapanca-doga-evleri.html">
+        <div>
+          <strong>Sapanca Doğa Evleri</strong>
+          <span>Müstakil Doğa Evi — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sapanca-isikli-bahce.html">
+        <div>
+          <strong>Sapanca Işıklı Bahçe Villa &amp; Bungalov</strong>
+          <span>Villa ve bungalov — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sapanca-melih-villa.html">
+        <div>
+          <strong>Sapanca Melih Villa</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sapanca-villa-sen.html">
+        <div>
+          <strong>Sapanca Villa Şen</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="sebilla-sapanca.html">
+        <div>
+          <strong>Sebilla Sapanca</strong>
+          <span>Villa konaklama — Yanık Mahallesi, Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="selvi-life-villas.html">
+        <div>
+          <strong>Selvi Life Villas Sapanca</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="semay-otel-amasya.html">
+        <div>
+          <strong>Semay Otel</strong>
+          <span>Butik otel — Hatuniye Mahallesi, Amasya</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="su-hotel-bodrum.html">
+        <div>
+          <strong>Su Hotel Bodrum</strong>
+          <span>Butik Otel — Bodrum, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="tan-pansiyon-fethiye.html">
+        <div>
+          <strong>Tan Pansiyon Fethiye</strong>
+          <span>Pansiyon — Fethiye / Muğla</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="vadi-fethiye-bungalov.html">
+        <div>
+          <strong>Vadi Fethiye Bungalov</strong>
+          <span>Bungalov — Fethiye, Muğla</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="villa-azul-verde.html">
+        <div>
+          <strong>Villa Azul &amp; Verde</strong>
+          <span>Butik Villa &amp; Bungalov — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="villa-blue-sapanca.html">
+        <div>
+          <strong>Villa Blue Sapanca</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="demo-item" href="villa-focus-sapanca.html">
+        <div>
+          <strong>Villa Focus Sapanca</strong>
+          <span>Villa konaklama — Sapanca</span>
+        </div>
+        <span class="arrow">→</span>
       </a></div>
   </main>
 </body>
