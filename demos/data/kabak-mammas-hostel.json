@@ -7,13 +7,13 @@
   "headline": "Kabak Koyu'nda hostel konaklaması için direkt rezervasyon vitrini.",
   "description": "Kabak Mamma's Hostel için hazırlanan bu taslak; hostel deneyimini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
   "type": "Hostel",
-  "heroImage": "/demo/assets/prospects/kabak-mammas-hostel-01.jpg",
-  "featureImage": "/demo/assets/prospects/kabak-mammas-hostel-02.jpg",
+  "heroImage": "/demo/assets/prospects/kabak-mammas-hostel-clean-01.jpg",
+  "featureImage": "/demo/assets/prospects/kabak-mammas-hostel-clean-02.jpg",
   "gallery": [
-    "/demo/assets/prospects/kabak-mammas-hostel-01.jpg",
-    "/demo/assets/prospects/kabak-mammas-hostel-02.jpg",
-    "/demo/assets/prospects/kabak-mammas-hostel-03.jpg",
-    "/demo/assets/prospects/kabak-mammas-hostel-04.jpg"
+    "/demo/assets/prospects/kabak-mammas-hostel-clean-01.jpg",
+    "/demo/assets/prospects/kabak-mammas-hostel-clean-02.jpg",
+    "/demo/assets/prospects/kabak-mammas-hostel-clean-03.jpg",
+    "/demo/assets/prospects/kabak-mammas-hostel-clean-04.jpg"
   ],
   "features": [
     {
@@ -72,6 +72,7 @@
   },
   "sourceLinks": [
     "https://instagram.com/kabakmammas",
+    "https://www.obilet.com/otel/kabak-mammas-hostel",
     "https://www.fethiyetatilkonaklama.com/otel-hotel-hostel-butik-otel/kabak-mammas-hostel-2135"
   ]
 }
