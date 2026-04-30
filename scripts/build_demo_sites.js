@@ -138,11 +138,9 @@ for (const file of fs.readdirSync(dataDir).filter((name) => name.endsWith(".json
   const property = JSON.parse(fs.readFileSync(path.join(dataDir, file), "utf8"));
   const html = render(property);
   if (!firstHtml) firstHtml = html;
-  const propertyOut = path.join(outDir, property.slug);
-  fs.mkdirSync(propertyOut, { recursive: true });
-  fs.writeFileSync(path.join(propertyOut, "index.html"), html);
+  fs.writeFileSync(path.join(outDir, property.slug + ".html"), html);
   built.push({ name: property.name, slug: property.slug, location: property.location, type: property.type });
-  console.log(`built demos/public/${property.slug}/index.html`);
+  console.log(`built demos/public/${property.slug}.html`);
 }
 
 if (firstHtml) {
@@ -151,7 +149,7 @@ if (firstHtml) {
 }
 
 const indexRows = built.map((property) => `
-      <a class="demo" href="/${property.slug}/">
+      <a class="demo" href="/${property.slug}.html">
         <strong>${escapeHtml(property.name)}</strong>
         <span>${escapeHtml(property.type || "Konaklama")} - ${escapeHtml(property.location)}</span>
       </a>`).join("");
