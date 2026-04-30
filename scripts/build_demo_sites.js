@@ -471,7 +471,7 @@ const CSS = `
 function resolveImg(src, depth) {
   if (!src) return src;
   if (/^https?:\/\//.test(src)) return src;
-  return depth === 1 ? "../" + src : src;
+  return "/demo/" + src;
 }
 
 function render(property, depth = 0) {
