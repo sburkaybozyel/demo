@@ -1,0 +1,76 @@
+{
+  "name": "Labranda Butik Otel Bodrum",
+  "slug": "labranda-butik-otel-bodrum",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Bodrum / Muğla",
+  "eyebrow": "Bodrum, Muğla",
+  "headline": "Bodrum merkez hattında butik konaklama vitrini.",
+  "description": "Labranda Butik Otel Bodrum için hazırlanan bu taslak; konum, oda deneyimi, galeri ve doğrudan WhatsApp rezervasyon akışını tek sayfada toplar.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "features": [
+    {
+      "title": "Bodrum'da görünür vitrin",
+      "body": "Misafirlerin tesis bilgilerini, konumu ve iletişim seçeneklerini tek sayfada görmesini sağlar."
+    },
+    {
+      "title": "Doğrudan rezervasyon akışı",
+      "body": "WhatsApp yönlendirmesiyle aracı platform olmadan hızlı ön talep alınır."
+    },
+    {
+      "title": "Komisyon baskısını azaltır",
+      "body": "Booking ve Airbnb dışındaki direkt rezervasyon yolunu görünür hale getirir."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Butik otel",
+      "body": "Küçük ölçekli ve kişisel konaklama algısını öne çıkaran yapı."
+    },
+    {
+      "title": "Bodrum konumu",
+      "body": "Bodrum tatili planlayan misafir için hızlı karar desteği."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek dokunuşla müsaitlik ve rezervasyon ön talebi."
+    },
+    {
+      "title": "Mobil uyumlu site",
+      "body": "Instagram ve Google trafiğinden gelen misafirler için hızlı görüntüleme."
+    },
+    {
+      "title": "Galeri alanı",
+      "body": "Final yayında işletmenin gerçek fotoğraflarıyla tamamlanır."
+    },
+    {
+      "title": "Konum bilgisi",
+      "body": "Adres ve çevre bilgileri işletme onayıyla netleştirilir."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico yapısı final kurulumda eklenebilir."
+    },
+    {
+      "title": "Yayın desteği",
+      "body": "7 gün içinde canlı siteye dönüştürülebilecek taslak yapı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 313 68 69",
+    "whatsapp": "902523136869",
+    "email": "",
+    "address": "Bodrum / Muğla",
+    "instagram": "labrandabutik"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/labrandabutik/"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Catamaran Resort Hotel",
+  "slug": "catamaran-resort-hotel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Bodrum / Muğla",
+  "eyebrow": "Bodrum, Muğla",
+  "headline": "Bodrum tatili için güçlü ve hızlı rezervasyon vitrini.",
+  "description": "Catamaran Resort Hotel için hazırlanan bu taslak; tatil deneyimi, görseller ve doğrudan iletişim alanlarını tek sayfada birleştirir.",
+  "type": "Resort Hotel",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1562790351-d273a961e0e9?auto=format&fit=crop&w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1562790351-d273a961e0e9?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1559599189-fe84dea4eb79?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "features": [
+    {
+      "title": "Tatil kararını hızlandırır",
+      "body": "Misafir, görsel ve iletişim bilgilerine tek sayfada ulaşarak hızlı ön talep bırakır."
+    },
+    {
+      "title": "Direkt kanal oluşturur",
+      "body": "WhatsApp bağlantısı, platform dışı rezervasyon görüşmelerini artırır."
+    },
+    {
+      "title": "Komisyon kaybını azaltır",
+      "body": "Kendi siteniz, misafiri doğrudan işletmeye taşıyan bağımsız bir kanal olur."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Resort hotel",
+      "body": "Tatil odaklı konaklama arayan misafir için net konumlandırma."
+    },
+    {
+      "title": "Sahil algısı",
+      "body": "Bodrum tatili kararında görsel atmosferi öne çıkaran vitrin."
+    },
+    {
+      "title": "WhatsApp ön talep",
+      "body": "Müsaitlik soruları doğrudan işletmeye yönlenir."
+    },
+    {
+      "title": "Galeri",
+      "body": "Finalde gerçek tesis fotoğraflarıyla tamamlanır."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "DM ve Google trafiği için hızlı açılan sayfa."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico akışı yayında eklenebilir."
+    },
+    {
+      "title": "Konum bilgisi",
+      "body": "Adres ve çevre bilgileri işletme onayıyla netleşir."
+    },
+    {
+      "title": "7 gün yayın",
+      "body": "Taslak, onay sonrası hızlıca canlı siteye dönüşür."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 317 00 00",
+    "whatsapp": "902523170000",
+    "email": "",
+    "address": "Bodrum / Muğla",
+    "instagram": "catamaranresort"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/catamaranresort/"
+  ]
+}

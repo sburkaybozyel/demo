@@ -645,6 +645,9 @@ for (const file of fs.readdirSync(dataDir).filter((f) => f.endsWith(".json"))) {
   const html = render(property);
   if (!firstHtml) firstHtml = html;
   fs.writeFileSync(path.join(outDir, property.slug + ".html"), html);
+  const slugDir = path.join(outDir, property.slug);
+  fs.mkdirSync(slugDir, { recursive: true });
+  fs.writeFileSync(path.join(slugDir, "index.html"), html);
   built.push({ name: property.name, slug: property.slug, location: property.location, type: property.type });
   console.log(`built demos/public/${property.slug}.html`);
 }

@@ -1,0 +1,74 @@
+{
+  "name": "Kempinski Hotel Barbaros Bay",
+  "slug": "kempinski-hotel-barbaros-bay",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Barbaros Bay, Bodrum / Muğla",
+  "eyebrow": "Barbaros Bay, Bodrum",
+  "headline": "Bodrum koylarında premium rezervasyon vitrini.",
+  "description": "Kempinski Hotel Barbaros Bay için hazırlanan bu taslak; premium konaklama algısını, görsel anlatımı ve doğrudan iletişim akışını tek sayfada kurgular.",
+  "type": "Premium Otel",
+  "heroImage": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "features": [
+    {
+      "title": "Premium algıyı korur",
+      "body": "Sayfa, yüksek segment konaklama kararında görsel kalite ve net iletişim odağı kurar."
+    },
+    {
+      "title": "Direkt iletişim yolu",
+      "body": "Misafir, platform dışına çıkmadan işletmeyle doğrudan temas kurabilir."
+    },
+    {
+      "title": "Marka aramalarını karşılar",
+      "body": "Google'da işletmeyi arayan misafire sade ve hızlı bir rezervasyon alternatifi sunar."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Premium otel",
+      "body": "Yüksek segment Bodrum konaklama algısına uygun vitrin."
+    },
+    {
+      "title": "Koy konumu",
+      "body": "Barbaros Bay lokasyonunu öne çıkaran anlatım."
+    },
+    {
+      "title": "Doğrudan rezervasyon",
+      "body": "WhatsApp ve telefon üzerinden hızlı ön talep."
+    },
+    {
+      "title": "Galeri",
+      "body": "Final yayında gerçek işletme fotoğraflarıyla tamamlanır."
+    },
+    {
+      "title": "Mobil deneyim",
+      "body": "Telefon kullanıcıları için hızlı ve okunur yapı."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Aracı platform dışı rezervasyon alternatifi."
+    },
+    {
+      "title": "Ödeme akışı",
+      "body": "IBAN veya Iyzico bağlantısı final kurulumda eklenebilir."
+    },
+    {
+      "title": "Hızlı yayın",
+      "body": "7 günlük teslim planına uygun taslak altyapı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 311 03 03",
+    "whatsapp": "902523110303",
+    "email": "",
+    "address": "Barbaros Bay, Bodrum / Muğla",
+    "instagram": ""
+  },
+  "sourceLinks": []
+}

@@ -48,11 +48,11 @@
 
 | # | İşletme | Telefon | Instagram | Demo | Durum |
 |---|---------|---------|-----------|------|-------|
-| 1 | Labranda Butik Otel Bodrum | 0252 313 68 69 | @labrandabutik | ⬜ | ⬜ |
-| 2 | Marphe Hotel Bodrum | 0252 316 18 00 | @marphehotel | ⬜ | ⬜ |
-| 3 | Catamaran Resort Hotel | 0252 317 00 00 | @catamaranresort | ⬜ | ⬜ |
-| 4 | Kempinski Hotel Barbaros Bay | 0252 311 03 03 | | ⬜ | ⬜ |
-| 5 | Bitez Garden Life Hotel | 0252 363 70 00 | @bitezgardenlife | ⬜ | ⬜ |
+| 1 | Labranda Butik Otel Bodrum | 0252 313 68 69 | @labrandabutik | [link](https://sburkaybozyel.github.io/demo/labranda-butik-otel-bodrum/) | ✅ |
+| 2 | Marphe Hotel Bodrum | 0252 316 18 00 | @marphehotel | [link](https://sburkaybozyel.github.io/demo/marphe-hotel-bodrum/) | ✅ |
+| 3 | Catamaran Resort Hotel | 0252 317 00 00 | @catamaranresort | [link](https://sburkaybozyel.github.io/demo/catamaran-resort-hotel/) | ✅ |
+| 4 | Kempinski Hotel Barbaros Bay | 0252 311 03 03 | | [link](https://sburkaybozyel.github.io/demo/kempinski-hotel-barbaros-bay/) | ✅ |
+| 5 | Bitez Garden Life Hotel | 0252 363 70 00 | @bitezgardenlife | [link](https://sburkaybozyel.github.io/demo/bitez-garden-life-hotel/) | ✅ |
 | 6 | Bodrum Bay Resort | 0252 317 00 17 | | ⬜ | ⬜ |
 | 7 | Salmakis Resort & Spa | 0252 316 61 00 | | ⬜ | ⬜ |
 | 8 | Antik Theatre Hotel | 0252 316 60 53 | @antiktheatre | ⬜ | ⬜ |
@@ -173,7 +173,7 @@
 
 | Hafta | Hedef | Gönderilen | Demo Hazır | Geri Dönüş | Satış |
 |-------|-------|-----------|-----------|-----------|-------|
-| 1 (2026-04-30) | 75 | 0 | 0 | 0 | 0 |
+| 1 (2026-04-30) | 75 | 0 | 5 | 0 | 0 |
 | 2 | 150 | | | | |
 | 3 | 200 | | | | |
 | 4 | 200 | | | | |

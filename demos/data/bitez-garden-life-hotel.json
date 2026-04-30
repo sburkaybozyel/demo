@@ -1,0 +1,76 @@
+{
+  "name": "Bitez Garden Life Hotel",
+  "slug": "bitez-garden-life-hotel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Bitez, Bodrum / Muğla",
+  "eyebrow": "Bitez, Bodrum",
+  "headline": "Bitez'de bahçeli tatil deneyimi için direkt rezervasyon sayfası.",
+  "description": "Bitez Garden Life Hotel için hazırlanan bu taslak; bahçeli konaklama hissini, tesis bilgilerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
+  "type": "Hotel",
+  "heroImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "features": [
+    {
+      "title": "Bitez konumunu öne çıkarır",
+      "body": "Bodrum içinde Bitez araması yapan misafir için net konum ve iletişim alanı sunar."
+    },
+    {
+      "title": "Bahçeli tatil algısı",
+      "body": "Tesisin sakin ve yeşil atmosferini anlatacak galeri ve özellik alanları hazırdır."
+    },
+    {
+      "title": "Direkt rezervasyon",
+      "body": "Misafir, WhatsApp üzerinden aracı olmadan işletmeye ulaşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Bitez oteli",
+      "body": "Bitez tatili arayan misafir için net kategori ve konum."
+    },
+    {
+      "title": "Bahçe atmosferi",
+      "body": "Açık alan ve sakin tatil hissini destekleyen vitrin."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek tıkla müsaitlik sorusu ve rezervasyon ön talebi."
+    },
+    {
+      "title": "Galeri",
+      "body": "Finalde gerçek tesis fotoğraflarıyla tamamlanır."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram trafiği için hızlı ve sade görünüm."
+    },
+    {
+      "title": "Komisyonsuz rezervasyon",
+      "body": "Booking/Airbnb dışı direkt satış kanalı."
+    },
+    {
+      "title": "Ödeme seçeneği",
+      "body": "IBAN veya Iyzico bilgisi final yayında eklenebilir."
+    },
+    {
+      "title": "7 gün teslim",
+      "body": "Taslak onaylandıktan sonra yayına hazır hale getirilir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 363 70 00",
+    "whatsapp": "902523637000",
+    "email": "",
+    "address": "Bitez, Bodrum / Muğla",
+    "instagram": "bitezgardenlife"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/bitezgardenlife/"
+  ]
+}

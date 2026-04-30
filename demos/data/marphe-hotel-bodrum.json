@@ -1,0 +1,76 @@
+{
+  "name": "Marphe Hotel Bodrum",
+  "slug": "marphe-hotel-bodrum",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Bodrum / Muğla",
+  "eyebrow": "Bodrum, Muğla",
+  "headline": "Bodrum'da doğrudan rezervasyon odaklı otel vitrini.",
+  "description": "Marphe Hotel Bodrum için hazırlanan bu taslak; otel deneyimini, galeri alanını ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada sunar.",
+  "type": "Otel",
+  "heroImage": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1600&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1600&q=80"
+  ],
+  "features": [
+    {
+      "title": "Otel bilgisini tek yerde toplar",
+      "body": "Misafir, tesisin temel bilgilerini ve iletişim yolunu dağınık platformlar yerine tek sayfada görür."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Müsaitlik sorusu doğrudan işletmeye gelir, aracı platforma ihtiyaç azalır."
+    },
+    {
+      "title": "Google'da marka görünürlüğü",
+      "body": "Kendi alan adıyla yayına alındığında marka aramalarında daha güçlü bir vitrin oluşur."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Otel",
+      "body": "Bodrum konaklama arayan misafirler için net kategori."
+    },
+    {
+      "title": "Galeri",
+      "body": "Final yayında gerçek otel fotoğraflarıyla karar desteği sağlar."
+    },
+    {
+      "title": "Direkt iletişim",
+      "body": "Telefon ve WhatsApp ile hızlı ön talep alınır."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram DM'den gelen kullanıcı için hızlı ve sade deneyim."
+    },
+    {
+      "title": "Komisyonsuz akış",
+      "body": "Booking ve Airbnb dışı direkt rezervasyon kanalı yaratır."
+    },
+    {
+      "title": "Ödeme altyapısı",
+      "body": "IBAN veya Iyzico yönlendirmesi final yayında eklenebilir."
+    },
+    {
+      "title": "Konum sunumu",
+      "body": "Bodrum içi konum ve çevre detayları işletme onayıyla tamamlanır."
+    },
+    {
+      "title": "Hızlı yayın",
+      "body": "Taslak yapı 7 gün içinde canlı siteye çevrilebilir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 316 18 00",
+    "whatsapp": "902523161800",
+    "email": "",
+    "address": "Bodrum / Muğla",
+    "instagram": "marphehotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/marphehotel/"
+  ]
+}
