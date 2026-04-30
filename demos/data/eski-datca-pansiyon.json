@@ -1,0 +1,75 @@
+{
+  "name": "Eski Datça Pansiyon",
+  "slug": "eski-datca-pansiyon",
+  "location": "Eski Datça, Datça, Muğla",
+  "eyebrow": "Eski Datça, Muğla",
+  "headline": "Tarihi Datça'nın taş evinde konaklama.",
+  "description": "Eski Datça'nın yüzyıllık Rum köyünde restore edilmiş taş ev. 6 oda, aile işletmesi — Datça yarımadasının özgün atmosferini yaşamak isteyenler için.",
+  "type": "Pansiyon",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1586611292717-f828b167408c?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Tarihi taş ev",
+      "body": "Eski Datça'nın restore edilmiş Rum evi — özgün taş duvarlar, ahşap tavanlar."
+    },
+    {
+      "title": "Aile işletmesi",
+      "body": "Sadece 6 oda — her misafire kişisel ilgi ve ev sıcaklığı."
+    },
+    {
+      "title": "Eski Datça'nın kalbinde",
+      "body": "Datça'nın en güzel tarihi köyünün ortasında, restoran ve kafelere yürüme mesafesinde."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Tarihi mimari",
+      "body": "Restore edilmiş Rum evi, özgün taş ve ahşap detaylar."
+    },
+    {
+      "title": "Ev yapımı kahvaltı",
+      "body": "Her sabah taze yerel ürünlerle hazırlanan kahvaltı."
+    },
+    {
+      "title": "Bahçe & teras",
+      "body": "Çiçekli avlu ve serin teras."
+    },
+    {
+      "title": "Sessiz köy ortamı",
+      "body": "Araç trafiği yok — sadece dar sokaklar ve sessizlik."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Aracısız, direkt rezervasyon — komisyon yok."
+    },
+    {
+      "title": "Datça plajlarına yakın",
+      "body": "Datça'nın Ege ve Akdeniz plajlarına 10 dakika."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda internet."
+    },
+    {
+      "title": "Havalimanı transferi",
+      "body": "Dalaman havalimanından transfer ayarlanabilir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 539 709 35 34",
+    "whatsapp": "905397093534",
+    "email": "",
+    "address": "Eski Datça Köyü, Datça, Muğla",
+    "instagram": "eskidatcapansiyon"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/eskidatcapansiyon/"
+  ]
+}

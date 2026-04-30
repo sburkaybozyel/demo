@@ -1,0 +1,75 @@
+{
+  "name": "Feryal Apart",
+  "slug": "feryal-apart-gocek",
+  "location": "İnlice, Göcek, Fethiye, Muğla",
+  "eyebrow": "Göcek, Fethiye",
+  "headline": "Göcek'in sakin koyunda apart konfor.",
+  "description": "Fethiye'nin lüks marina kasabası Göcek'e yakın İnlice'de, denize sıfır apart. Geniş daireler, koy manzarası ve sakin atmosfer.",
+  "type": "Apart Otel",
+  "heroImage": "https://images.unsplash.com/photo-1602343168117-bb8ced3b3a00?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1602343168117-bb8ced3b3a00?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1501117716987-c8c394bb29df?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Denize sıfır konum",
+      "body": "İnlice koyunda, plaja yürüme mesafesinde — sabah uyanınca deniz karşınızda."
+    },
+    {
+      "title": "Geniş apart daireler",
+      "body": "Mutfaklı, oturma odalı tam donanımlı daireler — aile tatili için ideal."
+    },
+    {
+      "title": "Göcek & Fethiye'ye yakın",
+      "body": "Göcek marinasına 10 dk, Fethiye çarşısına 20 dk — her şeye ulaşırsınız."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Tam donanımlı mutfak",
+      "body": "Buzdolabı, ocak, mikrodalga — kendi yemeğinizi yapabilirsiniz."
+    },
+    {
+      "title": "Koy manzarası",
+      "body": "Balkon ve terastan İnlice koy manzarası."
+    },
+    {
+      "title": "Plaja yakın",
+      "body": "İnlice plajına yürüme mesafesinde."
+    },
+    {
+      "title": "Klima",
+      "body": "Her dairede soğutma ve ısıtma sistemi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Komisyon yok — direkt iletişimle en iyi fiyat."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Tesis içi araç park alanı."
+    },
+    {
+      "title": "Göcek marinasına yakın",
+      "body": "Yat turları ve tekne kiralama için ideal konum."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm dairelerde hızlı internet."
+    }
+  ],
+  "contact": {
+    "phone": "+90 542 408 00 90",
+    "whatsapp": "905424080090",
+    "email": "",
+    "address": "İnlice Mahallesi, Göcek, Fethiye, Muğla",
+    "instagram": "feryal_apart"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/feryal_apart/"
+  ]
+}

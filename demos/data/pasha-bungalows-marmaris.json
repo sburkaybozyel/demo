@@ -1,0 +1,75 @@
+{
+  "name": "Pasha Bungalows",
+  "slug": "pasha-bungalows-marmaris",
+  "location": "Kızkumu, Marmaris, Muğla",
+  "eyebrow": "Kızkumu, Marmaris",
+  "headline": "Kızkumu'nun sakin koyunda bungalov keyfi.",
+  "description": "Marmaris'in gözde koylarından Kızkumu'nda, denize yakın konumuyla huzurlu bungalovlar. Küçük ve samimi, kalabalıktan uzak bir tatil.",
+  "type": "Bungalov",
+  "heroImage": "https://images.unsplash.com/photo-1540541338537-1220059af3dc?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1540541338537-1220059af3dc?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Denize yakın konum",
+      "body": "Kızkumu koyuna yürüme mesafesinde — sabah kahvaltısından sonra denizde."
+    },
+    {
+      "title": "Samimi & küçük tesis",
+      "body": "Büyük otellerin kalabalığı yok — misafir sayısı sınırlı, hizmet kişisel."
+    },
+    {
+      "title": "Doğa içinde bungalovlar",
+      "body": "Her bungalov ağaçların altında, gölgeli bahçede — sıcakta bile serin."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Plaja yakın konum",
+      "body": "Kızkumu kumsal plajına yürüme mesafesinde."
+    },
+    {
+      "title": "Bahçe & ortak alan",
+      "body": "Gölgeli bahçede oturma ve dinlenme alanı."
+    },
+    {
+      "title": "Kahvaltı servisi",
+      "body": "İstek üzerine kahvaltı siparişi."
+    },
+    {
+      "title": "Klima",
+      "body": "Her bungalovda klima sistemi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Booking komisyonu yok — direkt rezervasyon."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Tesis içi araç park alanı."
+    },
+    {
+      "title": "Marmaris merkeze yakın",
+      "body": "Marmaris çarşı ve marina 20 dakika."
+    },
+    {
+      "title": "Sessiz koy konumu",
+      "body": "Kızkumu'nun sakin atmosferinde huzurlu tatil."
+    }
+  ],
+  "contact": {
+    "phone": "+90 544 677 19 84",
+    "whatsapp": "905446771984",
+    "email": "",
+    "address": "Kızkumu, Marmaris, Muğla",
+    "instagram": "pashabungalows"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/pashabungalows/"
+  ]
+}
