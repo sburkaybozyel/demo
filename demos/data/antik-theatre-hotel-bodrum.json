@@ -1,0 +1,75 @@
+{
+  "name": "Antik Theatre Hotel",
+  "slug": "antik-theatre-hotel-bodrum",
+  "location": "Bodrum Kalesi Karşısı, Bodrum, Muğla",
+  "eyebrow": "Bodrum Kalesi Karşısı, Muğla",
+  "headline": "Bodrum'un tarihiyle, denizin huzuruyla.",
+  "description": "Antik Theatre Hotel; Bodrum Kalesi'nin hemen karşısında, antik tiyatroya nazır konumuyla şehrin en ikonik noktasında yer alır. Beyaz Ege mimarisi, deniz manzaralı teras ve butik hizmet anlayışıyla fark yaratır.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Bodrum Kalesi manzarası",
+      "body": "Neredeyse her odadan ve açık terastan Bodrum Kalesi ve limanın panoramik görünümü."
+    },
+    {
+      "title": "Antik tiyatro konumu",
+      "body": "MÖ 4. yüzyıldan kalma antik tiyatronun tam karşısında — tarihle iç içe konaklama."
+    },
+    {
+      "title": "Merkezi butik hizmet",
+      "body": "Bodrum çarşı, marina ve restoranlarına yürüyüş mesafesinde, kişisel ve sıcak karşılama."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Kale manzaralı teras",
+      "body": "Gün batımını Bodrum Kalesi siluetiyle izleyebileceğiniz açık teras."
+    },
+    {
+      "title": "Açık yüzme havuzu",
+      "body": "Bahçede yer alan serinletici açık havuz."
+    },
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Her sabah odanıza ya da terasınıza servis edilen Ege kahvaltısı."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Bodrum limanı, çarşı ve restoranlara 5 dakika yürüyüş."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Direkt iletişim — platform olmadan, komisyonsuz rezervasyon."
+    },
+    {
+      "title": "Transfer hizmeti",
+      "body": "Milas-Bodrum Havalimanı transfer organizasyonu."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm odalarda ve ortak alanlarda yüksek hızlı internet."
+    },
+    {
+      "title": "Concierge hizmeti",
+      "body": "Tekne turu, dalış ve çevre gezi organizasyonu."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 316 60 53",
+    "whatsapp": "902523166053",
+    "email": "",
+    "address": "Tepecik Cd. No:243, Bodrum, Muğla",
+    "instagram": "antiktheatrehotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/antiktheatrehotel/"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Longoz Orman Otel",
+  "slug": "longoz-orman-otel",
+  "location": "Orhaniye, Marmaris, Muğla",
+  "eyebrow": "Orhaniye Koyu, Marmaris",
+  "headline": "Ormana gömülü, denize adım başı.",
+  "description": "Longoz Orman Otel; Marmaris'in sakin Orhaniye koyunda, çam ormanının içinde, denize sıfır konumuyla eşsiz bir doğa kaçamağı sunar. Koyun berrak sularında yüzme ve orman yürüyüşlerinin adresi.",
+  "type": "Butik Otel",
+  "heroImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Orman içi konum",
+      "body": "Çam ormanının gölgesinde, doğayla iç içe bungalov ve odalar — şehrin gürültüsünden tam kopuş."
+    },
+    {
+      "title": "Özel koy ve yüzme",
+      "body": "Orhaniye'nin berrak, sakin koyunda özel platform ve denize direkt erişim."
+    },
+    {
+      "title": "Tekne turları",
+      "body": "Marmaris koylarını keşfeden günlük tekne turlarına kolay erişim noktasında."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Denize sıfır platform",
+      "body": "Odalardan ya da ortak alandan doğrudan denize girebileceğiniz tahta platform."
+    },
+    {
+      "title": "Orman yürüyüş parkuru",
+      "body": "Tesisin hemen çevresindeki doğal orman parkurlarına çıkış imkânı."
+    },
+    {
+      "title": "Açık restoran",
+      "body": "Deniz manzaralı açık alanda taze deniz ürünleri ve Ege mutfağı."
+    },
+    {
+      "title": "Kayak & kano kiralama",
+      "body": "Koyda bağımsız gezinti için ekipman kiralama imkânı."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Direkt iletişim, komisyon yok — müsaitlik için hemen yazın."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Tesisin çevresinde geniş araç park alanı."
+    },
+    {
+      "title": "Wi-Fi",
+      "body": "Tüm tesiste internet bağlantısı."
+    },
+    {
+      "title": "Çocuk dostu",
+      "body": "Sığ koy ve güvenli orman alanıyla aileler için ideal."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 455 30 33",
+    "whatsapp": "902524553033",
+    "email": "",
+    "address": "Orhaniye Köyü, Marmaris, Muğla",
+    "instagram": "longozotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/longozotel/"
+  ]
+}

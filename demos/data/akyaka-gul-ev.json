@@ -1,0 +1,75 @@
+{
+  "name": "Akyaka Gül Ev",
+  "slug": "akyaka-gul-ev",
+  "location": "Akyaka, Muğla",
+  "eyebrow": "Akyaka, Muğla",
+  "headline": "Akyaka'nın sessiz kalbinde huzurlu konaklama.",
+  "description": "Akyaka Gül Ev; Ege'nin rüzgar cenneti Akyaka'da, doğayla iç içe, sade ve samimi bir pansiyon deneyimi sunar. Sörf, doğa yürüyüşü ve Azmak Nehri keyfini konakladığınız yerden yaşarsınız.",
+  "type": "Pansiyon",
+  "heroImage": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1400&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1545579133-99bb5ad189be?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Azmak Nehri'ne yürüme mesafesi",
+      "body": "Türkiye'nin en temiz nehirlerinden Azmak, evin hemen yakınında — sabah yüzüşü için ideal."
+    },
+    {
+      "title": "Ev yapımı Ege kahvaltısı",
+      "body": "Her sabah taze söylemeli, organik ürünlerle hazırlanan, Ege sofrasının tüm zenginliği."
+    },
+    {
+      "title": "Sörf ve kite noktasına yakın",
+      "body": "Akyaka dünyaca ünlü rüzgar koridoru — sörf ekipmanı kiralama noktalarına 5 dakika."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Bahçe & teras",
+      "body": "Güllerin çevrelediği geniş bahçe ve gün batımı terası."
+    },
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Konaklama fiyatına dahil ev yapımı Ege kahvaltısı."
+    },
+    {
+      "title": "Ücretsiz otopark",
+      "body": "Araçla gelen misafirler için kapalı otopark imkânı."
+    },
+    {
+      "title": "Bisiklet kiralama",
+      "body": "Akyaka sokaklarını keşfetmek için günlük bisiklet kiralama."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek mesajla müsaitlik öğren, anında rezervasyon yap."
+    },
+    {
+      "title": "Evcil hayvan dostu",
+      "body": "Küçük dostlarınızla birlikte konaklamak için özel alan."
+    },
+    {
+      "title": "Hava koşulsuz Wi-Fi",
+      "body": "Tüm odalarda ve bahçede hızlı internet bağlantısı."
+    },
+    {
+      "title": "Çevre rehberliği",
+      "body": "Akyaka, Göcek, Datça rotaları için yerel öneriler."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 243 52 10",
+    "whatsapp": "902522435210",
+    "email": "",
+    "address": "Akyaka, Ula, Muğla",
+    "instagram": "akyakagulev"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/akyakagulev/"
+  ]
+}
