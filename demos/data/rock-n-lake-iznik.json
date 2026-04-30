@@ -1,0 +1,77 @@
+{
+  "name": "Rock n' Lake İznik",
+  "slug": "rock-n-lake-iznik",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Müşküle Mah., İznik / Bursa",
+  "eyebrow": "İznik, Bursa",
+  "headline": "İznik Gölü kıyısında, doğayla iç içe modern tiny house deneyimi.",
+  "description": "Rock n' Lake; İznik Gölü'nün eşsiz manzarasında, modern ve bohem tasarımlı tiny house seçenekleri, jakuzili teraslar ve ateş çukurları ile unutulmaz bir inziva deneyimi sunuyor.",
+  "type": "Bungalov & Tiny House",
+  "heroImage": "https://images.unsplash.com/photo-1587061949733-762374230418?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1500&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1587061949733-762374230418?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1542718610-a1d656d1884c?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1493246507139-91e8bef99c1e?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Göl Kenarı Konum",
+      "body": "İznik Gölü'nün huzur veren manzarasına sıfır veya çok yakın mesafede konaklama."
+    },
+    {
+      "title": "Modern & Bohem Tasarım",
+      "body": "Modern House, Boheme House ve Exclusive House gibi farklı konseptlerle şık bir atmosfer."
+    },
+    {
+      "title": "Özel Deneyimler",
+      "body": "Jakuzi, şömine, ateş çukuru ve panoramik manzaralı teraslar ile lüks detaylar."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Jakuzi & Şömine",
+      "body": "Keyifli akşamlar için odalarda jakuzi ve şömine seçenekleri mevcuttur."
+    },
+    {
+      "title": "Ateş Çukuru",
+      "body": "Her evin kendine özel bahçesinde ateş çukuru ve barbekü alanı."
+    },
+    {
+      "title": "Akıllı TV & Wi-Fi",
+      "body": "Doğada bile dijital dünyadan kopmak istemeyenler için yüksek hızda internet."
+    },
+    {
+      "title": "Mutfak Ekipmanı",
+      "body": "Kendi yemeğinizi hazırlayabileceğiniz tam donanımlı mini mutfak."
+    },
+    {
+      "title": "Klima & Isıtma",
+      "body": "Dört mevsim konforlu konaklama için modern ısıtma ve soğutma sistemleri."
+    },
+    {
+      "title": "ATV Turu",
+      "body": "Bölgeyi keşfetmek isteyenler için tesis bünyesinde ücretli ATV hizmeti."
+    },
+    {
+      "title": "WhatsApp Rezervasyon",
+      "body": "İşletme ile doğrudan ve hızlı iletişim, kolay rezervasyon süreci."
+    },
+    {
+      "title": "Evcil Hayvan Dostu",
+      "body": "Bazı birimlerde evcil hayvan kabulü ile dostlarınızdan ayrılmanıza gerek yok."
+    }
+  ],
+  "contact": {
+    "phone": "+90 532 258 49 58",
+    "whatsapp": "905322584958",
+    "email": "",
+    "address": "Müşküle Mah., Gemlik - İznik Yolu, İznik / Bursa",
+    "instagram": "rocknlake"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/rocknlake/",
+    "https://www.otelz.com/otel/rock-n-lake-iznik"
+  ]
+}

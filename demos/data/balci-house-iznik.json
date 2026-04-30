@@ -1,0 +1,77 @@
+{
+  "name": "Balcı House İznik",
+  "slug": "balci-house-iznik",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mustafalı Köyü, İznik / Bursa",
+  "eyebrow": "İznik, Bursa",
+  "headline": "Çam ormanlarının içinde, havuzlu ve şömineli müstakil bir sığınak.",
+  "description": "Balcı House; İznik'in Mustafalı Köyü yaylalarında, doğayla baş başa, ısıtmalı havuzu ve odunlu şöminesiyle huzur dolu bir villa konaklama deneyimi sunuyor.",
+  "type": "Müstakil Villa",
+  "heroImage": "https://images.unsplash.com/photo-1600585154340-be6191cb9591?auto=format&fit=crop&w=1800&q=80",
+  "featureImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1500&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1600585154340-be6191cb9591?auto=format&fit=crop&w=1800&q=80",
+    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80"
+  ],
+  "features": [
+    {
+      "title": "Doğa İçinde İzole",
+      "body": "İznik merkeze 15 km uzaklıkta, çam ormanları ve yayla havası içinde tam mahremiyet."
+    },
+    {
+      "title": "Isıtmalı Havuz & Jakuzi",
+      "body": "Dört mevsim keyif için 3x5 metre ısıtmalı havuz ve yorgunluk atan jakuzi imkanı."
+    },
+    {
+      "title": "Şömineli Sıcak Atmosfer",
+      "body": "Oturma odasında yer alan odunlu şömine sobası ile otantik ve sıcak bir kış tatili."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "4-8 Kişilik Kapasite",
+      "body": "Geniş aileler and arkadaş grupları için uygun, konforlu konaklama alanları."
+    },
+    {
+      "title": "Tam Donanımlı Mutfak",
+      "body": "Fırın, ocak, kahve makinesi ve tüm mutfak araç gereçleri ile ev konforu."
+    },
+    {
+      "title": "Barbekü Alanı",
+      "body": "Bahçede yer alan barbekü ve açık hava yemek alanı ile keyifli akşamlar."
+    },
+    {
+      "title": "Ses Sistemi & Kütüphane",
+      "body": "Soundbar ses sistemi ve zengin kütüphane ile kaliteli vakit geçirme imkanı."
+    },
+    {
+      "title": "Klima & Isıtma",
+      "body": "Her odada bulunan klimalar ile her mevsim ideal sıcaklık."
+    },
+    {
+      "title": "Bakanlık Onaylı",
+      "body": "T.C. Kültür ve Turizm Bakanlığı Konut İzin Belgesi ile güvenilir konaklama."
+    },
+    {
+      "title": "WhatsApp Rezervasyon",
+      "body": "Hızlı iletişim ve rezervasyon süreci için doğrudan WhatsApp erişimi."
+    },
+    {
+      "title": "Doğa Yürüyüşleri",
+      "body": "Tesisin etrafındaki çam ormanlarında temiz hava eşliğinde yürüyüş yolları."
+    }
+  ],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mustafalı Köyü, İznik / Bursa",
+    "instagram": "balcihouse"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/balcihouse/",
+    "https://www.airbnb.com.tr/rooms/49842600"
+  ]
+}
