@@ -1,0 +1,76 @@
+{
+  "name": "Hasırcı Konakları",
+  "slug": "hasirci-konaklari",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Hatuniye Mahallesi, Amasya",
+  "eyebrow": "Yeşilırmak kıyısı, Amasya",
+  "headline": "Tarihi konakta modern konfor.",
+  "description": "Hasırcı Konakları; Amasya'nın tarihi Hatuniye Mahallesi'nde, Yeşilırmak kıyısında, restore edilmiş tarihi yapısıyla misafirlerine otantik bir konak deneyimi sunan butik bir konaklama tesisidir.",
+  "type": "Konak konaklama",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Yeşilırmak kıyısında",
+      "body": "Amasya'nın simgesi Yeşilırmak'a nazır, tarihi Hatuniye Mahallesi'nde eşsiz bir konum."
+    },
+    {
+      "title": "Otantik konak mimarisi",
+      "body": "Restore edilmiş tarihi yapısı ve özgün dekor detaylarıyla gerçek bir Osmanlı konak deneyimi."
+    },
+    {
+      "title": "Tarihe yakın",
+      "body": "Amasya kalesi, Pontus kaya mezarları ve tüm gezilecek noktalara yürüme mesafesinde."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Odalardan Yeşilırmak ve tarihi konak manzarası eşliğinde huzurlu konaklama."
+    },
+    {
+      "title": "Kahvaltı",
+      "body": "Geleneksel Türk kahvaltısıyla güne taze ve enerjik başlayın."
+    },
+    {
+      "title": "Tarihi mimari",
+      "body": "Özgün Osmanlı dönemi ahşap işçiliği ve restore edilmiş tarihi yapı."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Hatuniye Mah. Hazeranlar Sk. No:53 — Amasya'nın tam kalbinde."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda hızlı ve ücretsiz internet bağlantısı."
+    },
+    {
+      "title": "Sakin atmosfer",
+      "body": "Tarihi sokakların huzurunda, şehrin gürültüsünden uzak dinlendirici konaklama."
+    },
+    {
+      "title": "Fotoğraf cenneti",
+      "body": "Her köşesi fotoğraf karesi olan tarihi Amasya sokaklarında unutulmaz anlar."
+    }
+  ],
+  "contact": {
+    "phone": "+90 358 218 00 59",
+    "whatsapp": "903582180059",
+    "email": "",
+    "address": "Hatuniye Mah. Hazeranlar Sk. No:53, Amasya",
+    "instagram": "hasircikonaklari"
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Hasirci-Konaklari"
+  ]
+}

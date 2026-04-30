@@ -1,0 +1,76 @@
+{
+  "name": "Semay Otel",
+  "slug": "semay-otel-amasya",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Hatuniye Mahallesi, Amasya",
+  "eyebrow": "Hatuniye Mahallesi, Amasya",
+  "headline": "Amasya'nın kalbinde huzurlu konaklama.",
+  "description": "Semay Otel; Amasya'nın tarihi Hatuniye Mahallesi'nde, Yeşilırmak manzarasına yakın, 11 odası ve kahvaltı dahil hizmetiyle misafirlerine konforlu ve merkezi bir konaklama sunan butik otel.",
+  "type": "Butik otel",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Semay-Otel/Semay-Otel-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Tarihi Hatuniye'de",
+      "body": "Amasya'nın en güzel mahallelerinden Hatuniye'de, tarihe ve doğaya yakın konum."
+    },
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Ücretsiz Wi-Fi ve kahvaltı dahil; tüm ihtiyaçlarınız karşılanmış şekilde konaklamanın tadını çıkarın."
+    },
+    {
+      "title": "11 konforlu oda",
+      "body": "Şehir manzaralı, modern donanımlı 11 odada rahat ve huzurlu bir konaklama."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Her sabah zengin Türk kahvaltısı ile güne enerjik başlayın."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda hızlı ve ücretsiz internet bağlantısı."
+    },
+    {
+      "title": "Şehir manzarası",
+      "body": "Odalardan Amasya'nın tarihi silueti ve şehir manzarası."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Hatuniye Mah. Hazeranlar Sk. No:23/A — tarihi mekanlara yürüme mesafesi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve konforlu odalar."
+    },
+    {
+      "title": "Sakin atmosfer",
+      "body": "Tarihi sokakların huzurunda, şehrin gürültüsünden uzak dinlendirici konaklama."
+    },
+    {
+      "title": "Tarihe yakın",
+      "body": "Amasya kalesi, Yeşilırmak ve tüm tarihi noktalara yürüme mesafesinde."
+    }
+  ],
+  "contact": {
+    "phone": "+90 358 222 05 10",
+    "whatsapp": "903582220510",
+    "email": "",
+    "address": "Hatuniye Mah. Hazeranlar Sk. No:23/A, Amasya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Semay-Otel"
+  ]
+}
