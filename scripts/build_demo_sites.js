@@ -466,7 +466,7 @@ const CSS = `
 
 function resolveImg(src, depth) {
   if (!src) return src;
-  if (/^https?:\/\//.test(src)) return src;
+  if (/^(https?:)?\/\//.test(src) || src.startsWith("/demo/")) return src;
   return "/demo/" + src;
 }
 
