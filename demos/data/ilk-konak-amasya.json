@@ -1,0 +1,76 @@
+{
+  "name": "İlk Konak Butik Otel",
+  "slug": "ilk-konak-amasya",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Amasya Merkez",
+  "eyebrow": "Tarihi Merkez, Amasya",
+  "headline": "200 yıllık konakta otantik deneyim.",
+  "description": "İlk Konak Butik Otel; Amasya'nın tarihi merkezinde, 200 yıllık restore edilmiş bir konakta, geleneksel dekor ve modern konforuyla misafirlerine özgün bir konaklama deneyimi sunan butik bir otel.",
+  "type": "Butik otel",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Ilk-Konak-Butik-Otel/Ilk-Konak-Butik-Otel-Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "200 yıllık tarihi konak",
+      "body": "Orijinal ahşap unsurları ve geleneksel dekorasyonuyla titizlikle restore edilmiş tarihi yapı."
+    },
+    {
+      "title": "Otantik odalar",
+      "body": "Geleneksel süslemeler ve modern konforun buluştuğu, tarihin izlerini taşıyan özel odalar."
+    },
+    {
+      "title": "Her yere yürüme mesafesi",
+      "body": "Hazeranlar Konağı, Pontus Kral Kaya Mezarları ve tüm tarihi noktalara yürüme mesafesinde."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Tarihi mimari",
+      "body": "200 yıllık özgün ahşap işçiliği ve restore edilmiş geleneksel konak yapısı."
+    },
+    {
+      "title": "Kahvaltı dahil",
+      "body": "Her sabah geleneksel Türk kahvaltısıyla güne enerjik başlayın."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda hızlı ve ücretsiz internet bağlantısı."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Amasya'nın tarihi merkezinde, tüm gezilecek noktalara yürüme mesafesi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Otantik dekor",
+      "body": "Geleneksel Amasya konak dekorasyonu ile tarihi bir atmosferde konaklama."
+    },
+    {
+      "title": "Sakin atmosfer",
+      "body": "Tarihi sokakların huzurunda, şehrin gürültüsünden uzak dinlendirici konaklama."
+    },
+    {
+      "title": "Fotoğraf cenneti",
+      "body": "Her köşesi fotoğraf karesi olan tarihi Amasya sokaklarında unutulmaz anlar."
+    }
+  ],
+  "contact": {
+    "phone": "+90 501 153 62 77",
+    "whatsapp": "905011536277",
+    "email": "",
+    "address": "Amasya Merkez",
+    "instagram": "ilk.konak.butikotelcafe"
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Ilk-Konak-Butik-Otel"
+  ]
+}
