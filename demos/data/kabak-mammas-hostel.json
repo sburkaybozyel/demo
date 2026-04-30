@@ -1,0 +1,77 @@
+{
+  "name": "Kabak Mamma's Hostel",
+  "slug": "kabak-mammas-hostel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Kabak Koyu, Fethiye / Muğla",
+  "eyebrow": "Kabak Koyu, Fethiye",
+  "headline": "Kabak Koyu'nda hostel konaklaması için direkt rezervasyon vitrini.",
+  "description": "Kabak Mamma's Hostel için hazırlanan bu taslak; hostel deneyimini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
+  "type": "Hostel",
+  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/eaa00f5e-d56d-498a-b24e-030ea0f3bc1a.jpg",
+  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b0424008-2f6a-4ed9-ab7e-06263b9a4849.jpg",
+  "gallery": [
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/eaa00f5e-d56d-498a-b24e-030ea0f3bc1a.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b0424008-2f6a-4ed9-ab7e-06263b9a4849.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/0a880f83-9c99-45c5-a769-0f49152336e1.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/56e638b8-336a-46af-b5e8-6bcfddef28c3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Kabak Koyu konumu",
+      "body": "Misafirlerin konum, ulaşım ve rezervasyon bilgilerine tek sayfada ulaşmasını sağlar."
+    },
+    {
+      "title": "Hostel deneyimi",
+      "body": "Konaklama yapısı, görseller ve temel imkanlar net bir vitrinle sunulur."
+    },
+    {
+      "title": "Doğrudan rezervasyon",
+      "body": "WhatsApp bağlantısıyla misafir aracı platform olmadan işletmeye ulaşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Hostel",
+      "body": "Uygun, sade ve sosyal konaklama arayan misafir için net kategori."
+    },
+    {
+      "title": "Kabak Koyu",
+      "body": "Fethiye'nin güçlü tatil rotalarından biri için konum vurgusu."
+    },
+    {
+      "title": "Galeri",
+      "body": "Misafirin kararını hızlandıran görsel alan."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Müsaitlik sorusu ve ön rezervasyon için direkt kanal."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram'dan gelen kullanıcı için hızlı açılan sayfa."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico bağlantısı final yayında eklenebilir."
+    },
+    {
+      "title": "Google görünürlüğü",
+      "body": "Kendi site linkiyle marka aramalarını karşılar."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Platformlara bağımlılığı azaltan direkt rezervasyon yolu."
+    }
+  ],
+  "contact": {
+    "phone": "+90 555 604 31 90",
+    "whatsapp": "905556043190",
+    "email": "",
+    "address": "Kabak Koyu, Fethiye / Muğla",
+    "instagram": "kabakmammas"
+  },
+  "sourceLinks": [
+    "https://instagram.com/kabakmammas",
+    "https://www.fethiyetatilkonaklama.com/otel-hotel-hostel-butik-otel/kabak-mammas-hostel-2135"
+  ]
+}

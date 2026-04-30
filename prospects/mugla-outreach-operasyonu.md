@@ -184,8 +184,8 @@
 
 | # | İşletme | İlçe/Bölge | Telefon | Instagram | Demo | Durum |
 |---|---------|------------|---------|-----------|------|-------|
-| 1 | Aşiyan Kamp 7/24 | Fethiye / Kabak Koyu | 0537 375 91 41 | @kabakasiyan | [link](https://sburkaybozyel.github.io/demo/asiyan-kamp-724/) | ✅ |
-| 2 | Bağ Camp Kabak | Fethiye / Kabak Koyu | 0532 553 04 48 | @bagcampkabak | [link](https://sburkaybozyel.github.io/demo/bag-camp-kabak/) | ✅ |
-| 3 | Tan Pansiyon Fethiye | Fethiye | 0505 592 59 48 | @Tanpansiyonfethiye | [link](https://sburkaybozyel.github.io/demo/tan-pansiyon-fethiye/) | ✅ |
-| 4 | Dove Apart Hotel | Fethiye / Çalış | 0536 743 10 21 | @dove____hotel | [link](https://sburkaybozyel.github.io/demo/dove-apart-hotel/) | ✅ |
-| 5 | Asgard Camping & Bungalov Otel | Fethiye | 0543 673 15 31 | @Asgardcamping | [link](https://sburkaybozyel.github.io/demo/asgard-camping-bungalov-otel/) | ✅ |
+| 1 | Kabak Mamma's Hostel | Fethiye / Kabak Koyu | 0555 604 31 90 | @kabakmammas | [link](https://sburkaybozyel.github.io/demo/kabak-mammas-hostel/) | ✅ |
+| 2 | Tan Pansiyon Fethiye | Fethiye / Karagözler | 0505 592 59 48 | @Tanpansiyonfethiye | [link](https://sburkaybozyel.github.io/demo/tan-pansiyon-fethiye/) | ✅ |
+| 3 | Dove Apart Hotel | Fethiye / Çalış | 0536 743 10 21 | @dove____hotel | [link](https://sburkaybozyel.github.io/demo/dove-apart-hotel/) | ✅ |
+| 4 | Kılınç Apart | Fethiye | 0554 543 25 15 | @kilincticaret48 | [link](https://sburkaybozyel.github.io/demo/kilinc-apart/) | ✅ |
+| 5 | Alesta Midtown | Fethiye | 0552 632 35 34 | @alestamidtown | [link](https://sburkaybozyel.github.io/demo/alesta-midtown/) | ✅ |

@@ -1,0 +1,77 @@
+{
+  "name": "Kılınç Apart",
+  "slug": "kilinc-apart",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Fethiye / Muğla",
+  "eyebrow": "Fethiye, Muğla",
+  "headline": "Fethiye'de apart konaklama için direkt rezervasyon sayfası.",
+  "description": "Kılınç Apart için hazırlanan bu taslak; apart konaklama bilgilerini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada sunar.",
+  "type": "Apart",
+  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/dbbe2df9-1ea0-460d-83c9-1aa0a26f5f5c.jpg",
+  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/4d70ea39-bb12-4b44-8076-4d21377680f8.jpg",
+  "gallery": [
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/dbbe2df9-1ea0-460d-83c9-1aa0a26f5f5c.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/4d70ea39-bb12-4b44-8076-4d21377680f8.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b7081a93-3e6c-4cc0-9788-766028edf5a5.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/b044e3d8-3cf1-4fcc-9655-3d7553fc9f2d.jpg"
+  ],
+  "features": [
+    {
+      "title": "Fethiye apart aramalarına uygun",
+      "body": "Konum, oda ve iletişim bilgilerini tek sayfada görünür hale getirir."
+    },
+    {
+      "title": "Aile ve uzun konaklama odağı",
+      "body": "Apart konaklama arayan misafire sade ve anlaşılır bir vitrin sunar."
+    },
+    {
+      "title": "Doğrudan rezervasyon",
+      "body": "Misafir, WhatsApp üzerinden aracı olmadan işletmeye ulaşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Apart",
+      "body": "Fethiye'de apart konaklama arayan misafir için net kategori."
+    },
+    {
+      "title": "Galeri",
+      "body": "Tesis görselleri karar sürecini hızlandırır."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek tıkla müsaitlik ve fiyat bilgisi sorulur."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Sosyal medya trafiği için hızlı ve sade görünüm."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico ile ödeme akışı kurulabilir."
+    },
+    {
+      "title": "Google görünürlüğü",
+      "body": "Kendi site linki marka aramasını karşılar."
+    },
+    {
+      "title": "Komisyonsuz rezervasyon",
+      "body": "Booking/Airbnb dışı direkt satış kanalı."
+    },
+    {
+      "title": "7 gün teslim",
+      "body": "Taslak onaylandıktan sonra yayına hazır hale gelir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 554 543 25 15",
+    "whatsapp": "905545432515",
+    "email": "",
+    "address": "Fethiye / Muğla",
+    "instagram": "kilincticaret48"
+  },
+  "sourceLinks": [
+    "https://instagram.com/kilincticaret48",
+    "https://www.fethiyetatilkonaklama.com/apart-oteler/kilinc-apart-3203"
+  ]
+}
