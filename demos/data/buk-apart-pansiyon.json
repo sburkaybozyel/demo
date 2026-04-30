@@ -1,0 +1,78 @@
+{
+  "name": "Bük Apart Pansiyon",
+  "slug": "buk-apart-pansiyon",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Palamutbükü, Datça / Muğla",
+  "eyebrow": "Palamutbükü, Datça",
+  "headline": "Palamutbükü'nde apart pansiyon için sade rezervasyon sayfası.",
+  "description": "Bük Apart Pansiyon için hazırlanan bu taslak; oda bilgilerini, tesis görsellerini ve doğrudan iletişim akışını tek sayfada toplar.",
+  "type": "Apart Pansiyon",
+  "heroImage": "/demo/assets/prospects/buk-apart-pansiyon-01.jpg",
+  "featureImage": "/demo/assets/prospects/buk-apart-pansiyon-02.jpg",
+  "gallery": [
+    "/demo/assets/prospects/buk-apart-pansiyon-01.jpg",
+    "/demo/assets/prospects/buk-apart-pansiyon-02.jpg",
+    "/demo/assets/prospects/buk-apart-pansiyon-03.jpg",
+    "/demo/assets/prospects/buk-apart-pansiyon-04.jpg"
+  ],
+  "features": [
+    {
+      "title": "Palamutbükü konumu",
+      "body": "Konum ve tesis bilgilerini tek sayfada net şekilde gösterir."
+    },
+    {
+      "title": "Apart pansiyon anlatımı",
+      "body": "Oda, bahçe ve sahil yakınlığı gibi karar verdiren detayları öne çıkarır."
+    },
+    {
+      "title": "Doğrudan iletişim",
+      "body": "Misafir, aracı sayfada kaybolmadan işletmeye ulaşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Apart pansiyon",
+      "body": "Aile ve uzun konaklama arayan misafir için uygun kategori."
+    },
+    {
+      "title": "Galeri",
+      "body": "Tesis görselleri karar sürecini hızlandırır."
+    },
+    {
+      "title": "Palamutbükü",
+      "body": "Datça tatili arayan misafir için güçlü lokasyon."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram trafiği için hızlı açılan taslak."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tarih ve kişi sayısı için hızlı ön talep."
+    },
+    {
+      "title": "Direkt rezervasyon",
+      "body": "Aracı olmadan işletmeye doğrudan ulaşım."
+    },
+    {
+      "title": "Sade içerik",
+      "body": "Oda, konum ve fotoğraflar tek yerde."
+    },
+    {
+      "title": "Yayına hazır",
+      "body": "Onay sonrası işletmeye özel hale getirilebilir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 725 51 36",
+    "whatsapp": "902527255136",
+    "email": "",
+    "address": "Palamutbükü Mah. No:122, Datça / Muğla",
+    "instagram": "bukapart"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/bukapart/",
+    "https://www.tumisyeri.com/b%C3%BCk-apart-pansiyon_38-0252-725-51-36",
+    "https://www.tatilofisi.com/oteller-bilgi/Buk-Pansiyon-Datca-Palamutbuku.html"
+  ]
+}
