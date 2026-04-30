@@ -1,0 +1,76 @@
+{
+  "name": "Nil Konaklama Sapanca",
+  "slug": "nil-konaklama-sapanca",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Sapanca",
+  "eyebrow": "Sapanca",
+  "headline": "Doğanın kalbinde huzurlu konaklama.",
+  "description": "Nil Konaklama Sapanca; ısıtmalı özel havuzu, geniş bahçesi ve konforlu iç mekanlarıyla aile ve arkadaş gruplarına unutulmaz bir tatil deneyimi sunan villa konaklama alanı.",
+  "type": "Villa konaklama",
+  "heroImage": "https://imgservice.rentbyowner.com/680x408/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-0.jpg",
+  "featureImage": "https://imgservice.rentbyowner.com/500x325/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-1.jpg",
+  "gallery": [
+    "https://imgservice.rentbyowner.com/500x325/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-2.jpg",
+    "https://imgservice.rentbyowner.com/500x325/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-3.jpg",
+    "https://imgservice.rentbyowner.com/500x325/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-4.jpg",
+    "https://imgservice.rentbyowner.com/680x408/vira-villa-nil-konakla-tr-sapanca-ha-61111728975-0.jpg"
+  ],
+  "features": [
+    {
+      "title": "Isıtmalı özel havuz",
+      "body": "Dört mevsim kullanılabilen ısıtmalı özel havuzla her mevsimde tatil keyfi."
+    },
+    {
+      "title": "Geniş ve özel alan",
+      "body": "Komşulardan tamamen bağımsız, geniş bahçesi ve özel alanıyla huzurlu tatil."
+    },
+    {
+      "title": "Konforlu iç mekan",
+      "body": "Büyük aile ve gruplar için uygun, geniş ve donanımlı yaşam alanı."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Isıtmalı havuz",
+      "body": "Kış aylarında bile kullanılabilen ısıtmalı özel yüzme havuzu."
+    },
+    {
+      "title": "Özel bahçe",
+      "body": "Geniş ve bakımlı özel bahçe alanı, barbekü imkanı."
+    },
+    {
+      "title": "Donanımlı mutfak",
+      "body": "Tüm ekipmanlarıyla tam donanımlı mutfak; kendi yemeğinizi pişirme konforu."
+    },
+    {
+      "title": "Barbekü alanı",
+      "body": "Açık havada mangal ve barbekü keyfi için hazır alan."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Sapanca, Sakarya — İstanbul'a yakın, doğanın içinde huzurlu tatil noktası."
+    },
+    {
+      "title": "Temiz ve bakımlı",
+      "body": "Her konaklamada titizlikle hazırlanan, hijyenik ve bakımlı villa."
+    },
+    {
+      "title": "Aile dostu",
+      "body": "Güvenli bahçe ve geniş alanıyla aileler için mükemmel tatil ortamı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 532 379 85 97",
+    "whatsapp": "905323798597",
+    "email": "",
+    "address": "Sapanca, Sakarya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://savibu.org.tr/ilan/nil-konaklama-sapanca"
+  ]
+}
