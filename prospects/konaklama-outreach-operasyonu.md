@@ -74,8 +74,8 @@
 
 | # | İşletme | Telefon | Instagram | Demo | Durum |
 |---|---------|---------|-----------|------|-------|
-| 3 | Elysium Sapanca | 0530 521 58 96 | | ⬜ | ⬜ |
-| 4 | Villa Azul & Verde | 0501 480 49 54 | | ⬜ | ⬜ |
+| 3 | Elysium Sapanca | 0530 521 58 96 | | [link](https://sburkaybozyel.github.io/demo/elysium-sapanca) | ✅ |
+| 4 | Villa Azul & Verde | 0501 480 49 54 | | [link](https://sburkaybozyel.github.io/demo/villa-azul-verde) | ✅ |
 | 5 | Nailiye Sapanca Dağ Evleri | 0532 113 03 88 | | ⬜ | ⬜ |
 | 6 | Villa Uğur | 0530 497 88 02 | | ⬜ | ⬜ |
 | 7 | Yakut Villam | 0533 380 69 73 | | ⬜ | ⬜ |
@@ -235,9 +235,9 @@
 |---|---------|---------|-----------|------|-------|
 | 1 | Rock n' Lake İznik | +90 532 258 49 58 | @rocknlake | [link](https://sburkaybozyel.github.io/demo/rock-n-lake-iznik) | ✅ |
 | 2 | Balcı House İznik | +90 5XX XXX XX XX | @balcihouse | [link](https://sburkaybozyel.github.io/demo/balci-house-iznik) | ✅ |
-| 3 | Kuzeymen İznik | | @kuzeymeniznik | ⬜ | ⬜ |
-| 4 | La Cabaña İznik | | | ⬜ | ⬜ |
-| 5 | İznik Seyir Kamp | | | ⬜ | ⬜ |
+| 3 | Kuzeymen İznik | +90 542 297 47 48 | @kuzeymeniznik | [link](https://sburkaybozyel.github.io/demo/kuzeymen-iznik) | ✅ |
+| 4 | La Cabaña İznik | +90 507 524 14 14 | | [link](https://sburkaybozyel.github.io/demo/la-cabana-iznik) | ✅ |
+| 5 | İznik Seyir Kamp | +90 542 184 31 16 | | [link](https://sburkaybozyel.github.io/demo/iznik-seyir-kamp) | ✅ |
 
 ---
 

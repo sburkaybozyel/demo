@@ -1,0 +1,40 @@
+{
+  "name": "İznik Gökbayrak Bungalov",
+  "slug": "iznik-gokbayrak-bungalov",
+  "location": "İznik, Bursa",
+  "headline": "Doğanın kalbinde, göl manzaralı huzurlu bir kaçış noktası.",
+  "description": "Gökbayrak Bungalov; İznik'in eşsiz doğasında, sessizlik ve huzur arayanlar için tasarlanmış ahşap bungalovları ve samimi atmosferiyle unutulmaz bir konaklama deneyimi sunuyor.",
+  "type": "Bungalov & Doğa Evi",
+  "heroImage": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/206661/pexels-photo-206661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    {
+      "title": "Ahşap Mimari",
+      "body": "Doğal malzemelerle inşa edilmiş, nefes alan konforlu bungalovlar."
+    },
+    {
+      "title": "Göl Manzarası",
+      "body": "İznik Gölü'nün büyüleyici manzarasını günün her saati izleyebilirsiniz."
+    },
+    {
+      "title": "Sakinlik",
+      "body": "Şehrin gürültüsünden uzak, sadece kuş seslerinin olduğu bir ortam."
+    }
+  ],
+  "amenities": [
+    { "title": "Geniş Bahçe", "body": "Piknik ve dinlenme alanı." },
+    { "title": "Barbekü", "body": "Akşam keyfi için." },
+    { "title": "Isıtma", "body": "Kışın da sıcak konaklama." },
+    { "title": "Otopark", "body": "Ücretsiz park imkanı." }
+  ],
+  "contact": {
+    "phone": "İletişime Geçin",
+    "whatsapp": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Villa Azul & Verde",
+  "slug": "villa-azul-verde",
+  "location": "Sapanca",
+  "headline": "Yeşil ve mavinin buluştuğu noktada, butik bir kaçış hikayesi.",
+  "description": "Azul & Verde; doğanın içindeki huzurlu atmosferi, havuzu ve özenle dekore edilmiş bungalovlarıyla misafirlerine sakin bir tatil vaat ediyor.",
+  "type": "Butik Villa & Bungalov",
+  "heroImage": "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    {
+      "title": "Butik Hizmet",
+      "body": "Sadece birkaç konaklama birimiyle, kişiye özel tatil deneyimi."
+    },
+    {
+      "title": "Geniş Bahçe",
+      "body": "Yürüyüş yapabileceğiniz, doğayı hissedebileceğiniz geniş peyzaj alanı."
+    },
+    {
+      "title": "Şömine Keyfi",
+      "body": "Kış aylarında bungalovun sıcaklığını artıran odun şöminesi."
+    }
+  ],
+  "amenities": [
+    { "title": "Yüzme Havuzu", "body": "Yazın serinleyin." },
+    { "title": "Otopark", "body": "Tesis bünyesinde." },
+    { "title": "Buzdolabı", "body": "Tüm mutfak gereçleri." },
+    { "title": "Kahvaltı", "body": "Opsiyonel yöresel." }
+  ],
+  "contact": {
+    "phone": "0501 480 49 54",
+    "whatsapp": "905014804954"
+  }
+}

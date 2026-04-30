@@ -1,0 +1,40 @@
+{
+  "name": "İznik Seyir Kamp",
+  "slug": "iznik-seyir-kamp",
+  "location": "Dırazali, İznik",
+  "headline": "Gölün mavisiyle yeşilin buluştuğu en geniş glamping ve kamp alanı.",
+  "description": "Seyir Kamp; İznik Gölü'nün kıyısında, geniş arazisi üzerinde bungalov, glamping çadır ve karavan konaklama seçenekleriyle doğaseverlere özgür bir tatil alanı sunuyor.",
+  "type": "Glamping & Kamp",
+  "heroImage": "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2666598/pexels-photo-2666598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    {
+      "title": "Geniş Sahil Şeridi",
+      "body": "İznik Gölü'nün en güzel plajlarından birine sahip, ferah bir konaklama alanı."
+    },
+    {
+      "title": "Çeşitli Konaklama",
+      "body": "Karavan, çadır veya bungalov; doğada nasıl konaklamak isterseniz."
+    },
+    {
+      "title": "Restoran & Kafe",
+      "body": "Tesis bünyesinde taze ve yöresel lezzetlerin sunulduğu bir mutfak."
+    }
+  ],
+  "amenities": [
+    { "title": "Plaj", "body": "Gölün tadını çıkarın." },
+    { "title": "Karavan Alanı", "body": "Elektrik ve su imkanı." },
+    { "title": "Ateş Alanı", "body": "Akşam kamp ateşi keyfi." },
+    { "title": "Duş & WC", "body": "Temiz ve düzenli ortak alan." }
+  ],
+  "contact": {
+    "phone": "+90 542 184 31 16",
+    "whatsapp": "905421843116"
+  }
+}

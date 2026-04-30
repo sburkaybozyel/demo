@@ -1,0 +1,40 @@
+{
+  "name": "İznik Villa Atasoy",
+  "slug": "iznik-villa-atasoy",
+  "location": "İznik",
+  "headline": "Ailenizle baş başa, lüks ve konforlu bir villa tatili.",
+  "description": "Villa Atasoy; İznik'in zeytin bahçeleri arasında, özel havuzu ve geniş yaşam alanlarıyla kalabalık aileler ve arkadaş grupları için ideal bir tatil villasıdır.",
+  "type": "Lüks Butik Villa",
+  "heroImage": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "gallery": [
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  ],
+  "features": [
+    {
+      "title": "Özel Havuz",
+      "body": "Sadece size özel korunaklı havuzda günün tadını çıkarın."
+    },
+    {
+      "title": "Geniş Bahçe",
+      "body": "Çocuklar için oyun alanı ve keyifli bir veranda."
+    },
+    {
+      "title": "Tam Donanımlı",
+      "body": "Bir evde ihtiyacınız olabilecek her şey en ince ayrıntısına kadar hazır."
+    }
+  ],
+  "amenities": [
+    { "title": "Özel Havuz", "body": "İzole ve hijyenik." },
+    { "title": "Tam Mutfak", "body": "Kendi yemeğinizi hazırlayın." },
+    { "title": "Klima", "body": "Yaz kış ideal ısı." },
+    { "title": "WiFi", "body": "Ücretsiz ve hızlı." }
+  ],
+  "contact": {
+    "phone": "İletişime Geçin",
+    "whatsapp": ""
+  }
+}
