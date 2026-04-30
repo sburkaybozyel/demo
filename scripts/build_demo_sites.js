@@ -15,7 +15,7 @@ function escapeHtml(value) {
 }
 
 function cssUrl(value) {
-  return String(value ?? "").replace(/["\\\n\r]/g, "");
+  return String(value ?? "").replace(/[()\\"'\n\r]/g, (match) => "\\" + match);
 }
 
 function slugSafe(value) {
@@ -149,7 +149,7 @@ if (firstHtml) {
 }
 
 const indexRows = built.map((property) => `
-      <a class="demo" href="/${property.slug}.html">
+      <a class="demo" href="${property.slug}.html">
         <strong>${escapeHtml(property.name)}</strong>
         <span>${escapeHtml(property.type || "Konaklama")} - ${escapeHtml(property.location)}</span>
       </a>`).join("");

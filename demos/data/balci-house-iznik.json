@@ -7,13 +7,13 @@
   "headline": "Çam ormanlarının içinde, havuzlu ve şömineli müstakil bir sığınak.",
   "description": "Balcı House; İznik'in Mustafalı Köyü yaylalarında, doğayla baş başa, ısıtmalı havuzu ve odunlu şöminesiyle huzur dolu bir villa konaklama deneyimi sunuyor.",
   "type": "Müstakil Villa",
-  "heroImage": "https://images.unsplash.com/photo-1600585154340-be6191cb9591?auto=format&fit=crop&w=1800&q=80",
-  "featureImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1500&q=80",
+  "heroImage": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "featureImage": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "gallery": [
-    "https://images.unsplash.com/photo-1600585154340-be6191cb9591?auto=format&fit=crop&w=1800&q=80",
-    "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80"
+    "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   ],
   "features": [
     {
@@ -32,7 +32,7 @@
   "amenities": [
     {
       "title": "4-8 Kişilik Kapasite",
-      "body": "Geniş aileler and arkadaş grupları için uygun, konforlu konaklama alanları."
+      "body": "Geniş aileler ve arkadaş grupları için uygun, konforlu konaklama alanları."
     },
     {
       "title": "Tam Donanımlı Mutfak",
