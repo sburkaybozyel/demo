@@ -7,13 +7,13 @@
   "headline": "Fethiye'de apart konaklama için direkt rezervasyon sayfası.",
   "description": "Kılınç Apart için hazırlanan bu taslak; apart konaklama bilgilerini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada sunar.",
   "type": "Apart",
-  "heroImage": "/demo/assets/prospects/kilinc-apart-local-02.jpg",
-  "featureImage": "/demo/assets/prospects/kilinc-apart-local-03.jpg",
+  "heroImage": "/demo/assets/prospects/kilinc-apart-clean-01.jpg",
+  "featureImage": "/demo/assets/prospects/kilinc-apart-clean-02.jpg",
   "gallery": [
-    "/demo/assets/prospects/kilinc-apart-local-02.jpg",
-    "/demo/assets/prospects/kilinc-apart-local-03.jpg",
-    "/demo/assets/prospects/kilinc-apart-local-04.jpg",
-    "/demo/assets/prospects/kilinc-apart-local-02.jpg"
+    "/demo/assets/prospects/kilinc-apart-clean-01.jpg",
+    "/demo/assets/prospects/kilinc-apart-clean-02.jpg",
+    "/demo/assets/prospects/kilinc-apart-clean-03.jpg",
+    "/demo/assets/prospects/kilinc-apart-clean-01.jpg"
   ],
   "features": [
     {
