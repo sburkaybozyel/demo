@@ -1,0 +1,76 @@
+{
+  "name": "Çetin Apart & Pansiyon",
+  "slug": "cetin-apart-pansiyon",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Fethiye Merkez / Muğla",
+  "eyebrow": "Fethiye Merkez",
+  "headline": "Fethiye merkezde apart ve pansiyon konaklaması için direkt rezervasyon sayfası.",
+  "description": "Çetin Apart & Pansiyon için hazırlanan bu taslak; apart ve pansiyon konaklama bilgisini, tesis görsellerini ve doğrudan iletişim akışını tek sayfada toplar.",
+  "type": "Apart & Pansiyon",
+  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+  "gallery": [
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg"
+  ],
+  "features": [
+    {
+      "title": "Fethiye merkez konumu",
+      "body": "Misafirlerin konum, oda ve iletişim bilgilerini tek sayfada görmesini sağlar."
+    },
+    {
+      "title": "Apart ve pansiyon yapısı",
+      "body": "Kısa tatil ve ekonomik konaklama arayan misafirler için net bir vitrin oluşturur."
+    },
+    {
+      "title": "Doğrudan iletişim",
+      "body": "Telefon ve WhatsApp üzerinden aracı olmadan rezervasyon ön talebi alınır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Apart",
+      "body": "Aile ve uzun konaklama arayan misafirler için uygun yapı."
+    },
+    {
+      "title": "Pansiyon",
+      "body": "Fethiye merkezde sade ve erişilebilir konaklama algısı."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Sahil, merkez ve ulaşım noktalarına erişim vurgusu."
+    },
+    {
+      "title": "Galeri",
+      "body": "Tesis görselleri karar sürecini hızlandırır."
+    },
+    {
+      "title": "Telefon iletişimi",
+      "body": "Misafir doğrudan işletmeye ulaşır."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Telefondan gelen ziyaretçiler için hızlı sayfa."
+    },
+    {
+      "title": "Direkt ödeme",
+      "body": "IBAN veya Iyzico bağlantısı eklenebilir."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Platform dışı rezervasyon alternatifi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 252 614 61 56",
+    "whatsapp": "902526146156",
+    "email": "",
+    "address": "Kesikkapı Mah. 509 Sk No.6, Fethiye / Muğla",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.fethiyetatilkonaklama.com/apart-oteler/cetin-apart-pansiyon-2168"
+  ]
+}

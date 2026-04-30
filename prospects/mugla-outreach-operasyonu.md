@@ -29,16 +29,12 @@
 
 ---
 
-## Mesaj Şablonu — Muğla Versiyonu
+## Mesaj Şablonu
 
-> Merhaba, ben Burkay. Mobil uygulama ve web geliştirme yapıyorum.
+> Merhaba, [İŞLETME ADI] için ücretsiz bir web sitesi taslağı hazırladım:
+> https://sburkaybozyel.github.io/demo/[SLUG]/
 >
-> [İŞLETME ADI] için ücretsiz bir web sitesi taslağı hazırladım:
-> [LINK]
->
-> Kendi siteniz olursa misafirler sizi Google'da bulup WhatsApp'tan direkt rezervasyon yapabilir. Booking/Airbnb komisyonu ödemezsiniz.
->
-> Bakabilirseniz fikrinizi merak ederim.
+> İlgilenirseniz detaylar için buradayım.
 > İyi günler.
 
 ---
@@ -187,4 +183,4 @@
 | 2 | Tan Pansiyon Fethiye | Fethiye / Karagözler | 0505 592 59 48 | @Tanpansiyonfethiye | [link](https://sburkaybozyel.github.io/demo/tan-pansiyon-fethiye/) | ✅ |
 | 3 | Dove Apart Hotel | Fethiye / Çalış | 0536 743 10 21 | @dove____hotel | [link](https://sburkaybozyel.github.io/demo/dove-apart-hotel/) | ✅ |
 | 4 | Kılınç Apart | Fethiye | 0554 543 25 15 | @kilincticaret48 | [link](https://sburkaybozyel.github.io/demo/kilinc-apart/) | ✅ |
-| 5 | Alesta Midtown | Fethiye | 0552 632 35 34 | @alestamidtown | [link](https://sburkaybozyel.github.io/demo/alesta-midtown/) | ✅ |
+| 5 | Çetin Apart & Pansiyon | Fethiye Merkez | 0252 614 61 56 | Bulunamadı | [link](https://sburkaybozyel.github.io/demo/cetin-apart-pansiyon/) | ✅ |
