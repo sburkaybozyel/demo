@@ -1,0 +1,76 @@
+{
+  "name": "Gönül Sefası Butik Otel",
+  "slug": "gonul-sefasi-amasya",
+  "demoNotice": "Demo taslak — resmî site değildir.",
+  "location": "Hatuniye Mahallesi, Amasya",
+  "eyebrow": "Yeşilırmak kıyısı, Amasya",
+  "headline": "Yeşilırmak kıyısında butik konak.",
+  "description": "Gönül Sefası Butik Otel; Amasya'nın tarihi Hatuniye Mahallesi'nde, Yeşilırmak kıyısında, misafirlerine otantik konak atmosferi ve modern konfor sunan butik bir otel ve restoran.",
+  "type": "Butik otel",
+  "heroImage": "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-1.jpg",
+  "featureImage": "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-3.jpg",
+  "gallery": [
+    "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-2.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-4.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-5.jpg",
+    "https://cdn.tatildenince.com/media/oteller/Gonul-Sefasi-Butik-Otel-Apart-/Gonul-Sefasi-Butik-Otel-Apart--Resim-6.jpg"
+  ],
+  "features": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Amasya'nın simgesi Yeşilırmak'a nazır, tarihi konaklar ve kaya mezarlarıyla çevrili eşsiz konum."
+    },
+    {
+      "title": "Butik otel konforu",
+      "body": "Modern konfor ve otantik atmosferi bir arada sunan özenle tasarlanmış odalar."
+    },
+    {
+      "title": "Restoran hizmeti",
+      "body": "Geleneksel Amasya mutfağından lezzetler sunan bünyesindeki restoran ile tam konfor."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Yeşilırmak manzarası",
+      "body": "Odalardan ve restoranın terasından Yeşilırmak ve tarihi konak manzarası."
+    },
+    {
+      "title": "Restoran",
+      "body": "Geleneksel Türk mutfağı ve Amasya lezzetleri sunan bünyesindeki restoran."
+    },
+    {
+      "title": "Kahvaltı",
+      "body": "Zengin Türk kahvaltısıyla güne taze ve enerjik başlayın."
+    },
+    {
+      "title": "Merkezi konum",
+      "body": "Hatuniye Mahallesi, Amasya'nın tüm tarihi noktalarına yürüme mesafesi."
+    },
+    {
+      "title": "WhatsApp rezervasyon",
+      "body": "Tek dokunuşla hazır mesaj ile anında iletişim ve hızlı rezervasyon."
+    },
+    {
+      "title": "Konum",
+      "body": "Hatuniye Mah. Yalıboyu Sok. No:24, Amasya — Yeşilırmak kıyısında."
+    },
+    {
+      "title": "Apart seçeneği",
+      "body": "Uzun konaklamalar için mutfaklı apart odalar mevcut."
+    },
+    {
+      "title": "Tarihe yakın",
+      "body": "Amasya kalesi, Pontus kaya mezarları ve tarihi konaklar yürüme mesafesinde."
+    }
+  ],
+  "contact": {
+    "phone": "+90 358 212 94 61",
+    "whatsapp": "903582129461",
+    "email": "",
+    "address": "Hatuniye Mah. Yalıboyu Sok. No:24, Amasya",
+    "instagram": ""
+  },
+  "sourceLinks": [
+    "https://www.tatildenince.com/Gonul-Sefasi-Butik-Otel-Apart-"
+  ]
+}
