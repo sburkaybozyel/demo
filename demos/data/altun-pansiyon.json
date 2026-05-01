@@ -1,0 +1,77 @@
+{
+  "name": "Altun Pansiyon",
+  "slug": "altun-pansiyon",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Kaleiçi / Antalya",
+  "eyebrow": "Kaleiçi, Antalya",
+  "headline": "Antalya Kaleiçi'nde tarihi atmosferle buluşan pansiyon için direkt rezervasyon sayfası.",
+  "description": "Altun Pansiyon için hazırlanan bu taslak; pansiyon bilgilerini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
+  "type": "Pansiyon",
+  "heroImage": "images/altun-pansiyon/hero.jpg",
+  "featureImage": "images/altun-pansiyon/hero.jpg",
+  "gallery": [
+    "images/altun-pansiyon/hero.jpg",
+    "images/altun-pansiyon/hero.jpg",
+    "images/altun-pansiyon/hero.jpg",
+    "images/altun-pansiyon/hero.jpg"
+  ],
+  "features": [
+    {
+      "title": "Antalya Kaleiçi aramalarına uygun",
+      "body": "Tarihi surlar içinde pansiyon arayan misafiri direkt karşılar; konum, görsel ve iletişim tek sayfada."
+    },
+    {
+      "title": "Sade rezervasyon yolu",
+      "body": "WhatsApp üzerinden tarih ve kişi sayısı alarak hızlı ön talep oluşturur."
+    },
+    {
+      "title": "Platform dışı görünürlük",
+      "body": "Google ve Instagram trafiğini doğrudan işletmenin kendi kanalına taşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Kaleiçi konumu",
+      "body": "Antalya'nın tarihi surlar içinde, İskele Caddesi üzerinde."
+    },
+    {
+      "title": "Pansiyon",
+      "body": "12 odalı, sade ve samimi konaklama atmosferi."
+    },
+    {
+      "title": "Balkonlu odalar",
+      "body": "Manzaraya açılan balkonlu oda seçenekleri."
+    },
+    {
+      "title": "24 saat resepsiyon",
+      "body": "Her saatte misafir karşılama ve yardım."
+    },
+    {
+      "title": "Galeri",
+      "body": "Misafir kararını hızlandıran görsel alan."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek tıkla işletmeye direkt ulaşım."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram'dan gelen ziyaretçiler için hızlı sayfa."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Booking/Airbnb dışı direkt rezervasyon alternatifi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 532 362 25 85",
+    "whatsapp": "905323622585",
+    "email": "",
+    "address": "Selçuk Mah., İskele Cad. No:34, Kaleiçi, Muratpaşa, Antalya",
+    "instagram": "altun_pansiyon"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/altun_pansiyon/",
+    "https://www.booking.com/hotel/tr/altun-pansiyon-muratpasa15.en-gb.html"
+  ]
+}
