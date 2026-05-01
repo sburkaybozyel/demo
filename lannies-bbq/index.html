@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lannie's Bar-B-Q Spot — Selma, Alabama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a0e06;
+      --cream: #faf6ef;
+      --warm: #f2e8d8;
+      --ember: #8b2500;
+      --smoke: #4a3728;
+      --gold: #c47a1a;
+      --muted: #7a6558;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(26, 14, 6, 0.92);
+      backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--cream); letter-spacing: 0.03em; text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(250,246,239,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--ember); color: #fff; }
+    .btn-primary:hover { background: #6e1c00; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(250,246,239,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--ember); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    /* HERO */
+    .hero {
+      height: 100vh; position: relative;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('images/hero.jpg');
+      background-size: cover; background-position: center;
+      filter: brightness(0.32);
+    }
+    .hero-smoke {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(26,14,6,0.7) 0%, transparent 50%);
+    }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8vw, 6.5rem); line-height: 1.05; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(250,246,239,0.75); max-width: 500px; margin: 0 auto 2.8rem; line-height: 1.75; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(250,246,239,0.38); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(250,246,239,0.4), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    /* STRIP */
+    .strip { background: var(--smoke); color: var(--cream); padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    /* SECTIONS */
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* ABOUT */
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-img-wrap { position: relative; height: 540px; border-radius: 3px; overflow: hidden; background: var(--warm); }
+    .about-img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .about-img-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(26,14,6,0.5) 0%, transparent 60%); }
+    .about-img-tag { position: absolute; bottom: 1.5rem; left: 1.5rem; background: var(--ember); color: #fff; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+    .about-img-award { position: absolute; top: 1.5rem; right: 1.5rem; background: var(--gold); color: #fff; font-size: 0.68rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.5rem 0.9rem; border-radius: 2px; text-align: center; line-height: 1.4; }
+
+    .badge-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2rem; }
+    .badge { background: var(--warm); border: 1px solid rgba(139,37,0,0.2); color: var(--ember); font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; padding: 0.4rem 0.9rem; border-radius: 2px; }
+
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(26,14,6,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--ember); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* HISTORY BLOCK */
+    .history-section { background: var(--smoke); color: var(--cream); }
+    .history-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+    .history-section .section-label { color: var(--gold); }
+    .history-section .section-title { color: var(--cream); }
+    .history-section .section-body { color: rgba(250,246,239,0.65); max-width: 100%; }
+    .timeline { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 0; }
+    .timeline-item { display: flex; gap: 1.5rem; padding: 1.4rem 0; border-bottom: 1px solid rgba(255,255,255,0.07); }
+    .timeline-item:last-child { border-bottom: none; }
+    .timeline-year { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--gold); font-weight: 600; min-width: 52px; padding-top: 0.1rem; }
+    .timeline-text { font-size: 0.88rem; font-weight: 300; line-height: 1.7; color: rgba(250,246,239,0.65); }
+
+    /* MENU */
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(255,255,255,0.07); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(250,246,239,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(250,246,239,0.7); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-price { color: var(--gold); font-size: 0.8rem; }
+
+    /* FOOD PHOTO SECTION */
+    .food-section { background: var(--warm); padding: 7rem 4rem; }
+    .food-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .food-img { width: 100%; height: 420px; object-fit: cover; border-radius: 3px; }
+    .food-quote { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 2.5vw, 2rem); font-style: italic; line-height: 1.5; color: var(--smoke); margin-bottom: 1.5rem; }
+    .food-quote-source { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(26,14,6,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 40%; }
+
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--ember); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    /* CTA */
+    .cta-banner { background: var(--ember); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(250,246,239,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(250,246,239,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; }
+      .about-img-wrap { height: 340px; }
+      .history-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .food-inner { grid-template-columns: 1fr; }
+      .food-img { height: 280px; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Lannie's</span> Bar-B-Q Spot</a>
+    <ul class="nav-links">
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+13348744478" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Call Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-smoke"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 1946 &nbsp;·&nbsp; Selma, Alabama</p>
+      <h1 class="hero-title">80 Years of <em>Smoke</em><br>and Soul</h1>
+      <p class="hero-sub">Selma's most beloved barbecue, slow-smoked over live oak and pecan coals the same way it has been done since 1946. Named one of USA Today's Best Restaurants of 2025.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🔥</span> Alabama BBQ Hall of Fame</div>
+    <div class="strip-item"><span class="strip-icon">🏆</span> USA Today Best Restaurants 2025</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 2115 Minter Ave, Selma AL</div>
+    <div class="strip-item"><span class="strip-icon">⭐</span> 4.5 Stars &nbsp;·&nbsp; #2 in Selma</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-img-wrap">
+        <img src="images/hero.jpg" alt="Lannie's Bar-B-Q Spot" />
+        <div class="about-img-overlay"></div>
+        <div class="about-img-tag">Since 1946</div>
+        <div class="about-img-award">USA Today<br>Best 2025</div>
+      </div>
+      <div>
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Five Generations<br>of Alabama BBQ</h2>
+        <p class="section-body">
+          In 1944, the Hatcher family began smoking pork in a hand-dug pit in their backyard, using live oak and pecan coals. Two years later, that backyard tradition became a restaurant. Today, Lannie's Bar-B-Q Spot is one of the oldest and most celebrated barbecue joints in Alabama.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          Now in its fifth generation of family ownership, nothing about the cooking has changed. The pits are still fired the same way, the sauce still carries that signature vinegar zing, and every plate still tells the story of a family that gave Selma something it will never forget.
+        </p>
+        <div class="badge-row">
+          <span class="badge">Alabama BBQ Hall of Fame</span>
+          <span class="badge">Alabama's Best BBQ 2015</span>
+          <span class="badge">USA Today Best 2025</span>
+          <span class="badge">As Seen on BBC</span>
+        </div>
+        <div class="about-stats">
+          <div><div class="stat-num">80+</div><div class="stat-label">Years of Tradition</div></div>
+          <div><div class="stat-num">4.6</div><div class="stat-label">Facebook Rating</div></div>
+          <div><div class="stat-num">#2</div><div class="stat-label">Restaurant in Selma</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="history" class="history-section">
+    <div class="history-inner">
+      <div>
+        <p class="section-label">A Living Legacy</p>
+        <h2 class="section-title">More Than a<br>Restaurant</h2>
+        <p class="section-body">
+          Lannie's has been part of Selma's story through its most defining moments. It was one of the city's first racially integrated dining spaces, and it stood at the center of the Civil Rights Movement that changed America.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">1944</div>
+          <div class="timeline-text">The Hatcher family begins smoking pork in a hand-dug backyard pit over live oak and pecan coals.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">1946</div>
+          <div class="timeline-text">Lannie's officially opens as a restaurant, founded by Lannie Moore Travis.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">1965</div>
+          <div class="timeline-text">Voting-rights activists gather at Lannie's to celebrate news of Dr. Martin Luther King Jr.'s arrival in Selma.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-text">After tornado damage, Lannie's reopens in a new building with a 150-person dining room — five times the original size.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2025</div>
+          <div class="timeline-text">Named one of only 44 restaurants nationwide on USA Today's Restaurants of the Year list.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Slow Smoked.<br>Simply Perfect.</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🍖</div>
+          <div class="menu-card-title">Pit BBQ</div>
+          <div class="menu-card-desc">Slow-smoked over live oak and pecan for hours. Pulled pork topped with a crackling and finished with Lannie's signature vinegar sauce.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Pulled Pork Sandwich</span><span class="menu-item-price">Signature</span></div>
+            <div class="menu-item-row"><span>Back Ribs</span><span class="menu-item-price">Pit Smoked</span></div>
+            <div class="menu-item-row"><span>Hot Links</span><span class="menu-item-price">Smoky</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍔</div>
+          <div class="menu-card-title">Specialties</div>
+          <div class="menu-card-desc">The Swamp Burger is a Selma legend. Double cheeseburger, baloney slab, pulled pork, crispy pig skin, and sauce. Not for the faint of heart.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>The Swamp Burger</span><span class="menu-item-price">Legendary</span></div>
+            <div class="menu-item-row"><span>Thick-Cut Baloney</span><span class="menu-item-price">Classic</span></div>
+            <div class="menu-item-row"><span>Fried Catfish</span><span class="menu-item-price">Southern</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🥗</div>
+          <div class="menu-card-title">Sides &amp; More</div>
+          <div class="menu-card-desc">Everything a Southern plate needs. Fresh-fried okra, collard greens, potato salad, coleslaw, and sweet potato fries.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Fried Okra</span><span class="menu-item-price">Fresh</span></div>
+            <div class="menu-item-row"><span>Collard Greens</span><span class="menu-item-price">Southern</span></div>
+            <div class="menu-item-row"><span>Sweet Potato Fries</span><span class="menu-item-price">House Fave</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="food-section">
+    <div class="food-inner">
+      <img src="images/food.jpg" alt="Lannie's BBQ food" class="food-img" />
+      <div>
+        <p class="food-quote">"No trip to Selma would be complete without Lannie's Bar-B-Q Spot."</p>
+        <p class="food-quote-source">USA Today &nbsp;·&nbsp; Restaurants of the Year 2025</p>
+        <p class="section-body" style="margin-top:1.8rem;">
+          From the vinegar-kissed pulled pork to the perfectly crisped fried okra, every element on the plate reflects eight decades of family knowledge and Southern pride.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday &ndash; Saturday</td><td>8:00 AM &ndash; 8:00 PM</td></tr>
+            <tr><td>Sunday</td><td>8:00 AM &ndash; 4:30 PM</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Second location: 205 Medical Center Pkwy &nbsp;·&nbsp; Mon-Sat 9AM-9PM</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come &amp; Eat<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Lannie's Bar-B-Q Spot</strong>
+          2115 Minter Avenue<br>Selma, AL 36703
+        </div>
+        <div class="contact-links">
+          <a href="tel:+13348744478" class="contact-link">
+            <span class="contact-link-icon">📞</span>(334) 874-4478
+          </a>
+          <a href="https://www.facebook.com/p/Lannies-Bar-B-Q-Spot-100048685224601/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Lannie's on Facebook
+          </a>
+          <a href="https://www.instagram.com/lanniesbarbque/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📸</span>@lanniesbarbque
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">80 Years in the Making.<br>Worth Every Bite.</h2>
+    <p>Walk in any day of the week. No fuss. Just legendary Alabama barbecue the way it was always meant to be.</p>
+    <a href="tel:+13348744478" class="btn btn-white">Call Us &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Lannie's</span> Bar-B-Q Spot</div>
+    <p>© 2025 Lannie's Bar-B-Q Spot &nbsp;·&nbsp; 2115 Minter Ave, Selma, AL</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/lanniesbarbque/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/p/Lannies-Bar-B-Q-Spot-100048685224601/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
