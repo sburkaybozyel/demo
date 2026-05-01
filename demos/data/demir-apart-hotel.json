@@ -1,0 +1,37 @@
+{
+  "name": "Demir Apart Hotel",
+  "slug": "demir-apart-hotel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Ayaş, Erdemli, Mersin",
+  "eyebrow": "Mersin, Erdemli",
+  "headline": "Denize sıfır konumda, ev konforunda tatil.",
+  "description": "Demir Apart Hotel, Ayaş plajına sıfır konumu ve eksiksiz donanımlı mutfaklı daireleriyle yaz tatillerinin vazgeçilmezi.",
+  "heroImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
+  "featureImage": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+  "gallery": [
+    "https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg",
+    "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg"
+  ],
+  "features": [
+    {
+      "title": "Denize Sıfır",
+      "description": "Odadan çıkın ve kumsaldasınız."
+    },
+    {
+      "title": "Tam Donanımlı",
+      "description": "İhtiyacınız olan her şey düşünüldü."
+    },
+    {
+      "title": "Aile Dostu",
+      "description": "Çocuklu aileler için güvenli ve rahat."
+    }
+  ],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Ayaş Mah. Kızılören Cad., Erdemli, Mersin",
+    "instagram": "demiraparthotel"
+  }
+}

@@ -288,12 +288,7 @@
 | # | İşletme | Telefon | Kanal | Demo | Durum |
 |---|---------|---------|-------|------|-------|
 | 1 | SRC Ekinci Apart Otel | +90 5XX XXX XX XX | @srcekinciapart | [link](https://sburkaybozyel.github.io/demo/src-ekinci-apart-otel) | ✅ |
-| 2 | Palmero Butik Hotel | +90 5XX XXX XX XX | @palmerobutikhotel | [link](https://sburkaybozyel.github.io/demo/palmero-butik-hotel) | ✅ |
-| 3 | Grand Ezel Hotel | +90 5XX XXX XX XX | @grandezelhotel | [link](https://sburkaybozyel.github.io/demo/grand-ezel-hotel) | ✅ |
-| 4 | Marin Butik Otel | +90 5XX XXX XX XX | @marinbutikmersin | [link](https://sburkaybozyel.github.io/demo/marin-butik-otel) | ✅ |
-| 5 | Mavi Beyaz Butik Otel | +90 5XX XXX XX XX | @mavibeyazkizkalesi | [link](https://sburkaybozyel.github.io/demo/mavi-beyaz-butik-otel) | ✅ |
-| 6 | Mojo Otel Beach | +90 5XX XXX XX XX | @mojootelbeach | [link](https://sburkaybozyel.github.io/demo/mojo-otel-beach) | ✅ |
-| 7 | Palmila Butik Otel | +90 5XX XXX XX XX | @palmilabutikotel | [link](https://sburkaybozyel.github.io/demo/palmila-butik-otel) | ✅ |
-| 8 | Limonotto Suit Otel | +90 5XX XXX XX XX | @limonottosuit | [link](https://sburkaybozyel.github.io/demo/limonotto-suit-otel) | ✅ |
-| 9 | İkonyum Butik Otel | +90 5XX XXX XX XX | @ikonyumbutikotel | [link](https://sburkaybozyel.github.io/demo/ikonyum-butik-otel) | ✅ |
-| 10 | Osmanlı Marco Pasha Hotel | +90 5XX XXX XX XX | @marcopashahotel | [link](https://sburkaybozyel.github.io/demo/osmanli-marco-pasha) | ✅ |
+| 2 | Hakan Apart Otel | +90 5XX XXX XX XX | @hakanapartotelmersin | [link](https://sburkaybozyel.github.io/demo/hakan-apart-hotel) | ✅ |
+| 3 | Demir Apart Hotel | +90 5XX XXX XX XX | @demiraparthotel | [link](https://sburkaybozyel.github.io/demo/demir-apart-hotel) | ✅ |
+| 4 | Capitol Apart Otel | +90 5XX XXX XX XX | @capitolapartotel | [link](https://sburkaybozyel.github.io/demo/capitol-apart-otel) | ✅ |
+| 5 | Athena Apart Residence | +90 5XX XXX XX XX | @athenaapartresidence | [link](https://sburkaybozyel.github.io/demo/athena-apart-residence) | ✅ |
