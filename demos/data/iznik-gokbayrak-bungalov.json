@@ -5,24 +5,45 @@
   "headline": "Göl kıyısında huzuru yeniden keşfedin.",
   "description": "Gökbayrak Bungalov; İznik'in en güzel koylarından birinde, ahşap mimarisi ve göl manzaralı bahçesiyle size ev konforunda bir tatil sunuyor.",
   "type": "Göl Kenarı Bungalov",
-  "heroImage": "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  "featureImage": "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heroImage": "images/iznik-gokbayrak-bungalov/img1.jpg",
+  "featureImage": "images/iznik-gokbayrak-bungalov/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "images/iznik-gokbayrak-bungalov/img3.jpg"
   ],
   "features": [
-    { "title": "Göl Manzarası", "body": "Kesintisiz İznik Gölü manzarası." },
-    { "title": "Ahşap Konsept", "body": "Doğal ve sağlıklı uyku ortamı." },
-    { "title": "Sessiz Konum", "body": "Sadece doğanın sesini dinleyin." }
+    {
+      "title": "Göl Manzarası",
+      "body": "Kesintisiz İznik Gölü manzarası."
+    },
+    {
+      "title": "Ahşap Konsept",
+      "body": "Doğal ve sağlıklı uyku ortamı."
+    },
+    {
+      "title": "Sessiz Konum",
+      "body": "Sadece doğanın sesini dinleyin."
+    }
   ],
   "amenities": [
-    { "title": "WiFi", "body": "Ücretsiz." },
-    { "title": "Barbekü", "body": "Bahçe keyfi." },
-    { "title": "Otopark", "body": "Güvenli." },
-    { "title": "Sıcak Su", "body": "Kesintisiz." }
+    {
+      "title": "WiFi",
+      "body": "Ücretsiz."
+    },
+    {
+      "title": "Barbekü",
+      "body": "Bahçe keyfi."
+    },
+    {
+      "title": "Otopark",
+      "body": "Güvenli."
+    },
+    {
+      "title": "Sıcak Su",
+      "body": "Kesintisiz."
+    }
   ],
-  "contact": { "phone": "İletişime Geçin", "whatsapp": "" }
+  "contact": {
+    "phone": "İletişime Geçin",
+    "whatsapp": ""
+  }
 }

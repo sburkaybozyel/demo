@@ -1,0 +1,58 @@
+{
+  "name": "San Antonio Creek Ranch",
+  "slug": "san-antonio-creek-ranch",
+  "demoNotice": "Demo draft, not an official website.",
+  "location": "Taos, NM",
+  "eyebrow": "Ranchos de Taos",
+  "headline": "Secluded Ranch Stay with Breathtaking New Mexico Views.",
+  "description": "San Antonio Creek Ranch is a secluded 320-acre working ranch offering private casitas, miles of trails, and uninterrupted vistas of the Sangre de Cristo Mountains. Perfect for those seeking complete disconnection and wide-open spaces.",
+  "heroImage": "images/san-antonio-creek-ranch/img1.jpg",
+  "featureImage": "images/san-antonio-creek-ranch/img2.jpg",
+  "gallery": [
+    "images/san-antonio-creek-ranch/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "320 Private Acres",
+      "description": "Explore trails, creek, and desert landscape at your leisure."
+    },
+    {
+      "title": "Standalone Casitas",
+      "description": "Each unit offers total privacy with full kitchen and deck."
+    },
+    {
+      "title": "Horseback Riding & Hiking",
+      "description": "On-site horses and miles of marked trails."
+    },
+    {
+      "title": "Stargazing Paradise",
+      "description": "Certified Dark Sky location with minimal light pollution."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Full Kitchens",
+      "body": "Self-cooking in every unit"
+    },
+    {
+      "title": "Horseback Rides",
+      "body": "Guided trail rides available"
+    },
+    {
+      "title": "Fire Ring",
+      "body": "Campfire area for evening gatherings"
+    },
+    {
+      "title": "Wildlife Viewing",
+      "body": "Elk, deer, and bird watching"
+    }
+  ],
+  "contact": {
+    "phone": "+1 575 XXX-XXXX",
+    "whatsapp": "1575XXXXXXX",
+    "email": "stay@sanantonioranch.com",
+    "address": "136 San Antonio Rd, Ranchos De Taos, NM 87557",
+    "instagram": "sanantonioranchtm"
+  },
+  "type": "Ranch"
+}

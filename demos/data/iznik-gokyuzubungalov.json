@@ -5,13 +5,10 @@
   "headline": "Gökyüzüne en yakın bungalovda, yıldızların altında konaklayın.",
   "description": "Gökyüzü Bungalov; yüksek rakımda, İznik Gölü'nü tepeden gören konumu ve modern bungalovlarıyla size bulutların üzerinde bir tatil deneyimi sunuyor.",
   "type": "Panorama Bungalov",
-  "heroImage": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  "featureImage": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heroImage": "images/iznik-gokyuzubungalov/img1.jpg",
+  "featureImage": "images/iznik-gokyuzubungalov/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/206661/pexels-photo-206661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "images/iznik-gokyuzubungalov/img3.jpg"
   ],
   "features": [
     {
@@ -28,10 +25,22 @@
     }
   ],
   "amenities": [
-    { "title": "Isıtma", "body": "Her mevsim sıcak." },
-    { "title": "WiFi", "body": "Kesintisiz erişim." },
-    { "title": "Barbekü", "body": "Teras keyfi." },
-    { "title": "Otopark", "body": "Güvenli alan." }
+    {
+      "title": "Isıtma",
+      "body": "Her mevsim sıcak."
+    },
+    {
+      "title": "WiFi",
+      "body": "Kesintisiz erişim."
+    },
+    {
+      "title": "Barbekü",
+      "body": "Teras keyfi."
+    },
+    {
+      "title": "Otopark",
+      "body": "Güvenli alan."
+    }
   ],
   "contact": {
     "phone": "İletişime Geçin",

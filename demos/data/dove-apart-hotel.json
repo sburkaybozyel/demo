@@ -7,13 +7,10 @@
   "headline": "Çalış bölgesinde apart konaklama için direkt rezervasyon sayfası.",
   "description": "Dove Apart Hotel için hazırlanan bu taslak; apart otel deneyimini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada sunar.",
   "type": "Apart Hotel",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/b5dd06c3-7528-4989-8b73-0eeed5c4780f.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/53d1d3bc-ca79-4d8e-9818-d9d16daa5c28.jpg",
+  "heroImage": "images/dove-apart-hotel/img1.jpg",
+  "featureImage": "images/dove-apart-hotel/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/b5dd06c3-7528-4989-8b73-0eeed5c4780f.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/53d1d3bc-ca79-4d8e-9818-d9d16daa5c28.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/16c5ddcd-0547-4418-af52-745a943df2d3.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/IlanResim/53d1d3bc-ca79-4d8e-9818-d9d16daa5c28.jpg"
+    "images/dove-apart-hotel/img3.jpg"
   ],
   "features": [
     {

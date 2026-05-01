@@ -1,0 +1,58 @@
+{
+  "name": "Red Rock Canyon Retreat",
+  "slug": "red-rock-canyon-retreat",
+  "demoNotice": "Demo draft, not an official website.",
+  "location": "Sedona, AZ",
+  "eyebrow": "Cathedral Rock Trailhead",
+  "headline": "Wake Up to Monument Valley Views.",
+  "description": "Red Rock Canyon Retreat is perched on the edge of Sedona's most iconic red rock formations. Stargaze from your private deck, hike Cathedral Rock directly from the property, and experience the power of Sedona's famous vortex sites.",
+  "heroImage": "images/red-rock-canyon-retreat/img1.jpg",
+  "featureImage": "images/red-rock-canyon-retreat/img2.jpg",
+  "gallery": [
+    "images/red-rock-canyon-retreat/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Unparalleled Red Rock Views",
+      "description": "Every window frames Sedona's towering sandstone formations."
+    },
+    {
+      "title": "Direct Trail Access",
+      "description": "Cathedral Rock trailhead within walking distance."
+    },
+    {
+      "title": "Energy Vortex Location",
+      "description": "Located on Sedona's famed harmonious energy sites."
+    },
+    {
+      "title": "Private & Secluded",
+      "description": "Spread across 10 acres with complete privacy between units."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Heated Pool & Spa",
+      "body": "Year-round heated pool and hot tub"
+    },
+    {
+      "title": "Yoga Deck",
+      "body": "Outdoor yoga platform with canyon views"
+    },
+    {
+      "title": "Guided Meditation",
+      "body": "Daily sunrise/sunset sessions"
+    },
+    {
+      "title": "Outdoor Fire Pit",
+      "body": "Nightly s'mores and stargazing"
+    }
+  ],
+  "contact": {
+    "phone": "+1 928 XXX-XXXX",
+    "whatsapp": "1928XXXXXXX",
+    "email": "stay@redrockretreat.com",
+    "address": "6565 Hwy 179, Sedona, AZ 86351",
+    "instagram": "redrockretreatsedona"
+  },
+  "type": "Retreat Center"
+}

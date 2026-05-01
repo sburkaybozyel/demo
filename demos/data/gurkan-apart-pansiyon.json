@@ -6,10 +6,10 @@
   "eyebrow": "Erdemli / Mersin",
   "headline": "Gürkan Apart Pansiyon ile Huzurlu Bir Tatil.",
   "description": "Gürkan Apart Pansiyon, konforlu odaları ve benzersiz hizmet anlayışıyla Mersin tatillerinizde sizi bekliyor.",
-  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "heroImage": "images/gurkan-apart-pansiyon/img1.jpg",
+  "featureImage": "images/gurkan-apart-pansiyon/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+    "images/gurkan-apart-pansiyon/img3.jpg"
   ],
   "features": [
     {

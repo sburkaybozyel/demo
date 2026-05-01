@@ -7,13 +7,10 @@
   "headline": "Tarihi konakta modern konfor.",
   "description": "Hasırcı Konakları; Amasya'nın tarihi Hatuniye Mahallesi'nde, Yeşilırmak kıyısında, restore edilmiş tarihi yapısıyla misafirlerine otantik bir konak deneyimi sunan butik bir konaklama tesisidir.",
   "type": "Konak konaklama",
-  "heroImage": "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-1.jpg",
-  "featureImage": "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-3.jpg",
+  "heroImage": "images/hasirci-konaklari/img1.jpg",
+  "featureImage": "images/hasirci-konaklari/img2.jpg",
   "gallery": [
-    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-2.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-4.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-5.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Hasirci-Konaklari/Hasirci-Konaklari-Resim-6.jpg"
+    "images/hasirci-konaklari/img3.jpg"
   ],
   "features": [
     {

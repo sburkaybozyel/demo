@@ -1,0 +1,73 @@
+{
+  "name": "Broken Bow Cabin Life",
+  "slug": "broken-bow-cabin-life",
+  "location": "Broken Bow, OK",
+  "eyebrow": "Broken Bow, OK",
+  "headline": "Your Premier Hochatown Getaway.",
+  "description": "Curated luxury cabins designed for unforgettable memories. From cozy fire pits to gourmet kitchens, we provide everything you need for the perfect Broken Bow vacation.",
+  "type": "Cabin",
+  "heroImage": "images/broken-bow-cabin-life/img1.jpg",
+  "featureImage": "images/broken-bow-cabin-life/img2.jpg",
+  "gallery": [
+    "images/broken-bow-cabin-life/img3.jpg",
+    "images/broken-bow-cabin-life/img4.jpg"
+  ],
+  "features": [
+    {
+      "title": "Gourmet Kitchens",
+      "body": "Fully equipped for family meals and holiday feasts."
+    },
+    {
+      "title": "Outdoor Living",
+      "body": "Large decks, outdoor fireplaces, and comfortable lounge areas."
+    },
+    {
+      "title": "Family Friendly",
+      "body": "Spacious layouts with games, bunk rooms, and plenty of space for everyone."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Direct Booking",
+      "body": "Save up to 20% by booking directly on this site — no OTA commissions."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Available in most cabins for the ultimate relaxation."
+    },
+    {
+      "title": "High-Speed Wi-Fi",
+      "body": "Perfect for remote work or streaming your favorite shows."
+    },
+    {
+      "title": "Fully Equipped Kitchen",
+      "body": "Everything you need to cook a five-star meal in the mountains."
+    },
+    {
+      "title": "WhatsApp Support",
+      "body": "Instant communication with your host for a seamless stay."
+    },
+    {
+      "title": "Pet Friendly",
+      "body": "Bring your best friend along for the journey."
+    },
+    {
+      "title": "Fire Pit",
+      "body": "Cozy nights under the stars with a warm fire."
+    },
+    {
+      "title": "Easy Check-in",
+      "body": "Keyless entry and professional management for peace of mind."
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "Broken Bow, OK",
+    "instagram": "brokenbowcabinlife"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/brokenbowcabinlife/"
+  ]
+}

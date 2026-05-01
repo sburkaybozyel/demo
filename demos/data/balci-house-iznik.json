@@ -7,12 +7,10 @@
   "headline": "Çam ormanlarının içinde, havuzlu ve şömineli müstakil bir sığınak.",
   "description": "Balcı House; İznik'in Mustafalı Köyü yaylalarında, doğayla baş başa, ısıtmalı havuzu ve odunlu şöminesiyle huzur dolu bir villa konaklama deneyimi sunuyor.",
   "type": "Müstakil Villa",
-  "heroImage": "https://lh5.googleusercontent.com/p/AF1QipN-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X=s1600-w1800",
-  "featureImage": "https://lh5.googleusercontent.com/p/AF1QipO-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X=s1600-w1200",
+  "heroImage": "images/balci-house-iznik/img1.jpg",
+  "featureImage": "images/balci-house-iznik/img2.jpg",
   "gallery": [
-    "https://lh5.googleusercontent.com/p/AF1QipP-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X=s1600-w1200",
-    "https://lh5.googleusercontent.com/p/AF1QipQ-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X=s1600-w1200",
-    "https://lh5.googleusercontent.com/p/AF1QipR-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X-Z_Z6_X=s1600-w1200"
+    "images/balci-house-iznik/img3.jpg"
   ],
   "features": [
     {

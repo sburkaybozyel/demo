@@ -7,13 +7,10 @@
   "headline": "Tarihin içinde butik konak deneyimi.",
   "description": "Çifte Konak Butik Otel; Amasya'nın tarihi dokusunda, geleneksel mimariyle restore edilmiş iki konaktan oluşan, misafirlerine otantik ve konforlu bir konaklama deneyimi sunan butik bir tesistir.",
   "type": "Butik otel",
-  "heroImage": "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-1.jpg",
-  "featureImage": "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-3.jpg",
+  "heroImage": "images/cifte-konak-amasya/img1.jpg",
+  "featureImage": "images/cifte-konak-amasya/img2.jpg",
   "gallery": [
-    "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-2.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-4.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-5.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Cifte-Konak/Cifte-Konak-Resim-6.jpg"
+    "images/cifte-konak-amasya/img3.jpg"
   ],
   "features": [
     {

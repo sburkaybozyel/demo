@@ -7,13 +7,10 @@
   "headline": "Fethiye pazarının hemen yanında, şehrin içinde uygun fiyatlı pansiyon.",
   "description": "Fethiye Öztürk Pansiyon, Pazar Yeri Mahallesi'nde şehrin kalbinde konumlanan küçük ve samimi bir konaklama noktasıdır. Çarşıya, limana ve toplu taşımaya yürüme mesafesinde; sade, temiz ve bütçe dostu bir tercih.",
   "type": "Pansiyon",
-  "heroImage": "images/fethiye-ozturk-pansiyon/hero.jpg",
+  "heroImage": "images/fethiye-ozturk-pansiyon/img1.jpg",
   "featureImage": "images/fethiye-ozturk-pansiyon/img2.jpg",
   "gallery": [
-    "images/fethiye-ozturk-pansiyon/hero.jpg",
-    "images/fethiye-ozturk-pansiyon/img2.jpg",
-    "images/fethiye-ozturk-pansiyon/img3.jpg",
-    "images/fethiye-ozturk-pansiyon/img4.jpg"
+    "images/fethiye-ozturk-pansiyon/img3.jpg"
   ],
   "features": [
     {

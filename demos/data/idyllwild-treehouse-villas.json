@@ -1,0 +1,58 @@
+{
+  "name": "Idyllwild Treehouse Villas",
+  "slug": "idyllwild-treehouse-villas",
+  "demoNotice": "Demo draft, not an official website.",
+  "location": "Idyllwild, CA",
+  "eyebrow": "Mountain Center",
+  "headline": "Elevated Luxury Among the Pines.",
+  "description": "Idyllwild Treehouse Villas offer architect-designed elevated living spaces suspended among ancient pine trees. Each villa features custom woodwork, outdoor showers, and breathtaking views from a 20-foot private deck.",
+  "heroImage": "images/idyllwild-treehouse-villas/img1.jpg",
+  "featureImage": "images/idyllwild-treehouse-villas/img2.jpg",
+  "gallery": [
+    "images/idyllwild-treehouse-villas/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Architect-Designed Treehouses",
+      "description": "Custom engineered structures anchored among living trees."
+    },
+    {
+      "title": "Elevated Decks & Treetop Views",
+      "description": "20-foot private decks with panoramic forest canopy views."
+    },
+    {
+      "title": "Outdoor Rain Showers & Hot Tubs",
+      "description": "Rustic-luxe outdoor bathing experiences."
+    },
+    {
+      "title": "Complete Privacy",
+      "description": "Each villa is set on 2+ acres with no neighbors visible."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "King Bed",
+      "body": "Premium organic mattress"
+    },
+    {
+      "title": "Smart Home",
+      "body": "Keyless entry, climate control"
+    },
+    {
+      "title": "Fireplace",
+      "body": "Modern linear fireplace"
+    },
+    {
+      "title": "Composting Toilet",
+      "body": "Eco-friendly setup"
+    }
+  ],
+  "contact": {
+    "phone": "+1 951 XXX-XXXX",
+    "whatsapp": "1951XXXXXXX",
+    "email": "stay@idyllwildtreehouses.com",
+    "address": "54450 Highway 243, Mountain Center, CA 92561",
+    "instagram": "idyllwildtreehousevillas"
+  },
+  "type": "Glamping"
+}

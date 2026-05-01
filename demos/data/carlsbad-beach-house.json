@@ -1,0 +1,74 @@
+{
+  "name": "Carlsbad Beach House",
+  "slug": "carlsbad-beach-house",
+  "location": "Carlsbad, CA",
+  "eyebrow": "Carlsbad, CA",
+  "headline": "Steps from the Pacific Surf.",
+  "description": "Coastal living at its finest. Our Carlsbad beach properties offer breezy interiors, ocean views, and the relaxed California atmosphere you've been dreaming of.",
+  "type": "Boutique",
+  "heroImage": "images/carlsbad-beach-house/img1.jpg",
+  "featureImage": "images/carlsbad-beach-house/img2.jpg",
+  "gallery": [
+    "images/carlsbad-beach-house/img3.jpg",
+    "images/carlsbad-beach-house/img4.jpg",
+    "images/carlsbad-beach-house/img5.jpg"
+  ],
+  "features": [
+    {
+      "title": "Oceanfront Views",
+      "body": "Wake up to the sound of waves and a view of the Pacific."
+    },
+    {
+      "title": "Coastal Chic Decor",
+      "body": "Bright, airy spaces with premium beach-inspired design."
+    },
+    {
+      "title": "Village Proximity",
+      "body": "Walk to Carlsbad Village for the best coffee, dining, and shopping."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Direct Booking",
+      "body": "Save up to 20% by booking directly on this site — no OTA commissions."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Available in most cabins for the ultimate relaxation."
+    },
+    {
+      "title": "High-Speed Wi-Fi",
+      "body": "Perfect for remote work or streaming your favorite shows."
+    },
+    {
+      "title": "Fully Equipped Kitchen",
+      "body": "Everything you need to cook a five-star meal in the mountains."
+    },
+    {
+      "title": "WhatsApp Support",
+      "body": "Instant communication with your host for a seamless stay."
+    },
+    {
+      "title": "Pet Friendly",
+      "body": "Bring your best friend along for the journey."
+    },
+    {
+      "title": "Fire Pit",
+      "body": "Cozy nights under the stars with a warm fire."
+    },
+    {
+      "title": "Easy Check-in",
+      "body": "Keyless entry and professional management for peace of mind."
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "Carlsbad, CA",
+    "instagram": "carlsbadbeachhouse"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/carlsbadbeachhouse/"
+  ]
+}

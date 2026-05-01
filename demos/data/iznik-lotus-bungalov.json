@@ -5,24 +5,45 @@
   "headline": "Gölün üzerinde açan bir çiçek gibi sakin ve duru.",
   "description": "Lotus Bungalov; modern tasarımı ve göle sıfır konumuyla, İznik'in en özel duraklarından biri. Şıklığı ve doğallığı bir arada yaşayın.",
   "type": "Butik Göl Bungalov",
-  "heroImage": "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  "featureImage": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heroImage": "images/iznik-lotus-bungalov/img1.jpg",
+  "featureImage": "images/iznik-lotus-bungalov/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1031030/pexels-photo-1031030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "images/iznik-lotus-bungalov/img3.jpg"
   ],
   "features": [
-    { "title": "Modern Tasarım", "body": "Şık ve minimalist mobilyalar." },
-    { "title": "Sıfır Konum", "body": "Göl ile aranızda hiçbir şey yok." },
-    { "title": "Huzur", "body": "Tamamen izole ve güvenli." }
+    {
+      "title": "Modern Tasarım",
+      "body": "Şık ve minimalist mobilyalar."
+    },
+    {
+      "title": "Sıfır Konum",
+      "body": "Göl ile aranızda hiçbir şey yok."
+    },
+    {
+      "title": "Huzur",
+      "body": "Tamamen izole ve güvenli."
+    }
   ],
   "amenities": [
-    { "title": "WiFi", "body": "Yüksek hız." },
-    { "title": "Klima", "body": "Her mevsim konfor." },
-    { "title": "TV", "body": "Eğlence sistemi." },
-    { "title": "Veranda", "body": "Göl manzaralı." }
+    {
+      "title": "WiFi",
+      "body": "Yüksek hız."
+    },
+    {
+      "title": "Klima",
+      "body": "Her mevsim konfor."
+    },
+    {
+      "title": "TV",
+      "body": "Eğlence sistemi."
+    },
+    {
+      "title": "Veranda",
+      "body": "Göl manzaralı."
+    }
   ],
-  "contact": { "phone": "İletişime Geçin", "whatsapp": "" }
+  "contact": {
+    "phone": "İletişime Geçin",
+    "whatsapp": ""
+  }
 }

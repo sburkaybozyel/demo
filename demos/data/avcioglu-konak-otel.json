@@ -7,13 +7,10 @@
   "headline": "Safranbolu'nun tarihi dokusunda butik konaklama.",
   "description": "Avcıoğlu Konak Otel; Safranbolu Eski Çarşı hattına yakın konumu, tarihi konak atmosferi ve sıcak butik otel deneyimiyle kısa tatiller için sade ve güven veren bir konaklama alternatifi sunar.",
   "type": "Butik Otel",
-  "heroImage": "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyNzI_20220815182021.JPG",
-  "featureImage": "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0Mzg_20220815191011.JPG",
+  "heroImage": "images/avcioglu-konak-otel/img1.jpg",
+  "featureImage": "images/avcioglu-konak-otel/img2.jpg",
   "gallery": [
-    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyNzI_20220815182021.JPG",
-    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0Mzg_20220815191011.JPG",
-    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQyOTE_20220815183318.JPG",
-    "https://images.odamax.com/img/1024x768/odamax/image/upload/ZmlsZU5hbWU9SU1HXzQ0MzU_20220815191011.JPG"
+    "images/avcioglu-konak-otel/img3.jpg"
   ],
   "features": [
     {

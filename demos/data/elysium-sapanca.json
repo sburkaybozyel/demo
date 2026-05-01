@@ -5,13 +5,10 @@
   "headline": "Sapanca'nın kalbinde, ultra lüks ve konforun yeni adresi.",
   "description": "Elysium Sapanca; modern tasarımı, geniş bahçesi ve özel havuzuyla lüks konaklama arayan misafirler için benzersiz bir villa deneyimi sunuyor.",
   "type": "Lüks Villa",
-  "heroImage": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  "featureImage": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heroImage": "images/elysium-sapanca/img1.jpg",
+  "featureImage": "images/elysium-sapanca/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "images/elysium-sapanca/img3.jpg"
   ],
   "features": [
     {
@@ -28,10 +25,22 @@
     }
   ],
   "amenities": [
-    { "title": "Jakuzi", "body": "Teras keyfi." },
-    { "title": "Smart TV", "body": "Netflix & Eğlence." },
-    { "title": "Klima", "body": "Her odada konfor." },
-    { "title": "Bahçe Mobilyası", "body": "Lüks oturma grubu." }
+    {
+      "title": "Jakuzi",
+      "body": "Teras keyfi."
+    },
+    {
+      "title": "Smart TV",
+      "body": "Netflix & Eğlence."
+    },
+    {
+      "title": "Klima",
+      "body": "Her odada konfor."
+    },
+    {
+      "title": "Bahçe Mobilyası",
+      "body": "Lüks oturma grubu."
+    }
   ],
   "contact": {
     "phone": "0530 521 58 96",

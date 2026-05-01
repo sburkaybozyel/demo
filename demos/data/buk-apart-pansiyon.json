@@ -7,13 +7,10 @@
   "headline": "Palamutbükü'nde apart pansiyon için sade rezervasyon sayfası.",
   "description": "Bük Apart Pansiyon için hazırlanan bu taslak; oda bilgilerini, tesis görsellerini ve doğrudan iletişim akışını tek sayfada toplar.",
   "type": "Apart Pansiyon",
-  "heroImage": "/demo/assets/prospects/buk-apart-pansiyon-01.jpg",
-  "featureImage": "/demo/assets/prospects/buk-apart-pansiyon-02.jpg",
+  "heroImage": "images/buk-apart-pansiyon/img1.jpg",
+  "featureImage": "images/buk-apart-pansiyon/img2.jpg",
   "gallery": [
-    "/demo/assets/prospects/buk-apart-pansiyon-01.jpg",
-    "/demo/assets/prospects/buk-apart-pansiyon-02.jpg",
-    "/demo/assets/prospects/buk-apart-pansiyon-03.jpg",
-    "/demo/assets/prospects/buk-apart-pansiyon-04.jpg"
+    "images/buk-apart-pansiyon/img3.jpg"
   ],
   "features": [
     {

@@ -7,13 +7,10 @@
   "headline": "Yeşilırmak kıyısında sıcak konaklama.",
   "description": "Ergün Pansiyon; Amasya'nın tarihi Dereboyu caddesi üzerinde, Yeşilırmak kıyısında, misafirlerine sıcak ve samimi bir aile pansiyonu deneyimi sunan köklü bir konaklama alanıdır.",
   "type": "Pansiyon",
-  "heroImage": "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-1.jpg",
-  "featureImage": "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-3.jpg",
+  "heroImage": "images/ergun-pansiyon-amasya/img1.jpg",
+  "featureImage": "images/ergun-pansiyon-amasya/img2.jpg",
   "gallery": [
-    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-2.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-4.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-5.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ergun-Pansiyon/Ergun-Pansiyon-Resim-6.jpg"
+    "images/ergun-pansiyon-amasya/img3.jpg"
   ],
   "features": [
     {

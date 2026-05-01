@@ -1,0 +1,58 @@
+{
+  "name": "Taos Pueblo adobe inn",
+  "slug": "taos-pueblo-adobe-inn",
+  "demoNotice": "Demo draft, not an official website.",
+  "location": "Taos, NM",
+  "eyebrow": "Historic Taos Plaza",
+  "headline": "Authentic Adobe Hospitality Since 1935.",
+  "description": "Taos Pueblo adobe inn is a family-owned historic inn built from traditional adobe bricks. Experience the timeless charm of northern New Mexico with modern comforts, a private courtyard, and walking distance to Taos Plaza galleries and museums.",
+  "heroImage": "images/taos-pueblo-adobe-inn/img1.jpg",
+  "featureImage": "images/taos-pueblo-adobe-inn/img2.jpg",
+  "gallery": [
+    "images/taos-pueblo-adobe-inn/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Traditional Adobe Construction",
+      "description": "Thick adobe walls provide natural temperature regulation."
+    },
+    {
+      "title": "Private Adobe Courtyard",
+      "description": "Secluded outdoor space with mountain views."
+    },
+    {
+      "title": "Walking Distance to Taos Plaza",
+      "description": "Explore art galleries, shops, and restaurants on foot."
+    },
+    {
+      "title": "Cultural Heritage Location",
+      "description": "Rich history near Taos Pueblo and Millicent Rogers Museum."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Southwestern Breakfast",
+      "body": "Daily homemade breakfast included"
+    },
+    {
+      "title": "Kiva Fireplaces",
+      "body": "Traditional fireplaces in select rooms"
+    },
+    {
+      "title": "Rooftop Terrace",
+      "body": "Sundown viewing with Sangre de Cristo views"
+    },
+    {
+      "title": "Artisan Gallery",
+      "body": "On-site local artist exhibitions"
+    }
+  ],
+  "contact": {
+    "phone": "+1 575 XXX-XXXX",
+    "whatsapp": "1575XXXXXXX",
+    "email": "info@taospuebloinn.com",
+    "address": "311 Paseo Del Pueblo Norte, Taos, NM 87571",
+    "instagram": "taospuebloinn"
+  },
+  "type": "Historic Inn"
+}

@@ -3,13 +3,21 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
-const hotels = [
-  { name: 'Teker Suite Hotel', slug: 'teker-suite-hotel' },
-  { name: 'Mersin Vip House', slug: 'mersin-vip-house' },
-  { name: 'Aria Suit Konaklama', slug: 'aria-suit-konaklama' },
-  { name: 'Forum Suite Otel', slug: 'forum-suite-otel' },
-  { name: 'Pozcu Otel', slug: 'pozcu-otel' }
-];
+// Load all hotel JSON files from demos/data/
+function loadHotels() {
+  const dataDir = path.join(__dirname, 'demos', 'data');
+  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+  return files.map(file => {
+    const data = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf8'));
+    return {
+      name: data.name,
+      slug: data.slug,
+      location: data.location || ''
+    };
+  });
+}
+
+const hotels = loadHotels();
 
 async function downloadImage(url, filepath) {
   return new Promise((resolve, reject) => {
@@ -33,10 +41,11 @@ async function scrapeImages() {
     console.log(`Searching Bing Images for ${hotel.name}...`);
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-    
+
     let imageUrls = [];
     try {
-      const query = encodeURIComponent(hotel.name + " Mersin");
+      // Use hotel name + location for better search relevance
+      const query = encodeURIComponent(hotel.name + " " + hotel.location);
       await page.goto(`https://www.bing.com/images/search?q=${query}`, { waitUntil: 'domcontentloaded', timeout: 30000 });
       
       imageUrls = await page.evaluate(() => {

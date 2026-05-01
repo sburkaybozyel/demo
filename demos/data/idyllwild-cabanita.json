@@ -1,0 +1,74 @@
+{
+  "name": "La Cabañita",
+  "slug": "idyllwild-cabanita",
+  "location": "Idyllwild, CA",
+  "eyebrow": "Idyllwild, CA",
+  "headline": "Cozy Mid-Century Modern Retreat.",
+  "description": "A beautifully restored 1960s cabin in Idyllwild. La Cabañita offers a curated aesthetic for those who appreciate design and nature in equal measure.",
+  "type": "Cabin",
+  "heroImage": "images/idyllwild-cabanita/img1.jpg",
+  "featureImage": "images/idyllwild-cabanita/img2.jpg",
+  "gallery": [
+    "images/idyllwild-cabanita/img3.jpg",
+    "images/idyllwild-cabanita/img4.jpg",
+    "images/idyllwild-cabanita/img5.jpg"
+  ],
+  "features": [
+    {
+      "title": "Mid-Century Style",
+      "body": "Authentic retro details meets modern luxury comfort."
+    },
+    {
+      "title": "Wood Burning Stove",
+      "body": "Classic mountain atmosphere for those chilly Idyllwild nights."
+    },
+    {
+      "title": "Designer Kitchen",
+      "body": "Perfect for preparing gourmet meals after a day of hiking."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Direct Booking",
+      "body": "Save up to 20% by booking directly on this site — no OTA commissions."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Available in most cabins for the ultimate relaxation."
+    },
+    {
+      "title": "High-Speed Wi-Fi",
+      "body": "Perfect for remote work or streaming your favorite shows."
+    },
+    {
+      "title": "Fully Equipped Kitchen",
+      "body": "Everything you need to cook a five-star meal in the mountains."
+    },
+    {
+      "title": "WhatsApp Support",
+      "body": "Instant communication with your host for a seamless stay."
+    },
+    {
+      "title": "Pet Friendly",
+      "body": "Bring your best friend along for the journey."
+    },
+    {
+      "title": "Fire Pit",
+      "body": "Cozy nights under the stars with a warm fire."
+    },
+    {
+      "title": "Easy Check-in",
+      "body": "Keyless entry and professional management for peace of mind."
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "Idyllwild, CA",
+    "instagram": "idyllwildcabanita"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/idyllwildcabanita/"
+  ]
+}

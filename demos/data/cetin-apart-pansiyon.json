@@ -7,13 +7,10 @@
   "headline": "Fethiye merkezde apart ve pansiyon konaklaması için direkt rezervasyon sayfası.",
   "description": "Çetin Apart & Pansiyon için hazırlanan bu taslak; apart ve pansiyon konaklama bilgisini, tesis görsellerini ve doğrudan iletişim akışını tek sayfada toplar.",
   "type": "Apart & Pansiyon",
-  "heroImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
-  "featureImage": "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
+  "heroImage": "images/cetin-apart-pansiyon/img1.jpg",
+  "featureImage": "images/cetin-apart-pansiyon/img2.jpg",
   "gallery": [
-    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg",
-    "https://www.fethiyetatilkonaklama.com/Uploads/Ilanlar/3cae7163-fe64-4a67-9c02-3b02d3da6d84.jpg"
+    "images/cetin-apart-pansiyon/img3.jpg"
   ],
   "features": [
     {

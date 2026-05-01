@@ -7,13 +7,10 @@
   "headline": "Akşemseddin'in kasabasında tarihi konakta, yöresel lezzetlerle butik konaklama.",
   "description": "Göynük Hanedan Butik Otel; Gazi Süleyman Paşa Camii ve Akşemseddin Hz. Türbesi'nin hemen karşısında, restore edilmiş tipik bir Göynük evi içinde özgün bir konaklama deneyimi sunuyor. Yöresel yemekler, kahvaltı ve sıcak butik otel atmosferiyle Bolu'nun saklı incisinde kendinizi evde hissedeceksiniz.",
   "type": "Butik Otel",
-  "heroImage": "https://www.goynukluler.com/wp-content/uploads/2017/05/hanedan_butik_otel_goynuk-1-1-800x445.jpg",
-  "featureImage": "https://www.goynukluler.com/wp-content/uploads/2017/05/goynuk_hanedan_butik_otel-3-900x600.jpg",
+  "heroImage": "images/goynuk-hanedan-butik-otel/img1.jpg",
+  "featureImage": "images/goynuk-hanedan-butik-otel/img2.jpg",
   "gallery": [
-    "https://www.goynukluler.com/wp-content/uploads/2017/05/hanedan_butik_otel_goynuk-1-1-800x445.jpg",
-    "https://www.goynukluler.com/wp-content/uploads/2017/05/goynuk_hanedan_butik_otel-2-900x600.jpg",
-    "https://www.goynukluler.com/wp-content/uploads/2017/05/goynuk_hanedan_butik_otel-3-900x600.jpg",
-    "https://www.goynukluler.com/wp-content/uploads/2017/05/hanedan_butik_otel_goynuk-3-662x445.jpg"
+    "images/goynuk-hanedan-butik-otel/img3.jpg"
   ],
   "features": [
     {

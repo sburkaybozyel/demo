@@ -1,0 +1,74 @@
+{
+  "name": "Broken Bow Cabin Getaways",
+  "slug": "broken-bow-cabin-getaways",
+  "location": "Broken Bow, OK",
+  "eyebrow": "Broken Bow, OK",
+  "headline": "Escape to the Oklahoma Wilderness.",
+  "description": "Find your perfect forest sanctuary. Our cabins range from intimate couple retreats to large lodge-style family homes, all featuring premium amenities.",
+  "type": "Cabin",
+  "heroImage": "images/broken-bow-cabin-getaways/img1.jpg",
+  "featureImage": "images/broken-bow-cabin-getaways/img2.jpg",
+  "gallery": [
+    "images/broken-bow-cabin-getaways/img3.jpg",
+    "images/broken-bow-cabin-getaways/img4.jpg",
+    "images/broken-bow-cabin-getaways/img5.jpg"
+  ],
+  "features": [
+    {
+      "title": "Pet Friendly Options",
+      "body": "Bring your furry friends along for the adventure."
+    },
+    {
+      "title": "Fire Pit Stories",
+      "body": "Propane or wood-burning fire pits for the ultimate s'mores experience."
+    },
+    {
+      "title": "Smart Home Tech",
+      "body": "High-speed Wi-Fi and streaming services integrated into every cabin."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Direct Booking",
+      "body": "Save up to 20% by booking directly on this site — no OTA commissions."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Available in most cabins for the ultimate relaxation."
+    },
+    {
+      "title": "High-Speed Wi-Fi",
+      "body": "Perfect for remote work or streaming your favorite shows."
+    },
+    {
+      "title": "Fully Equipped Kitchen",
+      "body": "Everything you need to cook a five-star meal in the mountains."
+    },
+    {
+      "title": "WhatsApp Support",
+      "body": "Instant communication with your host for a seamless stay."
+    },
+    {
+      "title": "Pet Friendly",
+      "body": "Bring your best friend along for the journey."
+    },
+    {
+      "title": "Fire Pit",
+      "body": "Cozy nights under the stars with a warm fire."
+    },
+    {
+      "title": "Easy Check-in",
+      "body": "Keyless entry and professional management for peace of mind."
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "Broken Bow, OK",
+    "instagram": "brokenbowgetaways"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/brokenbowgetaways/"
+  ]
+}

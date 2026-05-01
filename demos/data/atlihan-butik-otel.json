@@ -7,13 +7,10 @@
   "headline": "Kazdağları eteklerinde sakin butik otel.",
   "description": "Atlıhan Butik Otel; Yeşilyurt Köyü'nde tarihi doku, bahçeli alanlar ve ev konforuna yakın butik konaklama anlayışıyla Kazdağları hattında sakin bir kaçamak sunar.",
   "type": "Butik Otel",
-  "heroImage": "/demo/assets/prospects/atlihan-butik-otel-01.jpg",
-  "featureImage": "/demo/assets/prospects/atlihan-butik-otel-02.jpg",
+  "heroImage": "images/atlihan-butik-otel/img1.jpg",
+  "featureImage": "images/atlihan-butik-otel/img2.jpg",
   "gallery": [
-    "/demo/assets/prospects/atlihan-butik-otel-01.jpg",
-    "/demo/assets/prospects/atlihan-butik-otel-02.jpg",
-    "/demo/assets/prospects/atlihan-butik-otel-03.jpg",
-    "/demo/assets/prospects/atlihan-butik-otel-04.jpg"
+    "images/atlihan-butik-otel/img3.jpg"
   ],
   "features": [
     {

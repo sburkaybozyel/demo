@@ -7,13 +7,10 @@
   "headline": "Gölün huzurunda özel villa.",
   "description": "Gül Ev Sapanca; göle 500 metre mesafede, ısıtmalı özel havuzu, jakuzisi ve şöminesiyliyle dört mevsim konforlu tatil sunan özel bir villa konaklama alanıdır.",
   "type": "Villa konaklama",
-  "heroImage": "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-1.jpg",
-  "featureImage": "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-3.jpg",
+  "heroImage": "images/gul-ev-sapanca/img1.jpg",
+  "featureImage": "images/gul-ev-sapanca/img2.jpg",
   "gallery": [
-    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-2.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-4.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-5.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Gul-Sapanca-Evi/Gul-Sapanca-Evi-Resim-6.jpg"
+    "images/gul-ev-sapanca/img3.jpg"
   ],
   "features": [
     {

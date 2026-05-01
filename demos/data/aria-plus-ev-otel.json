@@ -6,10 +6,17 @@
   "eyebrow": "Mersin",
   "headline": "Yeni nesil konaklama anlayışı.",
   "description": "Aria Plus Ev Otel, geniş aileler ve kalabalık gruplar için modern tasarımlı ev otel konseptini Mersin'e getiriyor.",
-  "heroImage": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg",
-  "featureImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "gallery": ["https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg"],
-  "features": [{"title": "Modern Konsept", "description": "Ev rahatlığında lüks."}],
+  "heroImage": "images/aria-plus-ev-otel/img1.jpg",
+  "featureImage": "images/aria-plus-ev-otel/img2.jpg",
+  "gallery": [
+    "images/aria-plus-ev-otel/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Modern Konsept",
+      "description": "Ev rahatlığında lüks."
+    }
+  ],
   "contact": {
     "phone": "+90 5XX XXX XX XX",
     "whatsapp": "905XXXXXXXXX",

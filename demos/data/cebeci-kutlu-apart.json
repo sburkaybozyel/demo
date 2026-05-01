@@ -7,13 +7,10 @@
   "headline": "Cebeci'de ailelere uygun apart konaklama.",
   "description": "Cebeci Kutlu Apart; Kandıra Cebeci'de apart daire konaklama, plajlara yakın konum ve sade kullanım alanlarıyla aileler ve kısa tatil planları için pratik bir konaklama alternatifi sunar.",
   "type": "Apart otel",
-  "heroImage": "https://a.otcdn.com/imglib/hotelphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002603508100.webp",
-  "featureImage": "https://a.otcdn.com/imglib/hotelphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002812528900.webp",
+  "heroImage": "images/cebeci-kutlu-apart/img1.jpg",
+  "featureImage": "images/cebeci-kutlu-apart/img2.jpg",
   "gallery": [
-    "https://a.otcdn.com/imglib/hotelphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002603508100.webp",
-    "https://a.otcdn.com/imglib/hotelphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002812528900.webp",
-    "https://a.otcdn.com/imglib/hotelphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002426417200.webp",
-    "https://a.otcdn.com/imglib/roomphotos/0/8/1839/hotel-cebeci-kutlu-apart-cebeci-mahallesi-20240525002940751500.jpg"
+    "images/cebeci-kutlu-apart/img3.jpg"
   ],
   "features": [
     {

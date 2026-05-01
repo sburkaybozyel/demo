@@ -6,13 +6,10 @@
   "headline": "Gemile Adası karşısında, doğanın içinde.",
   "description": "Fethiye'nin efsanevi Gemile Adası'na bakan konumuyla, Kabak bölgesinde sessiz ve özel bir lodge deneyimi. Doğa, deniz ve huzur bir arada.",
   "type": "Bungalov & Lodge",
-  "heroImage": "images/gemile-beach-lodge/hero.jpg",
+  "heroImage": "images/gemile-beach-lodge/img1.jpg",
   "featureImage": "images/gemile-beach-lodge/img2.jpg",
   "gallery": [
-    "images/gemile-beach-lodge/hero.jpg",
-    "images/gemile-beach-lodge/img2.jpg",
-    "images/gemile-beach-lodge/img3.jpg",
-    "images/gemile-beach-lodge/img4.jpg"
+    "images/gemile-beach-lodge/img3.jpg"
   ],
   "features": [
     {

@@ -6,10 +6,17 @@
   "eyebrow": "Mersin",
   "headline": "Eğlence ve dinlence bir arada.",
   "description": "Clup Efes Otel, sunduğu aktivite imkanları ve rahat odaları ile tatilinizi unutulmaz bir deneyime dönüştürüyor.",
-  "heroImage": "https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg",
-  "featureImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
-  "gallery": ["https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"],
-  "features": [{"title": "Aktivite İmkanları", "description": "Eğlenceli zaman geçirin."}],
+  "heroImage": "images/clup-efes-otel/img1.jpg",
+  "featureImage": "images/clup-efes-otel/img2.jpg",
+  "gallery": [
+    "images/clup-efes-otel/img3.jpg"
+  ],
+  "features": [
+    {
+      "title": "Aktivite İmkanları",
+      "description": "Eğlenceli zaman geçirin."
+    }
+  ],
   "contact": {
     "phone": "+90 5XX XXX XX XX",
     "whatsapp": "905XXXXXXXXX",

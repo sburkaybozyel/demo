@@ -7,13 +7,10 @@
   "headline": "Mezopotamya'nın üzerinde, sarı taşın içinde tarihi konak konaklaması.",
   "description": "Gazi Konağı Butik Hotel; Mardin'in efsanevi sarı taş konakları arasında, Mezopotamya ovasına bakan manzarasıyla tarihi dokuyu yaşatan 29 odalı özgün bir konaklama deneyimi sunuyor.",
   "type": "Butik Otel",
-  "heroImage": "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368262/photo-gazi-konagi-butik-hotel-mardin-1.JPEG",
-  "featureImage": "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15255/1525521/1525521244/photo-gazi-konagi-butik-hotel-mardin-3.JPEG",
+  "heroImage": "images/gazi-konagi-mardin/img1.jpg",
+  "featureImage": "images/gazi-konagi-mardin/img2.jpg",
   "gallery": [
-    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368262/photo-gazi-konagi-butik-hotel-mardin-1.JPEG",
-    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/16308/1630876/1630876884/photo-gazi-konagi-butik-hotel-mardin-2.JPEG",
-    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15255/1525521/1525521244/photo-gazi-konagi-butik-hotel-mardin-3.JPEG",
-    "https://www.tr-hotels.com/data/Photos/OriginalPhoto/15463/1546368/1546368790/photo-gazi-konagi-butik-hotel-mardin-4.JPEG"
+    "images/gazi-konagi-mardin/img3.jpg"
   ],
   "features": [
     {

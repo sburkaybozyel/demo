@@ -1,0 +1,74 @@
+{
+  "name": "Cabin Collective Broken Bow",
+  "slug": "cabin-collective-broken-bow",
+  "location": "Broken Bow, OK",
+  "eyebrow": "Broken Bow, OK",
+  "headline": "Luxury A-Frames in the Heart of Hochatown.",
+  "description": "Experience the ultimate forest retreat with Cabin Collective. Our designer A-frames offer modern luxury blended with the raw beauty of Broken Bow's pines. Perfect for romantic getaways or peaceful solo escapes.",
+  "type": "Cabin",
+  "heroImage": "images/cabin-collective-broken-bow/img1.jpg",
+  "featureImage": "images/cabin-collective-broken-bow/img2.jpg",
+  "gallery": [
+    "images/cabin-collective-broken-bow/img3.jpg",
+    "images/cabin-collective-broken-bow/img4.jpg",
+    "images/cabin-collective-broken-bow/img5.jpg"
+  ],
+  "features": [
+    {
+      "title": "Designer A-Frame Style",
+      "body": "Architecturally stunning cabins with floor-to-ceiling windows and modern interiors."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Relax under the stars in your own secluded deck-side hot tub."
+    },
+    {
+      "title": "Walk to the Lake",
+      "body": "Just minutes away from Broken Bow Lake and the best hiking trails in Oklahoma."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Direct Booking",
+      "body": "Save up to 20% by booking directly on this site — no OTA commissions."
+    },
+    {
+      "title": "Private Hot Tub",
+      "body": "Available in most cabins for the ultimate relaxation."
+    },
+    {
+      "title": "High-Speed Wi-Fi",
+      "body": "Perfect for remote work or streaming your favorite shows."
+    },
+    {
+      "title": "Fully Equipped Kitchen",
+      "body": "Everything you need to cook a five-star meal in the mountains."
+    },
+    {
+      "title": "WhatsApp Support",
+      "body": "Instant communication with your host for a seamless stay."
+    },
+    {
+      "title": "Pet Friendly",
+      "body": "Bring your best friend along for the journey."
+    },
+    {
+      "title": "Fire Pit",
+      "body": "Cozy nights under the stars with a warm fire."
+    },
+    {
+      "title": "Easy Check-in",
+      "body": "Keyless entry and professional management for peace of mind."
+    }
+  ],
+  "contact": {
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "Broken Bow, OK",
+    "instagram": "cabincollectivebrokenbow"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/cabincollectivebrokenbow/"
+  ]
+}
