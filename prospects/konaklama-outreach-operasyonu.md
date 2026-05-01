@@ -288,7 +288,8 @@
 | # | İşletme | Telefon | Kanal | Demo | Durum |
 |---|---------|---------|-------|------|-------|
 | 1 | SRC Ekinci Apart Otel | +90 5XX XXX XX XX | @srcekinciapart | [link](https://sburkaybozyel.github.io/demo/src-ekinci-apart-otel) | ✅ |
-| 2 | Hakan Apart Otel | +90 5XX XXX XX XX | @hakanapartotelmersin | [link](https://sburkaybozyel.github.io/demo/hakan-apart-hotel) | ✅ |
+| 2 | Güneş Apart Hotel | +90 5XX XXX XX XX | @gunesaparthotel | [link](https://sburkaybozyel.github.io/demo/gunes-apart-hotel) | ✅ |
 | 3 | Demir Apart Hotel | +90 5XX XXX XX XX | @demiraparthotel | [link](https://sburkaybozyel.github.io/demo/demir-apart-hotel) | ✅ |
-| 4 | Capitol Apart Otel | +90 5XX XXX XX XX | @capitolapartotel | [link](https://sburkaybozyel.github.io/demo/capitol-apart-otel) | ✅ |
+| 4 | Otel Arısan | +90 5XX XXX XX XX | @otel_arisan | [link](https://sburkaybozyel.github.io/demo/otel-arisan) | ✅ |
 | 5 | Athena Apart Residence | +90 5XX XXX XX XX | @athenaapartresidence | [link](https://sburkaybozyel.github.io/demo/athena-apart-residence) | ✅ |
+

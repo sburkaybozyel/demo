@@ -1,0 +1,37 @@
+{
+  "name": "Otel Arısan",
+  "slug": "otel-arisan",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Mersin'in merkezinde samimi bir konaklama.",
+  "description": "Otel Arısan, yılların verdiği tecrübe ile misafirlerine ekonomik, temiz ve kaliteli bir konaklama hizmeti sunmaktadır.",
+  "heroImage": "https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg",
+  "featureImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
+  "gallery": [
+    "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+    "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg"
+  ],
+  "features": [
+    {
+      "title": "Ekonomik",
+      "description": "Bütçe dostu konaklama seçenekleri."
+    },
+    {
+      "title": "Temiz ve Düzenli",
+      "description": "Özenle hazırlanan odalar."
+    },
+    {
+      "title": "Şehir Merkezinde",
+      "description": "Tüm ulaşım ağlarına yakın."
+    }
+  ],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "otel_arisan"
+  }
+}
