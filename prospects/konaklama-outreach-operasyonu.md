@@ -292,3 +292,8 @@
 | 3 | Grand Ezel Hotel | +90 5XX XXX XX XX | @grandezelhotel | [link](https://sburkaybozyel.github.io/demo/grand-ezel-hotel) | ✅ |
 | 4 | Marin Butik Otel | +90 5XX XXX XX XX | @marinbutikmersin | [link](https://sburkaybozyel.github.io/demo/marin-butik-otel) | ✅ |
 | 5 | Mavi Beyaz Butik Otel | +90 5XX XXX XX XX | @mavibeyazkizkalesi | [link](https://sburkaybozyel.github.io/demo/mavi-beyaz-butik-otel) | ✅ |
+| 6 | Mojo Otel Beach | +90 5XX XXX XX XX | @mojootelbeach | [link](https://sburkaybozyel.github.io/demo/mojo-otel-beach) | ✅ |
+| 7 | Palmila Butik Otel | +90 5XX XXX XX XX | @palmilabutikotel | [link](https://sburkaybozyel.github.io/demo/palmila-butik-otel) | ✅ |
+| 8 | Limonotto Suit Otel | +90 5XX XXX XX XX | @limonottosuit | [link](https://sburkaybozyel.github.io/demo/limonotto-suit-otel) | ✅ |
+| 9 | İkonyum Butik Otel | +90 5XX XXX XX XX | @ikonyumbutikotel | [link](https://sburkaybozyel.github.io/demo/ikonyum-butik-otel) | ✅ |
+| 10 | Osmanlı Marco Pasha Hotel | +90 5XX XXX XX XX | @marcopashahotel | [link](https://sburkaybozyel.github.io/demo/osmanli-marco-pasha) | ✅ |

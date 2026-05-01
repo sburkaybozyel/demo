@@ -1,0 +1,37 @@
+{
+  "name": "İkonyum Butik Otel",
+  "slug": "ikonyum-butik-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Tarihin dokusuyla modern mimarinin buluşması.",
+  "description": "İkonyum Butik Otel, misafirlerine sadece konaklama değil, kültürel bir deneyim sunan zarif bir tesis.",
+  "heroImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
+  "featureImage": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+  "gallery": [
+    "https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg",
+    "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+    "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg"
+  ],
+  "features": [
+    {
+      "title": "Zarif Odalar",
+      "description": "İnce düşünülmüş detaylar."
+    },
+    {
+      "title": "Özel Avlu",
+      "description": "Kahvenizi yudumlayacağınız huzurlu ortam."
+    },
+    {
+      "title": "Gurme Lezzetler",
+      "description": "Usta şeflerin elinden çıkan menü."
+    }
+  ],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "ikonyumbutikotel"
+  }
+}
