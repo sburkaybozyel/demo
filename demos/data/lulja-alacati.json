@@ -7,13 +7,13 @@
   "headline": "Alaçatı'nın merkezine yakın butik otel deneyimi.",
   "description": "Lulja Alaçatı; Alaçatı çarşısına yakın konumu, bahçeli butik otel atmosferi ve sade oda seçenekleriyle kısa Ege tatilleri için sıcak ve ulaşılabilir bir konaklama alternatifi sunar.",
   "type": "Butik Otel",
-  "heroImage": "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacatiaa427899.jpg?tr=w-1024,h-768,fo-auto,q-80",
-  "featureImage": "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacati3c1a8c7d.jpg?tr=w-1024,h-768,fo-auto,q-80",
+  "heroImage": "/demo/assets/prospects/lulja-alacati-01.jpg",
+  "featureImage": "/demo/assets/prospects/lulja-alacati-02.jpg",
   "gallery": [
-    "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacatiaa427899.jpg?tr=w-1024,h-768,fo-auto,q-80",
-    "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacati3c1a8c7d.jpg?tr=w-1024,h-768,fo-auto,q-80",
-    "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacatic94dca85.jpg?tr=w-1024,h-768,fo-auto,q-80",
-    "https://imgkit.otelz.com/turkey/izmir/cesme/luljaalacatibbb9f16f.jpg?tr=w-1024,h-768,fo-auto,q-80"
+    "/demo/assets/prospects/lulja-alacati-01.jpg",
+    "/demo/assets/prospects/lulja-alacati-02.jpg",
+    "/demo/assets/prospects/lulja-alacati-03.jpg",
+    "/demo/assets/prospects/lulja-alacati-04.jpg"
   ],
   "features": [
     {
