@@ -4,16 +4,11 @@ const https = require('https');
 const path = require('path');
 
 const hotels = [
-  { name: 'Sarı Konak Apart Otel', slug: 'sari-konak-apart-otel', ig: 'kizkalesisarikonakapart' },
-  { name: 'Ercan Apart', slug: 'ercan-apart', ig: 'ercanapartayas' },
-  { name: 'Aydın Apart Otel', slug: 'aydin-apart-otel', ig: 'aydin_apart' },
-  { name: 'Sergen Apart Motel', slug: 'sergen-apart-motel', ig: 'sergenapartmotel' },
-  { name: 'Bahadır Apart Motel', slug: 'bahadir-apart-motel', ig: 'bahadirapartmotel' },
-  { name: 'Davut Apart Hotel', slug: 'davut-apart-hotel', ig: 'davutotel' },
-  { name: 'Gürkan Apart Pansiyon', slug: 'gurkan-apart-pansiyon', ig: 'gurkan_apart' },
-  { name: 'Sunguroğlu Apart', slug: 'sunguroglu-apart', ig: 'sunguroglutatil' },
-  { name: 'Riva Apart Otel', slug: 'riva-apart-otel', ig: 'riva_apart' },
-  { name: 'Cem Apart Motel', slug: 'cem-apart-motel', ig: 'cemapartmotel' }
+  { name: 'Servet Apart Otel Yemişkumu', slug: 'servet-apart-otel-yemiskumu', ig: 'servetapartotel' },
+  { name: 'Hakan Apart Otel', slug: 'hakan-apart-otel', ig: 'hakanapartotelmersin' },
+  { name: 'Seymen Otel Kızkalesi', slug: 'seymen-otel-kizkalesi', ig: 'seymenotel.kizkalesi' },
+  { name: 'Bir Umut Otel', slug: 'bir-umut-otel', ig: 'birumutotel' },
+  { name: 'Vista Boutique Hotel', slug: 'vista-boutique-hotel', ig: 'vista_boutique_hotel' }
 ];
 
 async function downloadImage(url, filepath) {

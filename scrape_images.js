@@ -4,16 +4,10 @@ const https = require('https');
 const path = require('path');
 
 const hotels = [
-  { name: 'Sarı Konak Apart Otel', slug: 'sari-konak-apart-otel', ig: 'kizkalesisarikonakapart', url: 'https://www.neredekal.com/sari-konak-apart-otel-fiyatlari/' },
-  { name: 'Ercan Apart', slug: 'ercan-apart', ig: 'ercanapartayas', url: 'https://www.neredekal.com/ercan-apart-fiyatlari/' },
-  { name: 'Aydın Apart Otel', slug: 'aydin-apart-otel', ig: 'aydin_apart', url: 'https://www.neredekal.com/aydin-apart-fiyatlari/' },
-  { name: 'Sergen Apart Motel', slug: 'sergen-apart-motel', ig: 'sergenapartmotel', url: 'https://www.neredekal.com/sergen-apart-motel-fiyatlari/' },
-  { name: 'Bahadır Apart Motel', slug: 'bahadir-apart-motel', ig: 'bahadirapartmotel', url: 'https://www.neredekal.com/bahadir-apart-motel-fiyatlari/' },
-  { name: 'Davut Apart Hotel', slug: 'davut-apart-hotel', ig: 'davutotel', url: 'https://www.neredekal.com/davut-apart-otel-fiyatlari/' },
-  { name: 'Gürkan Apart Pansiyon', slug: 'gurkan-apart-pansiyon', ig: 'gurkan_apart', url: 'https://www.neredekal.com/gurkan-apart-pansiyon-fiyatlari/' },
-  { name: 'Sunguroğlu Apart', slug: 'sunguroglu-apart', ig: 'sunguroglutatil', url: 'https://www.neredekal.com/sunguroglu-apart-fiyatlari/' },
-  { name: 'Riva Apart Otel', slug: 'riva-apart-otel', ig: 'riva_apart', url: 'https://www.neredekal.com/riva-apart-otel-fiyatlari/' },
-  { name: 'Cem Apart Motel', slug: 'cem-apart-motel', ig: 'cemapartmotel', url: 'https://www.neredekal.com/cem-apart-motel-fiyatlari/' }
+  { name: 'Servet Apart Otel Yemişkumu', slug: 'servet-apart-otel-yemiskumu', ig: 'servetapartotel', url: 'https://www.neredekal.com/servet-apart-otel-fiyatlari/' },
+  { name: 'Hakan Apart Otel', slug: 'hakan-apart-otel', ig: 'hakanapartotelmersin', url: 'https://www.neredekal.com/hakan-apart-otel-fiyatlari/' },
+  { name: 'Seymen Otel Kızkalesi', slug: 'seymen-otel-kizkalesi', ig: 'seymenotel.kizkalesi', url: 'https://www.neredekal.com/seymen-otel-kizkalesi-fiyatlari/' },
+  { name: 'Bir Umut Otel', slug: 'bir-umut-otel', ig: 'birumutotel', url: 'https://www.neredekal.com/bir-umut-otel-fiyatlari/' }
 ];
 
 async function downloadImage(url, filepath) {

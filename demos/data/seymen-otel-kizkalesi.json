@@ -6,15 +6,15 @@
   "eyebrow": "Erdemli / Mersin",
   "headline": "Seymen Otel Kızkalesi ile Huzurlu Bir Tatil.",
   "description": "Seymen Otel Kızkalesi, konforlu odaları ve benzersiz hizmet anlayışıyla Mersin tatillerinizde sizi bekliyor.",
-  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "heroImage": "images/seymen-otel-kizkalesi/img1.jpg",
+  "featureImage": "images/seymen-otel-kizkalesi/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+    "images/seymen-otel-kizkalesi/img3.jpg"
   ],
   "features": [
     {
       "title": "Mükemmel Konum",
-      "description": "Kızkalesi'nin kalbinde."
+      "description": "Erdemli'nin kalbinde."
     },
     {
       "title": "Konforlu Odalar",

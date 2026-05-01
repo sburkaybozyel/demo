@@ -3,18 +3,18 @@
   "slug": "vista-boutique-hotel",
   "demoNotice": "Demo taslak, resmi site değildir.",
   "location": "Mersin",
-  "eyebrow": "Mezitli / Mersin",
+  "eyebrow": "Erdemli / Mersin",
   "headline": "Vista Boutique Hotel ile Huzurlu Bir Tatil.",
   "description": "Vista Boutique Hotel, konforlu odaları ve benzersiz hizmet anlayışıyla Mersin tatillerinizde sizi bekliyor.",
-  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "heroImage": "images/vista-boutique-hotel/img1.jpg",
+  "featureImage": "images/vista-boutique-hotel/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+    "images/vista-boutique-hotel/img3.jpg"
   ],
   "features": [
     {
       "title": "Mükemmel Konum",
-      "description": "Mezitli'nin kalbinde."
+      "description": "Erdemli'nin kalbinde."
     },
     {
       "title": "Konforlu Odalar",
@@ -25,7 +25,7 @@
     "phone": "+90 5XX XXX XX XX",
     "whatsapp": "905XXXXXXXXX",
     "email": "",
-    "address": "Mezitli, Mersin",
+    "address": "Erdemli, Mersin",
     "instagram": "vista_boutique_hotel"
   }
 }

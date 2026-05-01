@@ -6,15 +6,15 @@
   "eyebrow": "Erdemli / Mersin",
   "headline": "Bir Umut Otel ile Huzurlu Bir Tatil.",
   "description": "Bir Umut Otel, konforlu odaları ve benzersiz hizmet anlayışıyla Mersin tatillerinizde sizi bekliyor.",
-  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "heroImage": "images/bir-umut-otel/img1.jpg",
+  "featureImage": "images/bir-umut-otel/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+    "images/bir-umut-otel/img3.jpg"
   ],
   "features": [
     {
       "title": "Mükemmel Konum",
-      "description": "Kızkalesi'nin kalbinde."
+      "description": "Erdemli'nin kalbinde."
     },
     {
       "title": "Konforlu Odalar",

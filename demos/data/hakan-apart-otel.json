@@ -6,10 +6,10 @@
   "eyebrow": "Erdemli / Mersin",
   "headline": "Hakan Apart Otel ile Huzurlu Bir Tatil.",
   "description": "Hakan Apart Otel, konforlu odaları ve benzersiz hizmet anlayışıyla Mersin tatillerinizde sizi bekliyor.",
-  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
-  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "heroImage": "images/hakan-apart-otel/img1.jpg",
+  "featureImage": "images/hakan-apart-otel/img2.jpg",
   "gallery": [
-    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"
+    "images/hakan-apart-otel/img3.jpg"
   ],
   "features": [
     {
