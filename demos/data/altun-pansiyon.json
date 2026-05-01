@@ -8,12 +8,12 @@
   "description": "Altun Pansiyon için hazırlanan bu taslak; pansiyon bilgilerini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
   "type": "Pansiyon",
   "heroImage": "images/altun-pansiyon/hero.jpg",
-  "featureImage": "images/altun-pansiyon/hero.jpg",
+  "featureImage": "images/altun-pansiyon/img2.jpg",
   "gallery": [
     "images/altun-pansiyon/hero.jpg",
-    "images/altun-pansiyon/hero.jpg",
-    "images/altun-pansiyon/hero.jpg",
-    "images/altun-pansiyon/hero.jpg"
+    "images/altun-pansiyon/img2.jpg",
+    "images/altun-pansiyon/img3.jpg",
+    "images/altun-pansiyon/img4.jpg"
   ],
   "features": [
     {
