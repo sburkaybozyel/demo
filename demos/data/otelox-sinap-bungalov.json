@@ -1,0 +1,37 @@
+{
+  "name": "Otelox Sinap Bungalov",
+  "slug": "otelox-sinap-bungalov",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Otelox Sinap'ta eşsiz doğa ve sonsuz huzur.",
+  "description": "Bungalov tarzı konaklamada lüks ve samimiyeti bir araya getiren Otelox Sinap, yılın stresini atmak isteyenler için mükemmel bir tercih.",
+  "heroImage": "https://images.pexels.com/photos/1486785/pexels-photo-1486785.jpeg",
+  "featureImage": "https://images.pexels.com/photos/206648/pexels-photo-206648.jpeg",
+  "gallery": [
+    "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg",
+    "https://images.pexels.com/photos/287398/pexels-photo-287398.jpeg",
+    "https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg"
+  ],
+  "features": [
+    {
+      "title": "Modern Bungalov",
+      "description": "Geleneksel ahşap, modern tasarım."
+    },
+    {
+      "title": "Geniş Bahçe",
+      "description": "Doğada yürüyüş yapabileceğiniz alanlar."
+    },
+    {
+      "title": "Ayrıcalıklı",
+      "description": "Özel hissedeceğiniz detaylar."
+    }
+  ],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "oteloxsinap"
+  }
+}
