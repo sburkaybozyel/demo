@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Historic Klondyke Trading Post — Vicksburg, MS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1c1409;
+      --cream: #faf7f0;
+      --warm: #f2ebe0;
+      --rust: #9b3a1a;
+      --gold: #b8862a;
+      --muted: #7a6e60;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(28, 20, 9, 0.88);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem; color: var(--cream); letter-spacing: 0.04em; text-decoration: none; line-height: 1.3;
+    }
+    .nav-logo span { color: var(--gold); }
+
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a {
+      color: rgba(250,247,240,0.72); text-decoration: none; font-size: 0.82rem;
+      font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn {
+      display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem;
+      font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
+      text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer;
+    }
+    .btn-primary { background: var(--rust); color: #fff; }
+    .btn-primary:hover { background: #7e2e13; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(250,247,240,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-dark { background: var(--ink); color: var(--cream); }
+    .btn-dark:hover { background: #2e1f0a; transform: translateY(-2px); }
+
+    .hero {
+      height: 100vh; position: relative;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('images/hero.png');
+      background-size: cover; background-position: center top;
+      filter: brightness(0.38);
+    }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow {
+      font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 1.2rem; font-weight: 400;
+    }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.8rem, 7vw, 5.5rem); line-height: 1.08; margin-bottom: 1.5rem; font-weight: 400;
+    }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub {
+      font-size: 1rem; font-weight: 300; color: rgba(250,247,240,0.75);
+      max-width: 500px; margin: 0 auto 2.8rem; line-height: 1.75;
+    }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+    .hero-scroll {
+      position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+      color: rgba(250,247,240,0.38); font-size: 0.68rem; letter-spacing: 0.2em;
+      text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem;
+    }
+    .scroll-line {
+      width: 1px; height: 40px;
+      background: linear-gradient(to bottom, rgba(250,247,240,0.38), transparent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    .strip {
+      background: var(--ink); color: var(--cream);
+      padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap;
+    }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+
+    .badge-row { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2rem; }
+    .badge {
+      background: var(--warm); border: 1px solid rgba(155,58,26,0.2);
+      color: var(--rust); font-size: 0.75rem; font-weight: 500;
+      letter-spacing: 0.08em; padding: 0.4rem 0.9rem; border-radius: 2px;
+    }
+
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(28,20,9,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--rust); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    .about-img-wrap {
+      position: relative; height: 520px;
+      background: var(--warm); border-radius: 3px; overflow: hidden;
+    }
+    .about-img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+    .about-img-tag {
+      position: absolute; bottom: 1.5rem; left: 1.5rem;
+      background: var(--rust); color: #fff;
+      font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em;
+      text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px;
+    }
+
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(255,255,255,0.07); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(250,247,240,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row {
+      display: flex; justify-content: space-between; align-items: baseline;
+      font-size: 0.85rem; font-weight: 300; color: rgba(250,247,240,0.7);
+      padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-price { color: var(--gold); font-size: 0.8rem; }
+
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(28,20,9,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 45%; }
+
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--rust); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); margin-bottom: 0; }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--rust); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 420px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+    .btn-white { background: #fff; color: var(--rust); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    footer { background: var(--ink); color: rgba(250,247,240,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(250,247,240,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; }
+      .about-img-wrap { height: 320px; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#">The <span>Klondyke</span><br><small style="font-size:0.7rem;font-family:Inter,sans-serif;font-weight:300;letter-spacing:0.1em;color:rgba(250,247,240,0.5)">TRADING POST</small></a>
+    <ul class="nav-links">
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+16016384321" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Call Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 1896 &nbsp;·&nbsp; Downtown Vicksburg</p>
+      <h1 class="hero-title">A Legend<br>on <em>Washington</em> Street</h1>
+      <p class="hero-sub">Vicksburg's most storied dining institution. Southern comfort, legendary burgers, and a history that stretches back over a century.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🍔</span> Voted Best Burger in Vicksburg</div>
+    <div class="strip-item"><span class="strip-icon">🐟</span> Best Catfish &amp; Best Steak</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 100 N Washington St, Vicksburg MS</div>
+    <div class="strip-item"><span class="strip-icon">⭐</span> 4.4 on Google &amp; TripAdvisor</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-img-wrap">
+        <img src="images/hero.png" alt="The Historic Klondyke Trading Post" />
+        <div class="about-img-tag">Since 1896</div>
+      </div>
+      <div>
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Where Vicksburg<br>Comes to Eat</h2>
+        <p class="section-body">
+          Housed in a converted two-bay gas station dating back to the 1930s, the Klondyke Trading Post is not just a restaurant — it is a Vicksburg institution. The building itself carries stories older than most of us, and the food has been feeding families, locals, and travelers for generations.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          Featured on Andrew Zimmern's "Appetite for Life," the Klondyke has earned its reputation the old-fashioned way: one incredible plate at a time.
+        </p>
+        <div class="badge-row">
+          <span class="badge">Best Burger</span>
+          <span class="badge">Best Catfish</span>
+          <span class="badge">Best Steak</span>
+          <span class="badge">Best Lunch</span>
+          <span class="badge">As Seen on TV</span>
+        </div>
+        <div class="about-stats">
+          <div><div class="stat-num">4.4</div><div class="stat-label">Google Rating</div></div>
+          <div><div class="stat-num">#11</div><div class="stat-label">of 125 on TripAdvisor</div></div>
+          <div><div class="stat-num">1896</div><div class="stat-label">Established</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Southern Classics,<br>Done Right</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🍔</div>
+          <div class="menu-card-title">Burgers</div>
+          <div class="menu-card-desc">Handcrafted, legendary. The Vicksburg Burger is a burger served between two grilled cheese sandwiches. Need we say more?</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Vicksburg Burger</span><span class="menu-item-price">Signature</span></div>
+            <div class="menu-item-row"><span>Classic Smash</span><span class="menu-item-price">House Fave</span></div>
+            <div class="menu-item-row"><span>Hand-Cut Fries</span><span class="menu-item-price">Fresh Daily</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🐟</div>
+          <div class="menu-card-title">Southern Plates</div>
+          <div class="menu-card-desc">Award-winning fried catfish, steaks cooked to order, and Southern sides that bring you back every time.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Fried Catfish</span><span class="menu-item-price">Award Winner</span></div>
+            <div class="menu-item-row"><span>Hand-Cut Steak</span><span class="menu-item-price">Best in VKS</span></div>
+            <div class="menu-item-row"><span>Fried Green Tomatoes</span><span class="menu-item-price">Southern Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍨</div>
+          <div class="menu-card-title">Desserts</div>
+          <div class="menu-card-desc">End on a high note. Our deep-fried Little Debbie with ice cream is a Vicksburg experience you will not forget.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Deep-Fried Little Debbie</span><span class="menu-item-price">Iconic</span></div>
+            <div class="menu-item-row"><span>Ice Cream</span><span class="menu-item-price">Seasonal</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday &amp; Tuesday</td><td>10:00 AM &ndash; 9:00 PM</td></tr>
+            <tr><td>Wednesday &ndash; Saturday</td><td>10:00 AM &ndash; 10:00 PM</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come &amp; Dine<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>The Historic Klondyke Trading Post</strong>
+          100 North Washington Street<br>Vicksburg, MS 39183
+        </div>
+        <div class="contact-links">
+          <a href="tel:+16016384321" class="contact-link">
+            <span class="contact-link-icon">📞</span>(601) 638-4321
+          </a>
+          <a href="https://www.facebook.com/klondykes/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Klondyke on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">A Vicksburg Original<br>Awaits You</h2>
+    <p>No reservations needed. Just walk in, sit down, and let a century of Southern cooking do the rest.</p>
+    <a href="tel:+16016384321" class="btn btn-white">Call Us &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo">The <span>Klondyke</span></div>
+    <p>© 2025 The Historic Klondyke Trading Post &nbsp;·&nbsp; 100 N Washington St, Vicksburg, MS</p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/klondykes/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
