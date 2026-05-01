@@ -7,13 +7,13 @@
   "headline": "Karadeniz'de huzurlu apart konaklama.",
   "description": "Özcan Apart Pansiyon; Sinop'un tarihi merkezinde, ev konforu ve apart imkanını bir arada sunan, aile işletmesi sıcaklığıyla misafirlerini ağırlayan bir konaklama alanıdır.",
   "type": "Apart pansiyon",
-  "heroImage": "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-1.jpg",
-  "featureImage": "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-3.jpg",
+  "heroImage": "/demo/assets/prospects/ozcan-apart-pansiyon-1.jpg",
+  "featureImage": "/demo/assets/prospects/ozcan-apart-pansiyon-3.jpg",
   "gallery": [
-    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-2.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-4.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-5.jpg",
-    "https://cdn.tatildenince.com/media/oteller/Ozcan-Apart-Pansiyon/Ozcan-Apart-Pansiyon-Resim-6.jpg"
+    "/demo/assets/prospects/ozcan-apart-pansiyon-1.jpg",
+    "/demo/assets/prospects/ozcan-apart-pansiyon-2.jpg",
+    "/demo/assets/prospects/ozcan-apart-pansiyon-3.jpg",
+    "/demo/assets/prospects/ozcan-apart-pansiyon-6.jpg"
   ],
   "features": [
     {
