@@ -1,0 +1,20 @@
+{
+  "name": "Turuva Apart Otel",
+  "slug": "turuva-apart-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Ailenizle huzurlu bir Mersin tatili.",
+  "description": "Turuva Apart Otel, evinizin konforunu aratmayan odalarıyla uygun fiyatlı ve kaliteli bir konaklama sunar.",
+  "heroImage": "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg",
+  "featureImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "gallery": ["https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"],
+  "features": [{"title": "Geniş Odalar", "description": "Konforlu yaşam alanları."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "turuvaapartotel"
+  }
+}

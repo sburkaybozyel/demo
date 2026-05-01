@@ -1,0 +1,20 @@
+{
+  "name": "Su Cafe Pansiyon",
+  "slug": "su-cafe-pansiyon",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Sıcak bir kahve, huzurlu bir konaklama.",
+  "description": "Su Cafe Pansiyon, butik hizmet anlayışıyla Mersin'deki misafirlerine eşsiz bir konaklama deneyimi sunuyor.",
+  "heroImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
+  "featureImage": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+  "gallery": ["https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg"],
+  "features": [{"title": "Butik Hizmet", "description": "Özel ve samimi."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "sucafepansiyon"
+  }
+}

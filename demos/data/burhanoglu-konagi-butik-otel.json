@@ -1,0 +1,20 @@
+{
+  "name": "Burhanoğlu Konağı Butik Otel",
+  "slug": "burhanoglu-konagi-butik-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Tarihin dokusuyla butik konaklama.",
+  "description": "Burhanoğlu Konağı Butik Otel, otantik mimarisi ve geleneksel misafirperverliği ile fark yaratıyor.",
+  "heroImage": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg",
+  "featureImage": "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg",
+  "gallery": ["https://images.pexels.com/photos/331107/pexels-photo-331107.jpeg"],
+  "features": [{"title": "Otantik Atmosfer", "description": "Geleneksel doku."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "burhanoglukonagibutikotel"
+  }
+}

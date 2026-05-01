@@ -1,0 +1,20 @@
+{
+  "name": "Tayfun Otel",
+  "slug": "tayfun-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Sakin ve konforlu bir mola.",
+  "description": "Tayfun Otel, konforlu odaları ve merkezi konumu sayesinde şehirdeki tüm ihtiyaçlarınıza cevap veriyor.",
+  "heroImage": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+  "featureImage": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg",
+  "gallery": ["https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg"],
+  "features": [{"title": "Merkezi Konum", "description": "Ulaşım kolaylığı."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "tayfunotel"
+  }
+}

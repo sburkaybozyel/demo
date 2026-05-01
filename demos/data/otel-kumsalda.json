@@ -1,0 +1,20 @@
+{
+  "name": "Otel Kumsalda",
+  "slug": "otel-kumsalda",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Denizin tadını Kumsalda çıkarın.",
+  "description": "Otel Kumsalda, plaja yakın konumu ve muhteşem doğasıyla unutulmaz bir tatil fırsatı vadediyor.",
+  "heroImage": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg",
+  "featureImage": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg",
+  "gallery": ["https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg"],
+  "features": [{"title": "Plaja Yakın", "description": "Denize sıfır keyfi."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "otelkumsalda"
+  }
+}

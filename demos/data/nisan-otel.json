@@ -1,0 +1,20 @@
+{
+  "name": "Nisan Otel",
+  "slug": "nisan-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Mersin",
+  "eyebrow": "Mersin",
+  "headline": "Baharın tazeliği her mevsim sizinle.",
+  "description": "Nisan Otel, yenilenmiş konsepti ve taze enerjisiyle Mersin seyahatlerinizde vazgeçilmez durağınız olacak.",
+  "heroImage": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg",
+  "featureImage": "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg",
+  "gallery": ["https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg"],
+  "features": [{"title": "Yenilenmiş Konsept", "description": "Taze ve ferah."}],
+  "contact": {
+    "phone": "+90 5XX XXX XX XX",
+    "whatsapp": "905XXXXXXXXX",
+    "email": "",
+    "address": "Mersin",
+    "instagram": "nisanotel"
+  }
+}
