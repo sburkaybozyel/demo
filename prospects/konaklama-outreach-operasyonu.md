@@ -280,3 +280,15 @@
 | 2 | 200 | | | | |
 | 3 | 200 | | | | |
 | 4 | 200 | | | | |
+
+---
+
+## Hedef Listesi - Mersin (YENİ)
+
+| # | İşletme | Telefon | Kanal | Demo | Durum |
+|---|---------|---------|-------|------|-------|
+| 1 | SRC Ekinci Apart Otel | +90 5XX XXX XX XX | @srcekinciapart | [link](https://sburkaybozyel.github.io/demo/src-ekinci-apart-otel) | ✅ |
+| 2 | Palmero Butik Hotel | +90 5XX XXX XX XX | @palmerobutikhotel | [link](https://sburkaybozyel.github.io/demo/palmero-butik-hotel) | ✅ |
+| 3 | Grand Ezel Hotel | +90 5XX XXX XX XX | @grandezelhotel | [link](https://sburkaybozyel.github.io/demo/grand-ezel-hotel) | ✅ |
+| 4 | Marin Butik Otel | +90 5XX XXX XX XX | @marinbutikmersin | [link](https://sburkaybozyel.github.io/demo/marin-butik-otel) | ✅ |
+| 5 | Mavi Beyaz Butik Otel | +90 5XX XXX XX XX | @mavibeyazkizkalesi | [link](https://sburkaybozyel.github.io/demo/mavi-beyaz-butik-otel) | ✅ |
