@@ -1,0 +1,77 @@
+{
+  "name": "Fethiye Öztürk Pansiyon",
+  "slug": "fethiye-ozturk-pansiyon",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Fethiye / Muğla",
+  "eyebrow": "Fethiye Merkez, Muğla",
+  "headline": "Fethiye pazarının hemen yanında, şehrin içinde uygun fiyatlı pansiyon.",
+  "description": "Fethiye Öztürk Pansiyon, Pazar Yeri Mahallesi'nde şehrin kalbinde konumlanan küçük ve samimi bir konaklama noktasıdır. Çarşıya, limana ve toplu taşımaya yürüme mesafesinde; sade, temiz ve bütçe dostu bir tercih.",
+  "type": "Pansiyon",
+  "heroImage": "images/fethiye-ozturk-pansiyon/hero.jpg",
+  "featureImage": "images/fethiye-ozturk-pansiyon/img2.jpg",
+  "gallery": [
+    "images/fethiye-ozturk-pansiyon/hero.jpg",
+    "images/fethiye-ozturk-pansiyon/img2.jpg",
+    "images/fethiye-ozturk-pansiyon/img3.jpg",
+    "images/fethiye-ozturk-pansiyon/img4.jpg"
+  ],
+  "features": [
+    {
+      "title": "Fethiye merkezinde konum",
+      "body": "Pazar Yeri Mahallesi'nde Fethiye çarşısı, limanı ve belediye meydanına yürüme mesafesinde stratejik bir pansiyon."
+    },
+    {
+      "title": "Bütçe dostu konaklama",
+      "body": "Platform komisyonları olmadan doğrudan pansiyon sahipleriyle iletişim kurarak uygun fiyatlı tatil fırsatı."
+    },
+    {
+      "title": "Sade ve temiz odalar",
+      "body": "Gereksiz süslerden arındırılmış, konforlu ve bakımlı oda anlayışıyla misafirlerin beklentisini karşılayan kaliteli hizmet."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Merkezi Konum",
+      "body": "Fethiye Pazar Yeri Mahallesi, şehrin tüm olanaklarına yürüyerek ulaşım."
+    },
+    {
+      "title": "Temiz Odalar",
+      "body": "Düzenli temizlik ve bakım hizmetiyle hazırlanan sade oda konforu."
+    },
+    {
+      "title": "Ücretsiz Wi-Fi",
+      "body": "Tüm alanlarda kesintisiz internet bağlantısı."
+    },
+    {
+      "title": "Kahvaltı",
+      "body": "Talep üzerine sabah kahvaltısı imkanı."
+    },
+    {
+      "title": "Çarşı ve Liman Yakınlığı",
+      "body": "Fethiye Balık Pazarı, eski şehir ve yat limanına yürüyüş mesafesi."
+    },
+    {
+      "title": "Toplu Taşıma Erişimi",
+      "body": "Dolmuş ve otobüs güzergahlarına yakınlık; Ölüdeniz, Kayaköy ve Çalış'a kolay ulaşım."
+    },
+    {
+      "title": "WhatsApp İletişim",
+      "body": "Tek tıkla pansiyon sahibiyle direkt mesajlaşma ve hızlı ön rezervasyon."
+    },
+    {
+      "title": "Komisyonsuz Kanal",
+      "body": "Booking ve Airbnb dışında kendi kanalından rezervasyon ile maliyet avantajı."
+    }
+  ],
+  "contact": {
+    "phone": "+90 XXX XXX XX XX",
+    "whatsapp": "90XXXXXXXXXXX",
+    "email": "",
+    "address": "Pazaryeri Mah. 420. Sk. No:5, 48300 Fethiye / Muğla",
+    "instagram": "fethiyeozturkpansiyon"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/fethiyeozturkpansiyon/",
+    "https://mugla.rehberi.tr/firma/fethiye-ozturk-pansiyon-wye73zhvhf"
+  ]
+}
