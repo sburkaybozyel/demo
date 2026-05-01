@@ -1,0 +1,78 @@
+{
+  "name": "Sibel Pansiyon",
+  "slug": "sibel-pansiyon-kaleici",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Kaleiçi / Antalya",
+  "eyebrow": "Kaleiçi, Antalya",
+  "headline": "Antalya Kaleiçi'nde tarihi dokuyla bütünleşen pansiyon için direkt rezervasyon sayfası.",
+  "description": "Sibel Pansiyon için hazırlanan bu taslak; pansiyon bilgilerini, tesis görsellerini ve WhatsApp üzerinden direkt rezervasyon akışını tek sayfada toplar.",
+  "type": "Pansiyon",
+  "heroImage": "images/sibel-pansiyon-kaleici/hero.jpg",
+  "featureImage": "images/sibel-pansiyon-kaleici/img2.jpg",
+  "gallery": [
+    "images/sibel-pansiyon-kaleici/hero.jpg",
+    "images/sibel-pansiyon-kaleici/img2.jpg",
+    "images/sibel-pansiyon-kaleici/img3.jpg",
+    "images/sibel-pansiyon-kaleici/img4.jpg"
+  ],
+  "features": [
+    {
+      "title": "Antalya Kaleiçi aramalarına uygun",
+      "body": "Tarihi bölgede pansiyon arayan misafiri direkt karşılar; konum, görsel ve iletişim tek sayfada."
+    },
+    {
+      "title": "Sade rezervasyon yolu",
+      "body": "WhatsApp üzerinden tarih ve kişi sayısı alarak hızlı ön talep oluşturur."
+    },
+    {
+      "title": "Platform dışı görünürlük",
+      "body": "Google ve Instagram trafiğini doğrudan işletmenin kendi kanalına taşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Kaleiçi konumu",
+      "body": "Antalya'nın tarihi surlar içinde, Hidirlik Kulesi yakınında."
+    },
+    {
+      "title": "Pansiyon",
+      "body": "Sade ve samimi konaklama atmosferi."
+    },
+    {
+      "title": "Bahçe & teras",
+      "body": "Portakal ve dut ağaçlarıyla çevrili dinlendirici yeşil alan."
+    },
+    {
+      "title": "Deniz manzarası",
+      "body": "Akdeniz manzarasına açılan odalar."
+    },
+    {
+      "title": "Galeri",
+      "body": "Misafir kararını hızlandıran görsel alan."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tek tıkla işletmeye direkt ulaşım."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram'dan gelen ziyaretçiler için hızlı sayfa."
+    },
+    {
+      "title": "Komisyonsuz kanal",
+      "body": "Booking/Airbnb dışı direkt rezervasyon alternatifi."
+    }
+  ],
+  "contact": {
+    "phone": "+90 242 241 13 16",
+    "whatsapp": "905362928579",
+    "email": "sibelpansiyon@hotmail.com",
+    "address": "Kılınçarslan Mah., Fırın Sok. No. 30, Kaleiçi, Antalya",
+    "instagram": "sibelpansiyonkaleici"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/sibelpansiyonkaleici/",
+    "https://www.booking.com/hotel/tr/sibel-pansiyon.en-gb.html",
+    "https://www.tripadvisor.com/Hotel_Review-g297962-d1400460-Reviews-Sibel_Pansiyon-Antalya_Turkish_Mediterranean_Coast.html"
+  ]
+}
