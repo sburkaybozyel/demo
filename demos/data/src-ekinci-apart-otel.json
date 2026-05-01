@@ -1,0 +1,77 @@
+{
+  "name": "SRC Ekinci Apart Otel",
+  "slug": "src-ekinci-apart-otel",
+  "demoNotice": "Demo taslak, resmi site değildir.",
+  "location": "Anamur / Mersin",
+  "eyebrow": "Anamur, Mersin",
+  "headline": "Anamur'da apart otel için sade rezervasyon sayfası.",
+  "description": "SRC Ekinci Apart Otel için hazırlanan bu taslak; apart otel bilgisini, tesis görsellerini ve doğrudan iletişim akışını tek sayfada toplar.",
+  "type": "Apart Otel",
+  "heroImage": "/demo/assets/prospects/src-ekinci-apart-otel-02.jpg",
+  "featureImage": "/demo/assets/prospects/src-ekinci-apart-otel-03.jpg",
+  "gallery": [
+    "/demo/assets/prospects/src-ekinci-apart-otel-02.jpg",
+    "/demo/assets/prospects/src-ekinci-apart-otel-03.jpg",
+    "/demo/assets/prospects/src-ekinci-apart-otel-04.jpg",
+    "/demo/assets/prospects/src-ekinci-apart-otel-02.jpg"
+  ],
+  "features": [
+    {
+      "title": "Anamur konumu",
+      "body": "Konum ve tesis bilgilerini tek sayfada net şekilde gösterir."
+    },
+    {
+      "title": "Apart otel anlatımı",
+      "body": "Oda, bina ve ulaşım gibi karar verdiren detayları öne çıkarır."
+    },
+    {
+      "title": "Doğrudan iletişim",
+      "body": "Misafir, aracı sayfada kaybolmadan işletmeye ulaşır."
+    }
+  ],
+  "amenities": [
+    {
+      "title": "Apart otel",
+      "body": "Kısa ve uzun konaklama arayan misafir için uygun kategori."
+    },
+    {
+      "title": "Galeri",
+      "body": "Tesis görselleri karar sürecini hızlandırır."
+    },
+    {
+      "title": "Anamur",
+      "body": "Mersin sahil hattında konaklama arayan misafir için lokasyon vurgusu."
+    },
+    {
+      "title": "Mobil uyum",
+      "body": "Instagram trafiği için hızlı açılan taslak."
+    },
+    {
+      "title": "WhatsApp iletişim",
+      "body": "Tarih ve kişi sayısı için hızlı ön talep."
+    },
+    {
+      "title": "Direkt rezervasyon",
+      "body": "Aracı olmadan işletmeye doğrudan ulaşım."
+    },
+    {
+      "title": "Sade içerik",
+      "body": "Oda, konum ve fotoğraflar tek yerde."
+    },
+    {
+      "title": "Yayına hazır",
+      "body": "Onay sonrası işletmeye özel hale getirilebilir."
+    }
+  ],
+  "contact": {
+    "phone": "+90 542 245 14 18",
+    "whatsapp": "905422451418",
+    "email": "",
+    "address": "İskele, Anamur / Mersin",
+    "instagram": "anamursrcekinciapartotel"
+  },
+  "sourceLinks": [
+    "https://www.instagram.com/anamursrcekinciapartotel/",
+    "https://www.anamurhaber.com/haber/srcekinci-apart-otel-acildi-861.html"
+  ]
+}
