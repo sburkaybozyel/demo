@@ -4,11 +4,11 @@ const https = require('https');
 const path = require('path');
 
 const hotels = [
-  { name: 'Servet Apart Otel Yemişkumu', slug: 'servet-apart-otel-yemiskumu' },
-  { name: 'Hakan Apart Otel', slug: 'hakan-apart-otel' },
-  { name: 'Seymen Otel Kızkalesi', slug: 'seymen-otel-kizkalesi' },
-  { name: 'Bir Umut Otel', slug: 'bir-umut-otel' },
-  { name: 'Vista Boutique Hotel', slug: 'vista-boutique-hotel' }
+  { name: 'Teker Suite Hotel', slug: 'teker-suite-hotel' },
+  { name: 'Mersin Vip House', slug: 'mersin-vip-house' },
+  { name: 'Aria Suit Konaklama', slug: 'aria-suit-konaklama' },
+  { name: 'Forum Suite Otel', slug: 'forum-suite-otel' },
+  { name: 'Pozcu Otel', slug: 'pozcu-otel' }
 ];
 
 async function downloadImage(url, filepath) {
