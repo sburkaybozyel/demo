@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alicia's Pupusas International Restaurant — North Platte, NE</title>
+  <meta name="description" content="Authentic Salvadoran pupusas handmade from scratch in North Platte, Nebraska. Grilled corn tortillas stuffed with cheese, pork, beans, and loroco — a hidden gem you need to try." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0d0500;
+      --cream: #fdf8f0;
+      --warm: #f5ead5;
+      --red: #b52a10;
+      --deep-red: #7a1a06;
+      --maize: #d4820a;
+      --gold: #e8a820;
+      --muted: #7a6040;
+      --charcoal: #1a1208;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(13,5,0,0.94); backdrop-filter: blur(14px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--cream); text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,248,240,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-primary:hover { background: var(--deep-red); transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,248,240,0.38); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--red); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    /* HERO */
+    .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; filter: brightness(0.22); transform: scale(1.04); transition: transform 8s ease; }
+    .hero:hover .hero-bg { transform: scale(1.0); }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(181,42,16,0.35) 0%, rgba(13,5,0,0.78) 100%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.73rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.4rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8.5vw, 7rem); line-height: 1.02; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,248,240,0.78); max-width: 510px; margin: 0 auto 2.8rem; line-height: 1.78; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,248,240,0.35); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(232,168,32,0.6), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    /* STRIP */
+    .strip { background: var(--red); color: #fff; padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 400; }
+    .strip-icon { font-size: 1.2rem; }
+
+    /* SECTIONS */
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--maize); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* ABOUT */
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-images { position: relative; height: 540px; }
+    .about-img-main { position: absolute; top: 0; left: 0; width: 76%; height: 82%; object-fit: cover; border-radius: 3px; }
+    .about-img-accent { position: absolute; bottom: 0; right: 0; width: 50%; height: 50%; object-fit: cover; border-radius: 3px; border: 6px solid var(--cream); }
+    .about-tag { position: absolute; top: 1rem; right: 3.5rem; background: var(--red); color: #fff; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(13,5,0,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--red); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* CALLOUT — what are pupusas */
+    .callout { background: var(--charcoal); color: var(--cream); padding: 6rem 4rem; }
+    .callout-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+    .callout-quote { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.3rem); font-style: italic; line-height: 1.48; color: var(--cream); margin-bottom: 1.5rem; }
+    .callout-source { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
+    .callout-right { display: flex; flex-direction: column; gap: 1.5rem; }
+    .callout-stat { display: flex; align-items: flex-start; gap: 1.2rem; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.07); border-radius: 3px; }
+    .callout-stat-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .callout-stat-title { font-size: 0.85rem; font-weight: 500; color: var(--gold); margin-bottom: 0.3rem; letter-spacing: 0.06em; }
+    .callout-stat-body { font-size: 0.85rem; font-weight: 300; color: rgba(253,248,240,0.6); line-height: 1.6; }
+
+    /* MENU */
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(181,42,16,0.08); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,248,240,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(253,248,240,0.72); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-tag { color: var(--gold); font-size: 0.8rem; }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(13,5,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 42%; }
+    .hours-closed { color: rgba(122,96,64,0.5) !important; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--red); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    /* CTA */
+    .cta-banner { background: var(--red); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.62); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.85; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.75; }
+
+    /* FOOTER */
+    footer { background: var(--charcoal); color: rgba(253,248,240,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,248,240,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-images { height: 340px; }
+      .callout-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Alicia's</span> Pupusas</a>
+    <ul class="nav-links">
+      <li><a href="#about">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+13086601165" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Call Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">North Platte, Nebraska &nbsp;·&nbsp; Authentic Salvadoran</p>
+      <h1 class="hero-title">Hand-Pressed,<br><em>Made With Love</em></h1>
+      <p class="hero-sub">North Platte's hidden gem. Authentic pupusas made from scratch — grilled corn tortillas stuffed with cheese, pork, beans, and loroco. A family dream brought to life, one pupusa at a time.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🫓</span> Authentic Salvadoran Pupusas</div>
+    <div class="strip-item"><span class="strip-icon">👨‍👩‍👧</span> Family-Owned &amp; Operated</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 503 N Cottonwood St, North Platte NE</div>
+    <div class="strip-item"><span class="strip-icon">🌽</span> Made From Scratch, Every Order</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-images">
+        <img src="images/food1.jpg" alt="Alicia's Pupusas" class="about-img-main" />
+        <img src="images/food2.jpg" alt="Pupusas close-up" class="about-img-accent" />
+        <div class="about-tag">North Platte's Hidden Gem</div>
+      </div>
+      <div>
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">A Family Dream.<br>A Salvadoran Tradition.</h2>
+        <p class="section-body">
+          Alicia's Pupusas International Restaurant is the fulfillment of owner Alicia Tacuri's lifelong dream. Tucked away on Cottonwood Street in North Platte, this family-run kitchen has earned a devoted following for one reason: the food is real.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          Every pupusa is hand-pressed to order using time-honored Salvadoran technique. The corn masa is fresh, the fillings are generous, and the curtido — the light, tangy cabbage slaw served alongside — is made in-house. Customers walk in as strangers and leave feeling like family.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">100%</div><div class="stat-label">Made From Scratch</div></div>
+          <div><div class="stat-num">5★</div><div class="stat-label">Google Reviews</div></div>
+          <div><div class="stat-num">1</div><div class="stat-label">Of a Kind in NE</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="callout">
+    <div class="callout-inner">
+      <div>
+        <p class="section-label" style="color:var(--gold);">What People Say</p>
+        <p class="callout-quote">"Fresh, authentic, and made with love. You can taste the difference — this is not something you find anywhere else in Nebraska."</p>
+        <p class="callout-source">Google Review &nbsp;·&nbsp; North Platte, NE</p>
+      </div>
+      <div class="callout-right">
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🫓</div>
+          <div>
+            <div class="callout-stat-title">What Is a Pupusa?</div>
+            <div class="callout-stat-body">A thick, hand-pressed corn tortilla from El Salvador — stuffed with fillings, then grilled until the outside is perfectly crisp and the inside melts. Served with curtido and house salsa.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🌸</div>
+          <div>
+            <div class="callout-stat-title">Loroco — The Flavor You've Never Tried</div>
+            <div class="callout-stat-body">Loroco is an edible flower bud native to Central America with a delicate, earthy flavor. Alicia's uses it as a traditional filling — a taste most people in North Platte have never encountered.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🥗</div>
+          <div>
+            <div class="callout-stat-title">Curtido &amp; House Salsas</div>
+            <div class="callout-stat-body">Every order comes with handmade curtido — a lightly fermented cabbage slaw — and house-made salsas. The complete Salvadoran experience, made daily.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Handmade.<br>Every Single One.</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🫓</div>
+          <div class="menu-card-title">Signature Pupusas</div>
+          <div class="menu-card-desc">Hand-pressed corn masa tortillas stuffed with your choice of filling, grilled to order. The heart of Salvadoran cuisine — and Alicia's specialty.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Queso (Cheese)</span><span class="menu-item-tag">Classic</span></div>
+            <div class="menu-item-row"><span>Chicharrón (Pork)</span><span class="menu-item-tag">Traditional</span></div>
+            <div class="menu-item-row"><span>Frijoles (Beans)</span><span class="menu-item-tag">Vegetarian</span></div>
+            <div class="menu-item-row"><span>Loroco &amp; Queso</span><span class="menu-item-tag">Signature</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🌽</div>
+          <div class="menu-card-title">Combo &amp; Mixed Pupusas</div>
+          <div class="menu-card-desc">Mix and match your fillings. Revuelta — the classic combination of pork, beans, and cheese — is a fan favorite. No wrong choices here.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Revuelta (Pork + Bean + Cheese)</span><span class="menu-item-tag">Fan Fave</span></div>
+            <div class="menu-item-row"><span>Chicharrón &amp; Queso</span><span class="menu-item-tag">Bold</span></div>
+            <div class="menu-item-row"><span>Frijoles &amp; Queso</span><span class="menu-item-tag">Creamy</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🥗</div>
+          <div class="menu-card-title">Sides &amp; Specials</div>
+          <div class="menu-card-desc">Every order is served with house-made curtido and salsa. Seasonal specials include Salvadoran quesadillas and champurrado — a warm chocolate drink.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Curtido &amp; House Salsa</span><span class="menu-item-tag">Included</span></div>
+            <div class="menu-item-row"><span>Salvadoran Quesadilla</span><span class="menu-item-tag">Seasonal</span></div>
+            <div class="menu-item-row"><span>Champurrado</span><span class="menu-item-tag">Warm Drink</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday</td><td class="hours-closed">Closed</td></tr>
+            <tr><td>Tuesday</td><td>10:00 AM – 7:00 PM</td></tr>
+            <tr><td>Wednesday</td><td>10:00 AM – 7:00 PM</td></tr>
+            <tr><td>Thursday</td><td>10:00 AM – 7:00 PM</td></tr>
+            <tr><td>Friday</td><td>10:00 AM – 7:00 PM</td></tr>
+            <tr><td>Saturday</td><td>10:00 AM – 7:00 PM</td></tr>
+            <tr><td>Sunday</td><td class="hours-closed">Closed</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Hours may vary — call ahead to confirm.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come &amp; Eat<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Alicia's Pupusas International Restaurant</strong>
+          503 N Cottonwood Street<br>North Platte, NE 69101
+        </div>
+        <div class="contact-links">
+          <a href="tel:+13086601165" class="contact-link">
+            <span class="contact-link-icon">📞</span>(308) 660-1165
+          </a>
+          <a href="https://www.google.com/maps/search/Alicia's+Pupusas+North+Platte+NE" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📍</span>Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">North Platte's Most<br>Authentic Hidden Gem</h2>
+    <p>Handmade pupusas, Salvadoran flavors, and a family that treats every guest like one of their own. Tue – Sat, 10 AM to 7 PM.</p>
+    <a href="tel:+13086601165" class="btn btn-white">Call Us &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Alicia's</span> Pupusas International</div>
+    <p>© 2025 Alicia's Pupusas International Restaurant &nbsp;·&nbsp; 503 N Cottonwood St, North Platte, NE</p>
+    <div class="footer-social">
+      <a href="https://www.google.com/maps/search/Alicia's+Pupusas+North+Platte+NE" target="_blank" rel="noopener">Google Maps</a>
+    </div>
+  </footer>
+
+</body>
+</html>
