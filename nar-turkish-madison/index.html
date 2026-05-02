@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nar Turkish Restaurant — Madison, WI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #120800;
+      --cream: #fdf8f0;
+      --warm: #f5ead5;
+      --red: #9b1a10;
+      --terracotta: #c4580a;
+      --gold: #c8960a;
+      --teal: #1a5a52;
+      --muted: #7a6a50;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(18,8,0,0.94); backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--cream); text-decoration: none; letter-spacing: 0.04em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,248,240,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-primary:hover { background: #7a1208; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,248,240,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--red); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    /* HERO — pattern-based, no photo */
+    .hero {
+      height: 100vh; position: relative;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+      background: var(--ink);
+    }
+    .hero-pattern {
+      position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 20% 50%, rgba(155,26,16,0.25) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(200,150,10,0.15) 0%, transparent 45%),
+        radial-gradient(circle at 60% 80%, rgba(26,90,82,0.2) 0%, transparent 40%);
+    }
+    .hero-geo {
+      position: absolute; inset: 0; opacity: 0.06;
+      background-image: repeating-linear-gradient(0deg, transparent, transparent 40px, rgba(200,150,10,1) 40px, rgba(200,150,10,1) 41px),
+                        repeating-linear-gradient(90deg, transparent, transparent 40px, rgba(200,150,10,1) 40px, rgba(200,150,10,1) 41px);
+    }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-arabic { font-size: 3rem; color: rgba(200,150,10,0.3); margin-bottom: 0.5rem; letter-spacing: 0.1em; }
+    .hero-eyebrow { font-size: 0.72rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.4rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(4rem, 10vw, 8rem); line-height: 0.95; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,248,240,0.72); max-width: 480px; margin: 0 auto 2.8rem; line-height: 1.78; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,248,240,0.35); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(200,150,10,0.6), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    /* STRIP */
+    .strip { background: var(--red); color: #fff; padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* STORY */
+    .story { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .story-visual {
+      position: relative; height: 520px;
+      background: linear-gradient(135deg, var(--red) 0%, var(--terracotta) 50%, var(--gold) 100%);
+      border-radius: 3px; display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .story-visual-geo {
+      position: absolute; inset: 0; opacity: 0.08;
+      background-image: repeating-linear-gradient(45deg, #fff 0px, #fff 1px, transparent 1px, transparent 14px),
+                        repeating-linear-gradient(-45deg, #fff 0px, #fff 1px, transparent 1px, transparent 14px);
+    }
+    .story-visual-inner { position: relative; text-align: center; color: #fff; padding: 3rem; }
+    .story-visual-nar { font-family: 'Playfair Display', serif; font-size: 6rem; font-weight: 400; font-style: italic; line-height: 1; opacity: 0.9; }
+    .story-visual-sub { font-size: 0.78rem; letter-spacing: 0.28em; text-transform: uppercase; opacity: 0.7; margin-top: 0.8rem; }
+    .story-visual-line { width: 50px; height: 2px; background: rgba(255,255,255,0.5); margin: 1.2rem auto; }
+    .story-visual-meaning { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-style: italic; opacity: 0.8; }
+
+    .story-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(18,8,0,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--red); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* HALAL BANNER */
+    .halal-banner { background: var(--teal); color: #fff; text-align: center; padding: 3.5rem 4rem; }
+    .halal-banner h3 { font-family: 'Playfair Display', serif; font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 400; margin-bottom: 0.8rem; }
+    .halal-banner p { font-size: 0.92rem; font-weight: 300; opacity: 0.8; max-width: 560px; margin: 0 auto; line-height: 1.7; }
+
+    /* MENU */
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(200,150,10,0.07); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,248,240,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(253,248,240,0.7); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-tag { color: var(--gold); font-size: 0.78rem; }
+
+    /* PRESS */
+    .press-section { background: var(--warm); padding: 7rem 4rem; }
+    .press-inner { max-width: 1200px; margin: 0 auto; }
+    .press-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 4rem; }
+    .press-card { background: var(--cream); padding: 2.4rem 2rem; border-radius: 3px; border-left: 3px solid var(--gold); }
+    .press-quote { font-family: 'Playfair Display', serif; font-size: 1rem; font-style: italic; line-height: 1.7; color: var(--ink); margin-bottom: 1rem; }
+    .press-source { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(18,8,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 42%; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--red); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--red); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(253,248,240,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,248,240,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .story { grid-template-columns: 1fr; gap: 3rem; } .story-visual { height: 300px; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .press-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Nar</span></a>
+    <ul class="nav-links">
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="https://www.doordash.com/en/store/nar-turkish-halal---1738-fordem-ave-madison-32851029/" target="_blank" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Order Online</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-geo"></div>
+    <div class="hero-content">
+      <div class="hero-arabic">nar</div>
+      <p class="hero-eyebrow">Madison, Wisconsin &nbsp;·&nbsp; Turkish Halal</p>
+      <h1 class="hero-title"><em>Nar</em></h1>
+      <p class="hero-sub">Madison's first halal Turkish platter. Authentic kebabs, slow-cooked lamb, handmade baklava — and a love story behind every plate. Plenty, tasty, and made from scratch.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🌙</span> Madison's First Halal Turkish Platter</div>
+    <div class="strip-item"><span class="strip-icon">⭐</span> 4.5 DoorDash &nbsp;·&nbsp; Hidden Gem</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 1738 Fordem Ave, Madison WI</div>
+    <div class="strip-item"><span class="strip-icon">🥙</span> Lamb &nbsp;·&nbsp; Kebab &nbsp;·&nbsp; Baklava</div>
+  </div>
+
+  <section id="story">
+    <div class="story">
+      <div class="story-visual">
+        <div class="story-visual-geo"></div>
+        <div class="story-visual-inner">
+          <div class="story-visual-nar">Nar</div>
+          <div class="story-visual-line"></div>
+          <div class="story-visual-sub">Turkish &nbsp;·&nbsp; Halal</div>
+          <div class="story-visual-meaning" style="margin-top:1.2rem;">"Named after the owner's wife —<br>a dream made real together."</div>
+        </div>
+      </div>
+      <div>
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">A Dream Named<br>After Love</h2>
+        <p class="section-body">
+          Chef Cagri Topcu has been cooking in restaurant kitchens since the 1990s — from his father's table in Turkey to Anatolia Restaurant in New York to a food truck in Los Angeles. When his wife Nar came to Madison for her master's degree at UW, Cagri finally made his lifelong dream real.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          He named the restaurant after her. Every plate carries that story. Nar Turkish Halal was the first halal platter restaurant in Madison — and it has been feeding the community with authentic, made-from-scratch Turkish food ever since.
+        </p>
+        <div class="story-stats">
+          <div><div class="stat-num">4.5</div><div class="stat-label">DoorDash Rating</div></div>
+          <div><div class="stat-num">#1</div><div class="stat-label">Halal Platter in Madison</div></div>
+          <div><div class="stat-num">30+</div><div class="stat-label">Years of Cooking</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="halal-banner">
+    <h3>100% Halal &nbsp;·&nbsp; Made from Scratch &nbsp;·&nbsp; Fresh Every Day</h3>
+    <p>No shortcuts. Every dish is prepared fresh using quality halal ingredients. Portions generous enough to feed two — priced for everyone in Madison.</p>
+  </div>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Authentic Turkish,<br>Every Plate</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🥩</div>
+          <div class="menu-card-title">Platters &amp; Kebabs</div>
+          <div class="menu-card-desc">The dishes that built the reputation. Lamb, chicken, Adana kebab — all over rice, all made fresh, all in portions that go the distance.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Lamb over Rice</span><span class="menu-item-tag">Most Popular</span></div>
+            <div class="menu-item-row"><span>Adana Kebab over Rice</span><span class="menu-item-tag">Signature</span></div>
+            <div class="menu-item-row"><span>Chicken Kebab over Rice</span><span class="menu-item-tag">Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🥙</div>
+          <div class="menu-card-title">Wraps &amp; More</div>
+          <div class="menu-card-desc">Kofte wraps, chicken wraps, falafel over rice. Fresh dolmas, handmade every morning. Turkish comfort food built for every appetite.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Kofte Wrap</span><span class="menu-item-tag">House Fave</span></div>
+            <div class="menu-item-row"><span>Chicken Wrap</span><span class="menu-item-tag">Fresh</span></div>
+            <div class="menu-item-row"><span>Falafel over Rice</span><span class="menu-item-tag">Vegetarian</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍯</div>
+          <div class="menu-card-title">Desserts</div>
+          <div class="menu-card-desc">Baklava made in-house. Turkish ice cream. Trilech. Almond cookies. End your meal the way they do in Istanbul.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Baklava</span><span class="menu-item-tag">Homemade</span></div>
+            <div class="menu-item-row"><span>Turkish Ice Cream</span><span class="menu-item-tag">Authentic</span></div>
+            <div class="menu-item-row"><span>Trilech &amp; Almond Cookies</span><span class="menu-item-tag">Sweet</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="press-section">
+    <div class="press-inner">
+      <p class="section-label">What People Say</p>
+      <h2 class="section-title">Madison's<br>Hidden Gem</h2>
+      <div class="press-grid">
+        <div class="press-card">
+          <p class="press-quote">"Most delicious fresh, made-from-scratch healthy meal I've had from a restaurant in a long time."</p>
+          <p class="press-source">Yelp Review &nbsp;·&nbsp; Madison, WI</p>
+        </div>
+        <div class="press-card">
+          <p class="press-quote">"Plenty, tasty, cheap. Amazing food and nice atmosphere — a real hidden gem."</p>
+          <p class="press-source">Capital Times &nbsp;·&nbsp; Madison</p>
+        </div>
+        <div class="press-card">
+          <p class="press-quote">"Nice, clean, quiet restaurant that smelled really good. The lamb over rice is incredible."</p>
+          <p class="press-source">Yelp Review &nbsp;·&nbsp; Madison, WI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday &ndash; Saturday</td><td>11:00 AM &ndash; 10:00 PM</td></tr>
+            <tr><td>Sunday</td><td>Closed</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Also available on DoorDash, Uber Eats, and Grubhub.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come Dine<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Nar Turkish Restaurant</strong>
+          1738 Fordem Avenue<br>Madison, WI 53704<br>
+          <span style="font-size:0.85rem;">(Camelot Square)</span>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/narturkishrestaurant/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Nar Turkish on Facebook
+          </a>
+          <a href="https://www.instagram.com/narturkishrestaurant/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📸</span>@narturkishrestaurant
+          </a>
+          <a href="https://www.doordash.com/en/store/nar-turkish-halal---1738-fordem-ave-madison-32851029/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">🛵</span>Order on DoorDash
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">Madison's First<br>Turkish Halal Platter</h2>
+    <p>Fresh, authentic, and made from scratch. Walk in or order online — Nar is ready for you six days a week.</p>
+    <a href="https://www.doordash.com/en/store/nar-turkish-halal---1738-fordem-ave-madison-32851029/" target="_blank" rel="noopener" class="btn btn-white">Order Online &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Nar</span> Turkish</div>
+    <p>© 2025 Nar Turkish Restaurant &nbsp;·&nbsp; 1738 Fordem Ave, Madison, WI</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/narturkishrestaurant/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/narturkishrestaurant/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
