@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hera's Kitchen — African, Caribbean & American Food, Denton TX</title>
+  <meta name="description" content="Hera's Kitchen brings bold African, Caribbean, and American flavors to Denton, TX. Jollof rice, garlic fries with Kenyan seasoning, beignets, and rotating daily specials." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #080400;
+      --cream: #fdf8ee;
+      --warm: #f4e4c0;
+      --green: #1a4a1a;
+      --deep-green: #0e2e0e;
+      --gold: #d4900a;
+      --amber: #e8a820;
+      --red: #b53010;
+      --muted: #6a5530;
+      --charcoal: #120c02;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(8,4,0,0.95); backdrop-filter: blur(14px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--cream); text-decoration: none; }
+    .nav-logo span { color: var(--amber); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,248,238,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--amber); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--green); color: #fff; }
+    .btn-primary:hover { background: var(--deep-green); transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,248,238,0.38); }
+    .btn-outline:hover { border-color: var(--amber); color: var(--amber); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--green); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; filter: brightness(0.2); transform: scale(1.04); transition: transform 8s ease; }
+    .hero:hover .hero-bg { transform: scale(1.0); }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(160deg, rgba(26,74,26,0.4) 0%, rgba(8,4,0,0.82) 100%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.73rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--amber); margin-bottom: 1.4rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8.5vw, 7rem); line-height: 1.02; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--amber); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,248,238,0.78); max-width: 510px; margin: 0 auto 2.8rem; line-height: 1.78; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,248,238,0.35); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(232,168,32,0.6), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    .strip { background: var(--green); color: #fff; padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 400; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-images { position: relative; height: 540px; }
+    .about-img-main { position: absolute; top: 0; left: 0; width: 76%; height: 82%; object-fit: cover; border-radius: 3px; }
+    .about-img-accent { position: absolute; bottom: 0; right: 0; width: 50%; height: 50%; object-fit: cover; border-radius: 3px; border: 6px solid var(--cream); }
+    .about-tag { position: absolute; top: 1rem; right: 3.5rem; background: var(--green); color: #fff; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(8,4,0,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--green); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    .callout { background: var(--charcoal); color: var(--cream); padding: 6rem 4rem; }
+    .callout-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+    .callout-quote { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.3rem); font-style: italic; line-height: 1.48; color: var(--cream); margin-bottom: 1.5rem; }
+    .callout-source { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--amber); }
+    .callout-right { display: flex; flex-direction: column; gap: 1.5rem; }
+    .callout-stat { display: flex; align-items: flex-start; gap: 1.2rem; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.07); border-radius: 3px; }
+    .callout-stat-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .callout-stat-title { font-size: 0.85rem; font-weight: 500; color: var(--amber); margin-bottom: 0.3rem; letter-spacing: 0.06em; }
+    .callout-stat-body { font-size: 0.85rem; font-weight: 300; color: rgba(253,248,238,0.6); line-height: 1.6; }
+
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--amber); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(26,74,26,0.1); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,248,238,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(253,248,238,0.72); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-tag { color: var(--amber); font-size: 0.8rem; }
+
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--green); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+    .info-note { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: var(--muted); margin-top: 2rem; max-width: 480px; }
+
+    .cta-banner { background: var(--green); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.62); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.85; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.75; }
+
+    footer { background: var(--charcoal); color: rgba(253,248,238,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.25rem; color: var(--cream); }
+    .footer-logo span { color: var(--amber); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,248,238,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--amber); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-images { height: 340px; }
+      .callout-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Hera's</span> Kitchen</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="#visit" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Find Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Denton, Texas &nbsp;·&nbsp; African, Caribbean & American</p>
+      <h1 class="hero-title">Flavors That<br><em>Cross Borders</em></h1>
+      <p class="hero-sub">Denton's most exciting kitchen. Bold African and Caribbean flavors meet American comfort - jollof rice, garlic fries with Kenyan seasoning, beignets, and daily specials made fresh every time.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Find Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🌍</span> African, Caribbean & American</div>
+    <div class="strip-item"><span class="strip-icon">🍚</span> Famous Jollof Rice</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 1201 Oakland St, Denton TX</div>
+    <div class="strip-item"><span class="strip-icon">✨</span> Rotating Daily Specials</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-images">
+        <img src="images/food1.jpg" alt="Hera's Kitchen food" class="about-img-main" />
+        <img src="images/food2.jpg" alt="Hera's Kitchen dishes" class="about-img-accent" />
+        <div class="about-tag">Denton's Favorite</div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">Three Continents.<br>One Kitchen.</h2>
+        <p class="section-body">
+          Hera's Kitchen is Denton's most distinctive dining experience. Drawing on the bold, layered traditions of African and Caribbean cooking and grounding them in American comfort food - the result is a menu that surprises people every single visit.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          From the jollof rice that keeps regulars coming back to the garlic fries seasoned with a Kenyan spice blend that customers cannot stop talking about - every plate at Hera's carries a story. Fresh ingredients, daily specials, and the kind of cooking that makes Denton a more interesting city.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">3</div><div class="stat-label">Culinary Traditions</div></div>
+          <div><div class="stat-num">5★</div><div class="stat-label">Customer Rated</div></div>
+          <div><div class="stat-num">Daily</div><div class="stat-label">Fresh Specials</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="callout">
+    <div class="callout-inner">
+      <div>
+        <p class="section-label" style="color:var(--amber);">What People Say</p>
+        <p class="callout-quote">"The garlic fries alone are worth the trip. I did not expect to find food like this in Denton - but here we are."</p>
+        <p class="callout-source">Customer Review &nbsp;·&nbsp; Denton, TX</p>
+      </div>
+      <div class="callout-right">
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🍚</div>
+          <div>
+            <div class="callout-stat-title">Jollof Rice</div>
+            <div class="callout-stat-body">West Africa's most celebrated dish - long-grain rice cooked in a rich tomato and pepper base with aromatic spices. Bold, savory, and deeply satisfying.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🍟</div>
+          <div>
+            <div class="callout-stat-title">Kenyan Garlic Fries</div>
+            <div class="callout-stat-body">Golden fries finished with a Kenyan spice blend that customers call the best fries they have ever had. Simple idea, unforgettable execution.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🍩</div>
+          <div>
+            <div class="callout-stat-title">Beignets</div>
+            <div class="callout-stat-body">Light, airy, dusted with powdered sugar - a New Orleans classic done right. The perfect ending to a meal that already delivered on every front.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Bold. Fresh.<br>Always Different.</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🌍</div>
+          <div class="menu-card-title">African & Caribbean Plates</div>
+          <div class="menu-card-desc">The heart of the menu. Jollof rice, slow-cooked stews, and Caribbean staples made with the spices and techniques of the original traditions.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Jollof Rice</span><span class="menu-item-tag">Signature</span></div>
+            <div class="menu-item-row"><span>Rotating Stews & Mains</span><span class="menu-item-tag">Daily Fresh</span></div>
+            <div class="menu-item-row"><span>Caribbean Specials</span><span class="menu-item-tag">Seasonal</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍔</div>
+          <div class="menu-card-title">American Comfort</div>
+          <div class="menu-card-desc">Cheeseburgers, chicken dishes, and American staples - all touched by Hera's distinctive seasoning and care. Comfort food that actually has flavor.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Cheeseburgers</span><span class="menu-item-tag">Classic</span></div>
+            <div class="menu-item-row"><span>Chicken Dishes</span><span class="menu-item-tag">House-Style</span></div>
+            <div class="menu-item-row"><span>Kenyan Garlic Fries</span><span class="menu-item-tag">Must Try</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍩</div>
+          <div class="menu-card-title">Sweets & Specials</div>
+          <div class="menu-card-desc">House-made beignets, rotating desserts, and daily specials that change to keep things interesting. Never the same experience twice.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Beignets</span><span class="menu-item-tag">House-Made</span></div>
+            <div class="menu-item-row"><span>Daily Dessert Special</span><span class="menu-item-tag">Rotating</span></div>
+            <div class="menu-item-row"><span>Seasonal Specials</span><span class="menu-item-tag">Ask Us</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come Eat<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Hera's Kitchen</strong>
+          1201 Oakland Street<br>Denton, TX 76201
+        </div>
+        <div class="contact-links">
+          <a href="https://www.google.com/maps/search/Hera's+Kitchen+1201+Oakland+St+Denton+TX" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📍</span>Get Directions
+          </a>
+          <a href="https://www.ubereats.com" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">🛵</span>Order on Uber Eats
+          </a>
+          <a href="https://www.doordash.com" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">🚗</span>Order on DoorDash
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="section-label">Good to Know</p>
+        <h2 class="section-title">Before<br>You Visit</h2>
+        <p class="info-note">
+          Hera's Kitchen is located on the Texas Woman's University campus at 1201 Oakland St. Hours and specials rotate regularly - follow on social media or check in before your visit for the most current menu and availability.
+        </p>
+        <p class="info-note" style="margin-top:1.2rem;">
+          Available for delivery through Uber Eats and DoorDash across Denton.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">Denton's Most<br>Exciting Kitchen</h2>
+    <p>African, Caribbean, and American flavors all in one place. Daily specials, jollof rice, Kenyan garlic fries, and beignets - fresh every time.</p>
+    <a href="https://www.google.com/maps/search/Hera's+Kitchen+Denton+TX" target="_blank" rel="noopener" class="btn btn-white">Get Directions &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Hera's</span> Kitchen</div>
+    <p>© 2025 Hera's Kitchen &nbsp;·&nbsp; 1201 Oakland St, Denton, TX</p>
+    <div class="footer-social">
+      <a href="https://www.google.com/maps/search/Hera's+Kitchen+Denton+TX" target="_blank" rel="noopener">Google Maps</a>
+    </div>
+  </footer>
+
+</body>
+</html>
