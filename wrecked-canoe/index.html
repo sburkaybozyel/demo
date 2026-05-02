@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrecked Canoe Bar + Bistro — Clarksville, AR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0e0a04;
+      --cream: #faf7f0;
+      --warm: #f2e8d0;
+      --river: #2a5a3a;
+      --wood: #7a4a18;
+      --rust: #9b3a10;
+      --gold: #c8900a;
+      --muted: #7a6a48;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(14,10,4,0.93); backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--cream); text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(250,247,240,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--river); color: #fff; }
+    .btn-primary:hover { background: #1a3a28; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(250,247,240,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--river); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    /* HERO */
+    .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; filter: brightness(0.28); transform: scale(1.04); transition: transform 8s ease; }
+    .hero:hover .hero-bg { transform: scale(1.0); }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(14,10,4,0.9) 0%, transparent 60%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.4rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8vw, 6.5rem); line-height: 1.02; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(250,247,240,0.75); max-width: 500px; margin: 0 auto 2.8rem; line-height: 1.75; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(250,247,240,0.35); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(200,144,10,0.6), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    .strip { background: var(--river); color: #fff; padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* ABOUT */
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-images { position: relative; height: 540px; }
+    .about-img-main { position: absolute; top: 0; left: 0; width: 76%; height: 82%; object-fit: cover; border-radius: 3px; }
+    .about-img-accent { position: absolute; bottom: 0; right: 0; width: 50%; height: 50%; object-fit: cover; border-radius: 3px; border: 6px solid var(--cream); }
+    .about-tag { position: absolute; top: 1rem; right: 3.5rem; background: var(--river); color: #fff; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(14,10,4,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--river); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* VIBES */
+    .vibes-section { background: var(--ink); color: var(--cream); padding: 6rem 4rem; }
+    .vibes-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5px; background: rgba(255,255,255,0.05); }
+    .vibe-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2rem; text-align: center; transition: background 0.25s; }
+    .vibe-card:hover { background: rgba(200,144,10,0.08); }
+    .vibe-icon { font-size: 2.2rem; margin-bottom: 1.2rem; }
+    .vibe-title { font-size: 0.82rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.7rem; }
+    .vibe-body { font-size: 0.85rem; font-weight: 300; line-height: 1.7; color: rgba(250,247,240,0.55); }
+
+    /* MENU */
+    .menu-section { background: var(--warm); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 4rem; }
+    .menu-card { background: var(--cream); padding: 2.6rem 2.2rem; border-radius: 3px; border-top: 3px solid var(--river); }
+    .menu-card-icon { font-size: 1.8rem; margin-bottom: 1.2rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--ink); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: var(--muted); margin-bottom: 1.2rem; }
+    .menu-items-list { display: flex; flex-direction: column; gap: 0.4rem; }
+    .menu-item { font-size: 0.84rem; font-weight: 300; color: var(--muted); padding: 0.35rem 0; border-bottom: 1px solid rgba(14,10,4,0.06); }
+    .menu-item:last-child { border-bottom: none; }
+
+    /* GALLERY */
+    .gallery-section { padding: 7rem 4rem; }
+    .gallery-inner { max-width: 1200px; margin: 0 auto; }
+    .gallery-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 360px; gap: 4px; margin-top: 3.5rem; }
+    .gallery-grid img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; filter: saturate(0.88); transition: filter 0.3s, transform 0.4s; display: block; }
+    .gallery-grid img:hover { filter: saturate(1.15); transform: scale(1.01); }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(14,10,4,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 42%; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--river); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--river); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(250,247,240,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(250,247,240,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-images { height: 340px; }
+      .vibes-inner { grid-template-columns: 1fr 1fr; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 220px 220px; }
+      .gallery-grid img:first-child { grid-column: 1 / -1; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } .vibes-inner { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Wrecked Canoe</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+14797540092" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Call Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Clarksville, Arkansas &nbsp;·&nbsp; Locally Owned</p>
+      <h1 class="hero-title">Wrecked <em>Canoe</em><br>Bar + Bistro</h1>
+      <p class="hero-sub">Fresh food, live music, cold drinks, and a dog-friendly patio. Clarksville's most beloved gathering spot — where community comes first and the food is always worth the trip.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🎸</span> Live Music Weekends</div>
+    <div class="strip-item"><span class="strip-icon">⭐</span> 4.6 Google &nbsp;·&nbsp; 427 Reviews</div>
+    <div class="strip-item"><span class="strip-icon">🐶</span> Dog-Friendly Patio</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 1100 E Main St, Clarksville AR</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-images">
+        <img src="images/interior.jpg" alt="Wrecked Canoe interior" class="about-img-main" />
+        <img src="images/burger.jpg" alt="Wrecked Canoe burger" class="about-img-accent" />
+        <div class="about-tag">Locally Owned</div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">Fresh Food.<br>Good Times. Community.</h2>
+        <p class="section-body">
+          Wrecked Canoe Bar + Bistro is Clarksville's gathering place. Locally owned and community focused, it is the kind of restaurant that feels like a neighborhood — rustic barn-style setting, a covered outdoor patio, live music on weekends, and a menu built on fresh ingredients and big flavors.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          From the Bacon Jam Burger to the Spicy Honey Bacon Jam Salmon, every plate reflects a commitment to quality that keeps Clarksville coming back. Breakfast through dinner, six days a week.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">4.6</div><div class="stat-label">Google Rating</div></div>
+          <div><div class="stat-num">427</div><div class="stat-label">Google Reviews</div></div>
+          <div><div class="stat-num">#11</div><div class="stat-label">of 39 in Clarksville</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="vibes-section">
+    <div class="vibes-inner">
+      <div class="vibe-card">
+        <div class="vibe-icon">🎸</div>
+        <div class="vibe-title">Live Music</div>
+        <div class="vibe-body">Weekend live music and karaoke nights. The kind of atmosphere you can only find at a place that truly loves its community.</div>
+      </div>
+      <div class="vibe-card">
+        <div class="vibe-icon">🐶</div>
+        <div class="vibe-title">Dog-Friendly</div>
+        <div class="vibe-body">Bring your pup. Our gravel patio with covered outdoor seating welcomes four-legged guests as warmly as the two-legged kind.</div>
+      </div>
+      <div class="vibe-card">
+        <div class="vibe-icon">🍤</div>
+        <div class="vibe-title">Special Events</div>
+        <div class="vibe-body">Periodic shrimp boils, seasonal specials, and community events that make every visit something worth talking about.</div>
+      </div>
+      <div class="vibe-card">
+        <div class="vibe-icon">🌿</div>
+        <div class="vibe-title">Fresh &amp; Local</div>
+        <div class="vibe-body">Made-from-scratch food with quality ingredients. Gluten-free options available. Huge portions at extremely reasonable prices.</div>
+      </div>
+    </div>
+  </div>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Breakfast to Dinner,<br>All Made Fresh</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🍳</div>
+          <div class="menu-card-title">Breakfast</div>
+          <div class="menu-card-desc">Served from 6AM — the best way to start your day in Clarksville. Fresh, hearty, and always hot.</div>
+          <div class="menu-items-list">
+            <div class="menu-item">Western Omelet</div>
+            <div class="menu-item">Biscuits &amp; Gravy</div>
+            <div class="menu-item">Hash Browns &amp; Toast</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍔</div>
+          <div class="menu-card-title">Burgers &amp; Sandwiches</div>
+          <div class="menu-card-desc">The Bacon Jam Burger is legendary. Waldorf chicken salad sandwich, BLT, Philly Cheesesteak — all built to satisfy.</div>
+          <div class="menu-items-list">
+            <div class="menu-item">Bacon Jam Burger</div>
+            <div class="menu-item">Waldorf Chicken Salad Sandwich</div>
+            <div class="menu-item">Philly Cheesesteak &nbsp;·&nbsp; BLT</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🐟</div>
+          <div class="menu-card-title">Mains &amp; Specials</div>
+          <div class="menu-card-desc">Fried catfish, grilled shrimp baskets, crawfish étouffée, and the Spicy Honey Bacon Jam Salmon that keeps people coming back.</div>
+          <div class="menu-items-list">
+            <div class="menu-item">Spicy Honey Bacon Jam Salmon</div>
+            <div class="menu-item">Fried Catfish &amp; Grilled Shrimp</div>
+            <div class="menu-item">Crawfish Étouffée</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <div class="gallery-inner">
+      <p class="section-label">A Look Inside</p>
+      <h2 class="section-title">The Atmosphere<br>&amp; the Food</h2>
+      <div class="gallery-grid">
+        <img src="images/hero.jpg" alt="Wrecked Canoe" />
+        <img src="images/food1.jpg" alt="Wrecked Canoe food" />
+        <img src="images/food2.jpg" alt="Wrecked Canoe dishes" />
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Mon &ndash; Wed</td><td>6:00 AM &ndash; 3:00 PM</td></tr>
+            <tr><td>Thu &ndash; Sat</td><td>6:00 AM &ndash; 7:00 PM</td></tr>
+            <tr><td>Sunday</td><td>8:00 AM &ndash; 3:00 PM</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Live music and special events on weekends — check Facebook for the schedule.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come Eat<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Wrecked Canoe Bar + Bistro</strong>
+          1100 E Main Street<br>Clarksville, AR 72830
+        </div>
+        <div class="contact-links">
+          <a href="tel:+14797540092" class="contact-link">
+            <span class="contact-link-icon">📞</span>(479) 754-0092
+          </a>
+          <a href="mailto:wreckedcanoe@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉️</span>wreckedcanoe@gmail.com
+          </a>
+          <a href="https://www.facebook.com/wreckedcanoe/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Wrecked Canoe on Facebook
+          </a>
+          <a href="https://www.instagram.com/wreckedcanoe/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📸</span>@wreckedcanoe
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Join Us</p>
+    <h2 class="section-title">Clarksville's Favorite<br>Gathering Spot</h2>
+    <p>Fresh food, cold drinks, live music, and a patio that welcomes everyone. Open six days a week — see you soon.</p>
+    <a href="tel:+14797540092" class="btn btn-white">Call Us &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Wrecked Canoe</span> Bar + Bistro</div>
+    <p>© 2025 Wrecked Canoe Bar + Bistro &nbsp;·&nbsp; 1100 E Main St, Clarksville, AR</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/wreckedcanoe/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/wreckedcanoe/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
