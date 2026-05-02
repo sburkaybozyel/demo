@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>South Park Restaurant | Clarksville, AR | Classic American Diner Since 1964</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1208;
+    --cream: #fdf6e8;
+    --warm: #f5edd6;
+    --rust: #8b3a0f;
+    --red: #a02020;
+    --gold: #c49a0a;
+    --muted: #7a6a50;
+    --white: #ffffff;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; color: var(--ink); background: var(--white); }
+  img { display: block; width: 100%; }
+
+  /* NAV */
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 100;
+    background: rgba(26,18,8,0.95); backdrop-filter: blur(8px);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 5%; height: 64px;
+  }
+  .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--gold); letter-spacing: 0.03em; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-cta { background: var(--rust); color: var(--white); padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.85rem; font-weight: 600; text-decoration: none; letter-spacing: 0.05em; transition: background 0.2s; }
+  .nav-cta:hover { background: var(--red); }
+
+  /* HERO */
+  .hero {
+    position: relative; height: 100vh; min-height: 600px;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    overflow: hidden;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background: url('images/hero.jpg') center/cover no-repeat;
+  }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(160deg, rgba(26,18,8,0.75) 0%, rgba(139,58,15,0.55) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding: 0 1rem; max-width: 780px; }
+  .hero-badge { display: inline-block; background: var(--gold); color: var(--ink); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.35rem 1rem; border-radius: 2px; margin-bottom: 1.5rem; }
+  .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(2.8rem, 7vw, 5.5rem); color: var(--white); line-height: 1.08; margin-bottom: 1rem; }
+  .hero-sub { font-size: clamp(1rem, 2vw, 1.25rem); color: rgba(255,255,255,0.85); margin-bottom: 2rem; font-weight: 300; line-height: 1.6; }
+  .hero-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .btn-primary { background: var(--rust); color: var(--white); padding: 0.85rem 2rem; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: background 0.2s; }
+  .btn-primary:hover { background: var(--red); }
+  .btn-outline { border: 2px solid rgba(255,255,255,0.7); color: var(--white); padding: 0.85rem 2rem; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: all 0.2s; }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* STRIP */
+  .strip { background: var(--rust); color: var(--white); padding: 2rem 5%; }
+  .strip-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; max-width: 1100px; margin: 0 auto; text-align: center; }
+  .strip-item .icon { font-size: 1.6rem; margin-bottom: 0.4rem; }
+  .strip-item strong { display: block; font-family: 'Playfair Display', serif; font-size: 1.4rem; }
+  .strip-item span { font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.85; }
+
+  /* ABOUT */
+  .about { display: grid; grid-template-columns: 1fr 1fr; gap: 0; min-height: 500px; }
+  .about-img { position: relative; overflow: hidden; min-height: 400px; }
+  .about-img img { height: 100%; object-fit: cover; }
+  .about-text { background: var(--cream); padding: 5rem 6%; display: flex; flex-direction: column; justify-content: center; }
+  .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem; }
+  .about-text h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1.2; margin-bottom: 1.25rem; }
+  .about-text p { color: var(--muted); line-height: 1.8; margin-bottom: 1rem; font-size: 0.95rem; }
+  .stats { display: flex; gap: 2rem; margin-top: 1.5rem; flex-wrap: wrap; }
+  .stat { text-align: center; }
+  .stat-num { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--rust); font-weight: 700; }
+  .stat-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  /* MENU */
+  .menu-section { background: var(--ink); padding: 5rem 5%; }
+  .menu-section .section-label { color: var(--gold); }
+  .menu-header { text-align: center; margin-bottom: 3rem; }
+  .menu-header h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.6rem); color: var(--white); margin-top: 0.5rem; }
+  .menu-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; max-width: 1100px; margin: 0 auto; }
+  .menu-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.75rem; }
+  .menu-card h3 { font-family: 'Playfair Display', serif; color: var(--gold); font-size: 1.1rem; margin-bottom: 1.2rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(196,154,10,0.3); }
+  .menu-item { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; margin-bottom: 0.8rem; }
+  .menu-item:last-child { margin-bottom: 0; }
+  .item-name { color: rgba(255,255,255,0.85); font-size: 0.88rem; }
+  .item-price { color: var(--gold); font-size: 0.88rem; font-weight: 600; white-space: nowrap; }
+  .item-desc { color: rgba(255,255,255,0.45); font-size: 0.76rem; margin-top: 0.15rem; }
+
+  /* GALLERY */
+  .gallery { padding: 5rem 5%; background: var(--warm); }
+  .gallery-header { text-align: center; margin-bottom: 2.5rem; }
+  .gallery-header h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw, 2.6rem); margin-top: 0.5rem; }
+  .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 1100px; margin: 0 auto; }
+  .gallery-grid img { height: 240px; object-fit: cover; border-radius: 6px; }
+
+  /* HOURS & LOCATION */
+  .info-section { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .hours-col { background: var(--ink); color: var(--white); padding: 5rem 6%; }
+  .hours-col h2 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--gold); margin-bottom: 2rem; }
+  .hours-table { width: 100%; }
+  .hours-row { display: flex; justify-content: space-between; padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; }
+  .hours-row:last-child { border-bottom: none; }
+  .hours-row .day { color: rgba(255,255,255,0.7); }
+  .hours-row .time { color: var(--gold); font-weight: 600; }
+  .location-col { background: var(--cream); padding: 5rem 6%; }
+  .location-col h2 { font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 2rem; color: var(--ink); }
+  .location-detail { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: flex-start; }
+  .loc-icon { font-size: 1.2rem; margin-top: 0.1rem; flex-shrink: 0; }
+  .loc-text strong { display: block; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rust); margin-bottom: 0.25rem; }
+  .loc-text span { font-size: 0.95rem; color: var(--muted); line-height: 1.5; }
+
+  /* CTA BANNER */
+  .cta-banner { background: var(--rust); padding: 4rem 5%; text-align: center; }
+  .cta-banner h2 { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.4rem); color: var(--white); margin-bottom: 1rem; }
+  .cta-banner p { color: rgba(255,255,255,0.85); margin-bottom: 2rem; font-size: 1rem; }
+  .btn-white { background: var(--white); color: var(--rust); padding: 0.85rem 2.5rem; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.05em; transition: all 0.2s; }
+  .btn-white:hover { background: var(--cream); }
+
+  /* FOOTER */
+  footer { background: var(--ink); color: rgba(255,255,255,0.5); padding: 2.5rem 5%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+  .footer-logo { font-family: 'Playfair Display', serif; color: var(--gold); font-size: 1rem; }
+  footer p { font-size: 0.8rem; }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .strip-grid { grid-template-columns: repeat(2, 1fr); }
+    .about { grid-template-columns: 1fr; }
+    .about-img { min-height: 300px; }
+    .menu-grid { grid-template-columns: 1fr 1fr; }
+    .info-section { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .nav-links { display: none; }
+    .menu-grid { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .strip-grid { grid-template-columns: repeat(2, 1fr); }
+    footer { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">South Park Restaurant</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#hours">Hours</a></li>
+  </ul>
+  <a href="tel:4797548249" class="nav-cta">Call Us</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Since 1964 - Clarksville, Arkansas</div>
+    <h1 class="hero-title">Home Cooking Done Right</h1>
+    <p class="hero-sub">Southern comfort food, all-day breakfast, and real diner hospitality at the heart of Clarksville since 1964.</p>
+    <div class="hero-btns">
+      <a href="#menu" class="btn-primary">View Menu</a>
+      <a href="#hours" class="btn-outline">Hours & Location</a>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="strip-grid">
+    <div class="strip-item">
+      <div class="icon">⭐</div>
+      <strong>4.4 Stars</strong>
+      <span>1,594 Google Reviews</span>
+    </div>
+    <div class="strip-item">
+      <div class="icon">🏆</div>
+      <strong>#1 Diner</strong>
+      <span>In Clarksville, AR</span>
+    </div>
+    <div class="strip-item">
+      <div class="icon">🍳</div>
+      <strong>All-Day Breakfast</strong>
+      <span>Daily from 6 AM</span>
+    </div>
+    <div class="strip-item">
+      <div class="icon">🥧</div>
+      <strong>House-Made Pies</strong>
+      <span>Baked Fresh Daily</span>
+    </div>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/interior.jpg" alt="South Park Restaurant interior">
+  </div>
+  <div class="about-text">
+    <div class="section-label">Our Story</div>
+    <h2>A Clarksville Institution Since 1964</h2>
+    <p>South Park Restaurant has been feeding families, truckers, and travelers for over 60 years. Step inside and you are greeted by a magnificent display cabinet of freshly baked pies and cakes, a sure sign that this is the real deal.</p>
+    <p>From hearty breakfasts starting at 6 AM to full dinner plates with your choice of sides, we serve the kind of food that brings people back again and again. Ranked #1 in Clarksville by TripAdvisor and Restaurant Guru.</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">60+</div>
+        <div class="stat-label">Years Serving</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">4.4★</div>
+        <div class="stat-label">Google Rating</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">#1</div>
+        <div class="stat-label">In Clarksville</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="menu-header">
+    <div class="section-label">What We Serve</div>
+    <h2>Our Menu</h2>
+  </div>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <h3>Breakfast Favorites</h3>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Egg Breakfast</div>
+          <div class="item-desc">Eggs, toast, choice of meat</div>
+        </div>
+        <div class="item-price">$5.99+</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Biscuits &amp; Gravy</div>
+          <div class="item-desc">With country ham</div>
+        </div>
+        <div class="item-price">$11.39</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Hotcakes</div>
+          <div class="item-desc">Fluffy buttermilk pancakes</div>
+        </div>
+        <div class="item-price">$2.69+</div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <h3>Entrees</h3>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Ribeye Steak</div>
+          <div class="item-desc">With salad &amp; potato choice</div>
+        </div>
+        <div class="item-price">$15.99</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Catfish Farm Raised</div>
+          <div class="item-desc">Southern fried, full plate</div>
+        </div>
+        <div class="item-price">$12.99</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Meatloaf</div>
+          <div class="item-desc">Classic homestyle, with sides</div>
+        </div>
+        <div class="item-price">Market</div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <h3>Sandwiches</h3>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Prime Rib Sandwich</div>
+        </div>
+        <div class="item-price">$9.99</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Hot Beef Sandwich</div>
+        </div>
+        <div class="item-price">$11.49</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Philly Cheese Steak</div>
+        </div>
+        <div class="item-price">$7.89</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Grilled Cheese</div>
+        </div>
+        <div class="item-price">$3.99</div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <h3>Lunch Specials</h3>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Smorgasbord Platter</div>
+          <div class="item-desc">Meat/fish, mashed potatoes, corn, green beans, roll, salad &amp; banana pudding</div>
+        </div>
+        <div class="item-price">$10.99+</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Chicken &amp; Dumplings</div>
+          <div class="item-desc">Southern classic, with sides</div>
+        </div>
+        <div class="item-price">Market</div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <h3>Sides &amp; Extras</h3>
+      <div class="menu-item">
+        <div><div class="item-name">French Fries</div></div>
+        <div class="item-price">$4.29+</div>
+      </div>
+      <div class="menu-item">
+        <div><div class="item-name">Onion Rings</div></div>
+        <div class="item-price">$4.29+</div>
+      </div>
+      <div class="menu-item">
+        <div><div class="item-name">Garden Salad</div></div>
+        <div class="item-price">$2.99+</div>
+      </div>
+      <div class="menu-item">
+        <div><div class="item-name">Chili</div></div>
+        <div class="item-price">$4.29+</div>
+      </div>
+    </div>
+    <div class="menu-card">
+      <h3>Desserts</h3>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Fresh Baked Pies</div>
+          <div class="item-desc">See our display cabinet for today's selection</div>
+        </div>
+        <div class="item-price">Ask Us</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Layer Cakes</div>
+          <div class="item-desc">Baked in-house daily</div>
+        </div>
+        <div class="item-price">Ask Us</div>
+      </div>
+      <div class="menu-item">
+        <div>
+          <div class="item-name">Banana Pudding</div>
+          <div class="item-desc">Included with lunch specials</div>
+        </div>
+        <div class="item-price">Included</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="gallery">
+  <div class="gallery-header">
+    <div class="section-label">A Look Inside</div>
+    <h2>Gallery</h2>
+  </div>
+  <div class="gallery-grid">
+    <img src="images/hero.jpg" alt="South Park Restaurant">
+    <img src="images/food1.jpg" alt="Desserts at South Park">
+    <img src="images/food2.jpg" alt="French fries at South Park">
+    <img src="images/interior.jpg" alt="Interior dining room">
+    <img src="images/food3.jpg" alt="Food at South Park Restaurant">
+    <img src="images/hero.jpg" alt="South Park Restaurant diner">
+  </div>
+</section>
+
+<div class="info-section" id="hours">
+  <div class="hours-col">
+    <h2>Hours</h2>
+    <div class="hours-table">
+      <div class="hours-row"><span class="day">Monday - Thursday</span><span class="time">6:00 AM - 9:00 PM</span></div>
+      <div class="hours-row"><span class="day">Friday</span><span class="time">6:00 AM - 11:00 PM</span></div>
+      <div class="hours-row"><span class="day">Saturday</span><span class="time">6:00 AM - 9:00 PM</span></div>
+      <div class="hours-row"><span class="day">Sunday</span><span class="time">6:00 AM - 9:00 PM</span></div>
+    </div>
+  </div>
+  <div class="location-col">
+    <h2>Find Us</h2>
+    <div class="location-detail">
+      <div class="loc-icon">📍</div>
+      <div class="loc-text">
+        <strong>Address</strong>
+        <span>1304 S Rogers St<br>Clarksville, AR 72830</span>
+      </div>
+    </div>
+    <div class="location-detail">
+      <div class="loc-icon">📞</div>
+      <div class="loc-text">
+        <strong>Phone</strong>
+        <span><a href="tel:4797548249" style="color:var(--rust);text-decoration:none;">(479) 754-8249</a></span>
+      </div>
+    </div>
+    <div class="location-detail">
+      <div class="loc-icon">🚗</div>
+      <div class="loc-text">
+        <strong>Parking</strong>
+        <span>Free parking available on-site</span>
+      </div>
+    </div>
+    <div class="location-detail">
+      <div class="loc-icon">♿</div>
+      <div class="loc-text">
+        <strong>Accessibility</strong>
+        <span>Wheelchair accessible</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-banner">
+  <h2>Come Hungry. Leave Happy.</h2>
+  <p>Open daily from 6 AM. Breakfast served all day. Walk-ins always welcome.</p>
+  <a href="tel:4797548249" class="btn-white">Call (479) 754-8249</a>
+</div>
+
+<footer>
+  <div class="footer-logo">South Park Restaurant</div>
+  <p>1304 S Rogers St, Clarksville, AR 72830</p>
+  <p>&copy; 2025 South Park Restaurant</p>
+</footer>
+
+</body>
+</html>
