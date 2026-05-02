@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Five Bros Grill — Minden, LA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0d0800;
+      --cream: #fdfaf3;
+      --warm: #f5ead5;
+      --orange: #c45a10;
+      --dark-orange: #8b3a08;
+      --charcoal: #1e1e1e;
+      --gold: #e8a020;
+      --muted: #7a6a50;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(13,8,0,0.95); backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Inter', sans-serif; font-size: 1.1rem; font-weight: 600; color: var(--cream); text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,250,243,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--orange); color: #fff; }
+    .btn-primary:hover { background: var(--dark-orange); transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,250,243,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--orange); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    /* HERO */
+    .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; background: var(--charcoal); }
+    .hero-bg { position: absolute; inset: 0; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; filter: brightness(0.22); transform: scale(1.04); transition: transform 8s ease; }
+    .hero:hover .hero-bg { transform: scale(1.0); }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(13,8,0,0.85) 0%, transparent 60%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.4rem; font-weight: 500; }
+    .hero-title { font-family: 'Inter', sans-serif; font-size: clamp(3.5rem, 9vw, 8rem); line-height: 0.95; margin-bottom: 1.5rem; font-weight: 600; letter-spacing: -0.02em; text-transform: uppercase; }
+    .hero-title em { font-style: normal; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,250,243,0.72); max-width: 480px; margin: 0 auto 2.8rem; line-height: 1.75; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,250,243,0.38); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(232,160,32,0.5), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    /* STRIP */
+    .strip { background: var(--orange); color: #fff; padding: 1.8rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em; }
+    .strip-icon { font-size: 1.1rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--orange); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* ABOUT */
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-visual { position: relative; height: 540px; background: var(--charcoal); border-radius: 3px; overflow: hidden; }
+    .about-visual img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
+    .about-visual-badge { position: absolute; bottom: 2rem; left: 2rem; background: var(--gold); color: var(--ink); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.6rem 1.2rem; border-radius: 2px; }
+    .about-visual-expanding { position: absolute; top: 1.5rem; right: 1.5rem; background: var(--orange); color: #fff; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; text-align: center; line-height: 1.4; }
+
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(13,8,0,0.1); }
+    .stat-num { font-family: 'Inter', sans-serif; font-size: 2.2rem; font-weight: 600; color: var(--orange); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* FEATURED CALLOUT */
+    .callout { background: var(--charcoal); color: var(--cream); padding: 6rem 4rem; }
+    .callout-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; }
+    .callout-quote { font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 3vw, 2.4rem); font-style: italic; line-height: 1.45; color: var(--cream); margin-bottom: 1.5rem; }
+    .callout-source { font-size: 0.78rem; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); }
+    .callout-right { display: flex; flex-direction: column; gap: 1.5rem; }
+    .callout-stat { display: flex; align-items: flex-start; gap: 1.2rem; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.07); border-radius: 3px; }
+    .callout-stat-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .callout-stat-title { font-size: 0.85rem; font-weight: 500; color: var(--gold); margin-bottom: 0.3rem; letter-spacing: 0.06em; }
+    .callout-stat-body { font-size: 0.85rem; font-weight: 300; color: rgba(253,250,243,0.6); line-height: 1.6; }
+
+    /* MENU */
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(232,160,32,0.06); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,250,243,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(253,250,243,0.7); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-price { color: var(--gold); font-size: 0.82rem; }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(13,8,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 42%; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--orange); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--orange); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.65); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.85; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(253,250,243,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--cream); letter-spacing: 0.06em; text-transform: uppercase; }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,250,243,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-visual { height: 300px; }
+      .callout-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Five Bros</span> Grill</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+13186399162" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Order Now</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Minden, Louisiana &nbsp;·&nbsp; Smash Burgers &amp; More</p>
+      <h1 class="hero-title">FIVE<br><em>BROS</em><br>GRILL</h1>
+      <p class="hero-sub">Northwest Louisiana's best-kept secret. Smash burgers made with fresh beef, Nashville hot chicken, loaded fries, and the legendary Eddie sauce — all in one spot.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🍔</span> #1 Burgers in NW Louisiana</div>
+    <div class="strip-item"><span class="strip-icon">🔥</span> Nashville Hot Chicken</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> 604 E Union St, Minden LA</div>
+    <div class="strip-item"><span class="strip-icon">🚀</span> Now Expanding to Bossier City</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-visual">
+        <img src="images/hero.jpg" alt="Five Bros Grill" />
+        <div class="about-visual-badge">Minden's Hidden Gem</div>
+        <div class="about-visual-expanding">Expanding<br>to Bossier City</div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">A Family Operation.<br>Serious About Food.</h2>
+        <p class="section-body">
+          Five Bros Grill started as one of Northwest Louisiana's best-kept secrets — a family-run grill tucked away in Minden that quickly earned a reputation for some of the boldest, most satisfying food in the region.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          Two fresh beef patties smashed on the griddle. Nashville-style hot chicken loaded with pickles and the house Eddie sauce. Loaded fries that customers call "the perfect combination of textures and tastes." The secret is out — and it is spreading. Five Bros is now expanding to Bossier City.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">90%</div><div class="stat-label">Facebook Recommend</div></div>
+          <div><div class="stat-num">7</div><div class="stat-label">Days a Week</div></div>
+          <div><div class="stat-num">2</div><div class="stat-label">Locations Soon</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="callout">
+    <div class="callout-inner">
+      <div>
+        <p class="section-label" style="color:var(--gold);">What People Say</p>
+        <p class="callout-quote">"Some of the best food you can get in town. They never disappoint."</p>
+        <p class="callout-source">DoorDash Customer &nbsp;·&nbsp; Minden, LA</p>
+      </div>
+      <div class="callout-right">
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🍔</div>
+          <div>
+            <div class="callout-stat-title">#1 Burgers in NW Louisiana</div>
+            <div class="callout-stat-body">Fresh beef smashed on the griddle every single order. No frozen patties, ever.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🌶️</div>
+          <div>
+            <div class="callout-stat-title">The Eddie Sauce</div>
+            <div class="callout-stat-body">House-made signature sauce on the Nashville hot chicken. You will not find it anywhere else.</div>
+          </div>
+        </div>
+        <div class="callout-stat">
+          <div class="callout-stat-icon">🚀</div>
+          <div>
+            <div class="callout-stat-title">Expanding to Bossier City</div>
+            <div class="callout-stat-body">Opening at 2119 Airline Drive, Bossier City, LA — because one location was not enough.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Bold. Fresh.<br>Every Time.</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🍔</div>
+          <div class="menu-card-title">Smash Burgers</div>
+          <div class="menu-card-desc">Two fresh beef patties smashed on the griddle for maximum crust and flavor. The classic, the cheeseburger, the patty melt — all built to impress.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Classic Smash Burger</span><span class="menu-item-price">Signature</span></div>
+            <div class="menu-item-row"><span>Cheeseburger</span><span class="menu-item-price">Fan Fave</span></div>
+            <div class="menu-item-row"><span>Patty Melt</span><span class="menu-item-price">Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🌶️</div>
+          <div class="menu-card-title">Hot Chicken &amp; Sandwiches</div>
+          <div class="menu-card-desc">Nashville-style hot chicken with pickles, Eddie sauce, and coleslaw. Chicken Philly and Philly cheesesteak for a different kind of bold.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Nashville Hot Chicken</span><span class="menu-item-price">Spicy</span></div>
+            <div class="menu-item-row"><span>Chicken Philly</span><span class="menu-item-price">Bold</span></div>
+            <div class="menu-item-row"><span>Philly Cheesesteak</span><span class="menu-item-price">Classic</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍟</div>
+          <div class="menu-card-title">Fries, Wings &amp; More</div>
+          <div class="menu-card-desc">Loaded fries that customers are "obsessed with." Top-notch wings. Chicken strips and fish rounding out a menu built for big appetites.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Loaded Fries</span><span class="menu-item-price">Must Try</span></div>
+            <div class="menu-item-row"><span>Wings</span><span class="menu-item-price">Top-Notch</span></div>
+            <div class="menu-item-row"><span>Chicken Strips &amp; Fish</span><span class="menu-item-price">Fresh</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Sun &ndash; Wed</td><td>10:00 AM &ndash; 9:00 PM</td></tr>
+            <tr><td>Thu &ndash; Sat</td><td>10:00 AM &ndash; 10:00 PM</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Open 7 days a week. Also available on DoorDash and Uber Eats.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come Eat<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Five Bros Grill</strong>
+          604 E Union Street<br>Minden, LA 71055
+        </div>
+        <div class="contact-links">
+          <a href="tel:+13186399162" class="contact-link">
+            <span class="contact-link-icon">📞</span>(318) 639-9162
+          </a>
+          <a href="https://www.facebook.com/fivebrosgrill/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Five Bros Grill on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">NW Louisiana's<br>Best Kept Secret</h2>
+    <p>Walk in, call ahead, or order on DoorDash. Fresh smash burgers, Nashville hot chicken, and loaded fries — seven days a week.</p>
+    <a href="tel:+13186399162" class="btn btn-white">Call to Order &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Five Bros</span> Grill</div>
+    <p>© 2025 Five Bros Grill &nbsp;·&nbsp; 604 E Union St, Minden, LA</p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/fivebrosgrill/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
