@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rice First Class Catering — Pine Bluff, AR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #100900;
+      --cream: #fdfaf3;
+      --warm: #f5edd8;
+      --burgundy: #6b1a1a;
+      --brown: #7a3d10;
+      --gold: #c4960a;
+      --muted: #7a6a50;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(16, 9, 0, 0.92);
+      backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--cream); letter-spacing: 0.03em; text-decoration: none; line-height: 1.3; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,250,243,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--burgundy); color: #fff; }
+    .btn-primary:hover { background: #4f1212; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,250,243,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--burgundy); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    .hero {
+      height: 100vh; position: relative;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+      background: var(--ink);
+    }
+    .hero-pattern {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(135deg, rgba(107,26,26,0.15) 0%, transparent 50%),
+        repeating-linear-gradient(45deg, rgba(196,150,10,0.04) 0px, rgba(196,150,10,0.04) 1px, transparent 1px, transparent 14px);
+    }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(2.8rem, 7vw, 6rem); line-height: 1.05; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,250,243,0.72); max-width: 520px; margin: 0 auto 2.8rem; line-height: 1.75; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,250,243,0.38); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(253,250,243,0.4), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    .strip { background: var(--brown); color: var(--cream); padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+
+    .about-visual {
+      position: relative; height: 500px;
+      background: linear-gradient(135deg, var(--burgundy) 0%, var(--brown) 100%);
+      border-radius: 3px; display: flex; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .about-visual-inner { text-align: center; color: var(--cream); padding: 3rem; }
+    .about-visual-logo { font-family: 'Playfair Display', serif; font-size: 3.5rem; font-style: italic; color: var(--gold); line-height: 1; margin-bottom: 1rem; }
+    .about-visual-sub { font-size: 0.78rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(253,250,243,0.6); margin-bottom: 2rem; }
+    .about-visual-line { width: 60px; height: 1px; background: var(--gold); margin: 0 auto 2rem; }
+    .about-visual-quote { font-size: 1rem; font-weight: 300; line-height: 1.7; color: rgba(253,250,243,0.75); font-style: italic; }
+    .about-visual-pattern { position: absolute; inset: 0; background: repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 12px); pointer-events: none; }
+
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(16,9,0,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--burgundy); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    .services-section { background: var(--ink); color: var(--cream); }
+    .services-inner { max-width: 1200px; margin: 0 auto; }
+    .services-section .section-label { color: var(--gold); }
+    .services-section .section-title { color: var(--cream); }
+    .services-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .service-card { background: rgba(255,255,255,0.03); padding: 3rem 2.5rem; transition: background 0.25s; }
+    .service-card:hover { background: rgba(255,255,255,0.07); }
+    .service-card-icon { font-size: 2.2rem; margin-bottom: 1.4rem; }
+    .service-card-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 400; margin-bottom: 1rem; color: var(--cream); }
+    .service-card-body { font-size: 0.9rem; font-weight: 300; line-height: 1.8; color: rgba(253,250,243,0.55); }
+
+    .menu-section-light { background: var(--warm); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 4rem; }
+    .menu-card { background: var(--cream); padding: 2.4rem 2rem; border-radius: 3px; border: 1px solid rgba(16,9,0,0.07); }
+    .menu-card-icon { font-size: 1.8rem; margin-bottom: 1.2rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.6rem; color: var(--ink); }
+    .menu-card-items { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.45rem; }
+    .menu-item { font-size: 0.85rem; font-weight: 300; color: var(--muted); padding: 0.4rem 0; border-bottom: 1px solid rgba(16,9,0,0.06); }
+    .menu-item:last-child { border-bottom: none; }
+
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(16,9,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 40%; }
+
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--burgundy); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--burgundy); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(253,250,243,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social a { color: rgba(253,250,243,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-visual { height: 300px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Rice</span> First Class Catering</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Contact</a></li>
+      <li><a href="tel:+18703957197" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Pine Bluff, Arkansas &nbsp;·&nbsp; Catering &amp; Dining</p>
+      <h1 class="hero-title"><em>First Class</em><br>Food for Every<br>Occasion</h1>
+      <p class="hero-sub">Southern soul food, BBQ, and comfort classics served with pride by the Rice family. Whether you are dining in or feeding a crowd, we bring first class flavor every single time.</p>
+      <div class="hero-cta">
+        <a href="#services" class="btn btn-primary">Our Services</a>
+        <a href="#visit" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🍖</span> BBQ, Brisket &amp; Soul Food</div>
+    <div class="strip-item"><span class="strip-icon">🎉</span> Catering for All Events</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> Pine Bluff, AR</div>
+    <div class="strip-item"><span class="strip-icon">👨‍👩‍👧</span> Family-Owned Since 2023</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-visual">
+        <div class="about-visual-pattern"></div>
+        <div class="about-visual-inner">
+          <div class="about-visual-logo">Rice</div>
+          <div class="about-visual-sub">First Class Catering</div>
+          <div class="about-visual-line"></div>
+          <div class="about-visual-quote">"Quality food, served with pride, for every occasion."</div>
+        </div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">The Rice Family<br>Feeds Pine Bluff</h2>
+        <p class="section-body">
+          Rice First Class Catering was founded by the Rice family to bring honest, generous, home-style Southern cooking to Pine Bluff and beyond. From brisket slow-cooked to perfection to soul food plates that feel like Sunday dinner, everything is made with love and intention.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          Whether you are stopping in for a plate or booking catering for your next event, the Rice family treats every meal like it matters. Because it does.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">5.0</div><div class="stat-label">MenuGuide Rating</div></div>
+          <div><div class="stat-num">#5</div><div class="stat-label">Most Liked in Pine Bluff</div></div>
+          <div><div class="stat-num">1K+</div><div class="stat-label">Facebook Likes</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="services-inner">
+      <p class="section-label">What We Do</p>
+      <h2 class="section-title">Dine In or<br>We Come to You</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-card-icon">🍽️</div>
+          <div class="service-card-title">Restaurant Dining</div>
+          <div class="service-card-body">Walk in and sit down for a hearty plate of Southern soul food made fresh. Dine-in and carry-out available. Daily specials keep every visit different.</div>
+        </div>
+        <div class="service-card">
+          <div class="service-card-icon">🎉</div>
+          <div class="service-card-title">Full-Service Catering</div>
+          <div class="service-card-body">Birthday parties, family reunions, corporate events, and everything in between. The Rice family brings the food, the flavor, and the hospitality to your event.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section-light">
+    <div class="menu-inner">
+      <p class="section-label">On the Menu</p>
+      <h2 class="section-title">Southern Cooking<br>Done Right</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🔥</div>
+          <div class="menu-card-title">BBQ &amp; Mains</div>
+          <div class="menu-card-items">
+            <div class="menu-item">Slow-Cooked Brisket</div>
+            <div class="menu-item">Pork Chops</div>
+            <div class="menu-item">Meatloaf</div>
+            <div class="menu-item">Dinners with Three Sides</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍗</div>
+          <div class="menu-card-title">Wings &amp; Favorites</div>
+          <div class="menu-card-items">
+            <div class="menu-item">Wings (Multiple Flavors)</div>
+            <div class="menu-item">Burgers</div>
+            <div class="menu-item">Loaded Fries</div>
+            <div class="menu-item">Soul Food Specials (Sunday)</div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🥤</div>
+          <div class="menu-card-title">Sides &amp; Drinks</div>
+          <div class="menu-card-items">
+            <div class="menu-item">Southern-Style Sides</div>
+            <div class="menu-item">Fresh Lemonade</div>
+            <div class="menu-item">Daily Specials</div>
+            <div class="menu-item">Seasonal Offerings</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday</td><td>10:00 AM &ndash; 6:00 PM</td></tr>
+            <tr><td>Tuesday &amp; Wednesday</td><td>Closed</td></tr>
+            <tr><td>Thursday &amp; Friday</td><td>10:00 AM &ndash; 6:00 PM</td></tr>
+            <tr><td>Saturday</td><td>Closed</td></tr>
+            <tr><td>Sunday</td><td>11:00 AM &ndash; 4:00 PM</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Get in Touch<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Rice First Class Catering</strong>
+          5529 Sulphur Springs Road<br>Pine Bluff, AR 71603
+        </div>
+        <div class="contact-links">
+          <a href="tel:+18703957197" class="contact-link">
+            <span class="contact-link-icon">📞</span>(870) 395-7197
+          </a>
+          <a href="mailto:melissarice1967@sbcglobal.net" class="contact-link">
+            <span class="contact-link-icon">✉️</span>melissarice1967@sbcglobal.net
+          </a>
+          <a href="https://www.facebook.com/p/Rice-First-Class-Catering-61556017354848/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Rice First Class Catering on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Ready to Book?</p>
+    <h2 class="section-title">Let Us Bring<br>First Class to Your Table</h2>
+    <p>Dine in, carry out, or book us for your next event. The Rice family is ready to make your occasion unforgettable.</p>
+    <a href="tel:+18703957197" class="btn btn-white">Call to Book &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Rice</span> First Class Catering</div>
+    <p>© 2025 Rice First Class Catering &nbsp;·&nbsp; Pine Bluff, AR</p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/p/Rice-First-Class-Catering-61556017354848/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
