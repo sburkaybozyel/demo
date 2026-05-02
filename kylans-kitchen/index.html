@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kylan's Kitchen — Pine Bluff, AR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #0f0800;
+      --cream: #fdf9f3;
+      --warm: #f4ead8;
+      --teal: #0d5c52;
+      --orange: #c45a10;
+      --gold: #c4920a;
+      --muted: #7a6a52;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(15, 8, 0, 0.92);
+      backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--cream); letter-spacing: 0.03em; text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,249,243,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--orange); color: #fff; }
+    .btn-primary:hover { background: #9e4509; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,249,243,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-white { background: #fff; color: var(--orange); }
+    .btn-white:hover { background: var(--cream); transform: translateY(-2px); }
+
+    .hero {
+      height: 100vh; position: relative;
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('images/hero.jpg');
+      background-size: cover; background-position: center;
+      filter: brightness(0.3);
+    }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(15,8,0,0.7) 0%, transparent 60%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; }
+    .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; font-weight: 400; }
+    .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8vw, 6.2rem); line-height: 1.05; margin-bottom: 1.5rem; font-weight: 400; }
+    .hero-title em { font-style: italic; color: var(--gold); }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,249,243,0.75); max-width: 500px; margin: 0 auto 2.8rem; line-height: 1.75; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,249,243,0.38); font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(253,249,243,0.4), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    .strip { background: var(--teal); color: var(--cream); padding: 2rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.85rem; font-weight: 300; }
+    .strip-icon { font-size: 1.2rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-images { position: relative; height: 520px; }
+    .about-img-main { position: absolute; top: 0; left: 0; width: 75%; height: 82%; object-fit: cover; border-radius: 3px; }
+    .about-img-accent { position: absolute; bottom: 0; right: 0; width: 50%; height: 50%; object-fit: cover; border-radius: 3px; border: 6px solid var(--cream); }
+    .about-tag { position: absolute; top: 1rem; right: 4rem; background: var(--orange); color: #fff; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(15,8,0,0.1); }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 600; color: var(--orange); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    .menu-section { background: var(--ink); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 2.8rem 2.2rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(255,255,255,0.07); }
+    .menu-card-icon { font-size: 2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,249,243,0.55); }
+    .menu-card-items { margin-top: 1.4rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .menu-item-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 0.85rem; font-weight: 300; color: rgba(253,249,243,0.7); padding-bottom: 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .menu-item-row:last-child { border-bottom: none; }
+    .menu-item-price { color: var(--gold); font-size: 0.8rem; }
+
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(15,8,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 40%; }
+
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--orange); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--orange); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.82; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--ink); color: rgba(253,249,243,0.45); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--cream); }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,249,243,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-images { height: 320px; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Kylan's</span> Kitchen</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="tel:+18703957330" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Order Now</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Pine Bluff, Arkansas &nbsp;·&nbsp; Southern Fusion</p>
+      <h1 class="hero-title">Southern <em>Comfort</em><br>with a Modern Twist</h1>
+      <p class="hero-sub">Cajun, Creole, and down-home Southern cooking elevated with bold, contemporary flavors. Pine Bluff's hidden gem — and once you find it, you will keep coming back.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Hours &amp; Location</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🍗</span> Signature Wings &amp; Cajun Pasta</div>
+    <div class="strip-item"><span class="strip-icon">⭐</span> 4.6 on DoorDash &nbsp;·&nbsp; 4.4 Google</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> Pine Bluff, AR</div>
+    <div class="strip-item"><span class="strip-icon">🎤</span> Karaoke Nights</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-images">
+        <img src="images/hero.jpg" alt="Kylan's Kitchen" class="about-img-main" />
+        <img src="images/food1.jpg" alt="Kylan's Kitchen food" class="about-img-accent" />
+        <div class="about-tag">Pine Bluff's Hidden Gem</div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">Where Southern<br>Flavors Come Alive</h2>
+        <p class="section-body">
+          Kylan's Kitchen was born from a love of bold flavor and genuine hospitality. Taking the soul of Southern cooking and giving it a creative, contemporary edge, every dish here is made with care and an eye for detail that keeps the community coming back.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          From Cajun pasta loaded with shrimp to signature wings tossed in house-made sauces, the menu surprises and satisfies in equal measure. Add karaoke nights and a welcoming atmosphere, and you have Pine Bluff's most talked-about dining experience.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">4.6</div><div class="stat-label">DoorDash Rating</div></div>
+          <div><div class="stat-num">4.4</div><div class="stat-label">Google Rating</div></div>
+          <div><div class="stat-num">100+</div><div class="stat-label">DoorDash Reviews</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Bold Flavors,<br>Every Plate</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🍗</div>
+          <div class="menu-card-title">Signature Wings</div>
+          <div class="menu-card-desc">Crispy, sauced to order, and impossible to put down. Choose from spicy ranch, garlic alfredo, honey BBQ, and more.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Honey BBQ Wings</span><span class="menu-item-price">Fan Fave</span></div>
+            <div class="menu-item-row"><span>Garlic Alfredo Wings</span><span class="menu-item-price">Unique</span></div>
+            <div class="menu-item-row"><span>Spicy Ranch Wings</span><span class="menu-item-price">Heat</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🍝</div>
+          <div class="menu-card-title">Cajun Pasta &amp; Mains</div>
+          <div class="menu-card-desc">Cajun chicken and shrimp pasta, Philly pasta, cheese fries with steak and shrimp smothered in homemade alfredo. Southern comfort, elevated.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Cajun Shrimp Pasta</span><span class="menu-item-price">Signature</span></div>
+            <div class="menu-item-row"><span>Philly Pasta</span><span class="menu-item-price">House Special</span></div>
+            <div class="menu-item-row"><span>Loaded Alfredo Fries</span><span class="menu-item-price">Indulgent</span></div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🥟</div>
+          <div class="menu-card-title">Starters &amp; Bites</div>
+          <div class="menu-card-desc">Southwest eggrolls, Cajun ravioli bites, catfish platters. Starters and sides built to share or keep all to yourself.</div>
+          <div class="menu-card-items">
+            <div class="menu-item-row"><span>Southwest Eggrolls</span><span class="menu-item-price">Crispy</span></div>
+            <div class="menu-item-row"><span>Cajun Ravioli Bites</span><span class="menu-item-price">Bold</span></div>
+            <div class="menu-item-row"><span>Catfish Platter</span><span class="menu-item-price">Southern</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Wednesday &ndash; Friday</td><td>5:00 PM &ndash; 9:00 PM</td></tr>
+            <tr><td>Saturday</td><td>1:00 PM &ndash; 8:00 PM</td></tr>
+            <tr><td>Sunday</td><td>12:00 PM &ndash; 4:00 PM</td></tr>
+            <tr><td>Monday &amp; Tuesday</td><td>Closed</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Weekends get busy. Reservations recommended on Saturdays.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Come Dine<br>With Us</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Kylan's Kitchen</strong>
+          2221 S Olive St, Suite J<br>Pine Bluff, AR 71601
+        </div>
+        <div class="contact-links">
+          <a href="tel:+18703957330" class="contact-link">
+            <span class="contact-link-icon">📞</span>(870) 395-7330
+          </a>
+          <a href="https://www.facebook.com/p/Kylans-Kitchen-100064062876021/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">👍</span>Kylan's Kitchen on Facebook
+          </a>
+          <a href="https://www.instagram.com/kylanskitchen/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📸</span>@kylanskitchen
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Hungry</p>
+    <h2 class="section-title">Pine Bluff's Best<br>Kept Secret</h2>
+    <p>Not a secret for long. Come taste what everyone is talking about and see why Kylan's Kitchen is the definition of a hidden gem.</p>
+    <a href="tel:+18703957330" class="btn btn-white">Call to Reserve &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Kylan's</span> Kitchen</div>
+    <p>© 2025 Kylan's Kitchen &nbsp;·&nbsp; Pine Bluff, AR</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/kylanskitchen/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/p/Kylans-Kitchen-100064062876021/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </footer>
+
+</body>
+</html>
