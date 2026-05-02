@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasty German Döner — Independence, MO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0e0800;
+      --cream: #fdfaf2;
+      --warm: #f4ead4;
+      --black: #161208;
+      --red: #c41a0a;
+      --gold: #d4980a;
+      --mustard: #c8820a;
+      --muted: #7a6a48;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 1.25rem 4rem;
+      background: rgba(14,8,0,0.95); backdrop-filter: blur(12px);
+    }
+    .nav-logo { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--cream); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a { color: rgba(253,250,242,0.72); text-decoration: none; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn { display: inline-block; padding: 0.85rem 2.2rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; border-radius: 2px; transition: all 0.25s; border: none; cursor: pointer; }
+    .btn-primary { background: var(--red); color: #fff; }
+    .btn-primary:hover { background: #9a1408; transform: translateY(-2px); }
+    .btn-outline { background: transparent; color: var(--cream); border: 1px solid rgba(253,250,242,0.4); }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-gold { background: var(--gold); color: var(--ink); font-weight: 700; }
+    .btn-gold:hover { background: var(--mustard); transform: translateY(-2px); }
+
+    /* HERO */
+    .hero { height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; filter: brightness(0.25); transform: scale(1.05); transition: transform 9s ease; }
+    .hero:hover .hero-bg { transform: scale(1.0); }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(14,8,0,0.95) 0%, rgba(14,8,0,0.3) 60%, transparent 100%); }
+    .hero-content { position: relative; text-align: center; color: var(--cream); padding: 0 1.5rem; max-width: 860px; }
+    .hero-badge { display: inline-block; background: var(--red); color: #fff; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; padding: 0.45rem 1.2rem; border-radius: 1px; margin-bottom: 1.8rem; }
+    .hero-title { font-family: 'Inter', sans-serif; font-size: clamp(3rem, 8vw, 6.5rem); line-height: 0.95; margin-bottom: 0.4rem; font-weight: 700; letter-spacing: -0.02em; text-transform: uppercase; }
+    .hero-title-sub { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 4vw, 3.2rem); font-style: italic; color: var(--gold); margin-bottom: 1.8rem; font-weight: 400; }
+    .hero-sub { font-size: 1rem; font-weight: 300; color: rgba(253,250,242,0.72); max-width: 480px; margin: 0 auto 2.8rem; line-height: 1.78; }
+    .hero-cta { display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); color: rgba(253,250,242,0.35); font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; }
+    .scroll-line { width: 1px; height: 40px; background: linear-gradient(to bottom, rgba(212,152,10,0.6), transparent); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:1} }
+
+    /* STRIP */
+    .strip { background: var(--red); color: #fff; padding: 1.8rem 4rem; display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; }
+    .strip-item { display: flex; align-items: center; gap: 0.85rem; font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em; }
+    .strip-icon { font-size: 1.1rem; }
+
+    section { padding: 7rem 4rem; }
+    .section-label { font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 500; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.6rem; }
+    .section-body { font-size: 1rem; font-weight: 300; line-height: 1.85; color: var(--muted); max-width: 560px; }
+
+    /* ABOUT */
+    .about { display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center; max-width: 1200px; margin: 0 auto; }
+    .about-images { position: relative; height: 540px; }
+    .about-img-main { position: absolute; top: 0; left: 0; width: 76%; height: 82%; object-fit: cover; border-radius: 3px; }
+    .about-img-accent { position: absolute; bottom: 0; right: 0; width: 50%; height: 50%; object-fit: cover; border-radius: 3px; border: 6px solid var(--cream); }
+    .about-tag { position: absolute; top: 1rem; right: 3.5rem; background: var(--gold); color: var(--ink); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; padding: 0.5rem 1rem; border-radius: 2px; }
+    .about-stats { display: flex; gap: 2.5rem; margin-top: 3rem; padding-top: 2.5rem; border-top: 1px solid rgba(14,8,0,0.1); }
+    .stat-num { font-family: 'Inter', sans-serif; font-size: 2.2rem; font-weight: 700; color: var(--red); line-height: 1; }
+    .stat-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); margin-top: 0.4rem; }
+
+    /* MENU */
+    .menu-section { background: var(--black); color: var(--cream); }
+    .menu-inner { max-width: 1200px; margin: 0 auto; }
+    .menu-section .section-label { color: var(--gold); }
+    .menu-section .section-title { color: var(--cream); }
+    .menu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5px; margin-top: 4rem; background: rgba(255,255,255,0.05); }
+    .menu-card { background: rgba(255,255,255,0.03); padding: 3rem 2.8rem; transition: background 0.25s; }
+    .menu-card:hover { background: rgba(212,152,10,0.07); }
+    .menu-card-icon { font-size: 2.2rem; margin-bottom: 1.4rem; }
+    .menu-card-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 400; margin-bottom: 0.8rem; color: var(--cream); }
+    .menu-card-desc { font-size: 0.9rem; font-weight: 300; line-height: 1.8; color: rgba(253,250,242,0.55); margin-bottom: 1.6rem; }
+    .menu-items { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .menu-tag { background: rgba(212,152,10,0.12); border: 1px solid rgba(212,152,10,0.25); color: var(--gold); font-size: 0.78rem; font-weight: 500; padding: 0.4rem 0.9rem; border-radius: 2px; }
+
+    /* GALLERY */
+    .gallery-section { background: var(--warm); padding: 7rem 4rem; }
+    .gallery-inner { max-width: 1200px; margin: 0 auto; }
+    .gallery-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 320px; gap: 4px; margin-top: 3.5rem; }
+    .gallery-grid img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; filter: saturate(0.85); transition: filter 0.3s, transform 0.4s; display: block; }
+    .gallery-grid img:hover { filter: saturate(1.2); transform: scale(1.01); }
+
+    /* WHY US */
+    .why-section { background: var(--ink); color: var(--cream); padding: 7rem 4rem; }
+    .why-inner { max-width: 1200px; margin: 0 auto; }
+    .why-section .section-label { color: var(--gold); }
+    .why-section .section-title { color: var(--cream); }
+    .why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 4rem; }
+    .why-card { padding: 2.4rem 2rem; border: 1px solid rgba(255,255,255,0.07); border-radius: 3px; transition: border-color 0.25s; }
+    .why-card:hover { border-color: rgba(212,152,10,0.4); }
+    .why-card-icon { font-size: 2rem; margin-bottom: 1.2rem; }
+    .why-card-title { font-size: 0.9rem; font-weight: 600; color: var(--gold); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.8rem; }
+    .why-card-body { font-size: 0.88rem; font-weight: 300; line-height: 1.75; color: rgba(253,250,242,0.55); }
+
+    /* VISIT */
+    .info-section { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: start; }
+    .hours-table { margin-top: 2.5rem; width: 100%; border-collapse: collapse; }
+    .hours-table tr { border-bottom: 1px solid rgba(14,8,0,0.08); }
+    .hours-table tr:last-child { border-bottom: none; }
+    .hours-table td { padding: 0.85rem 0; font-size: 0.9rem; font-weight: 300; color: var(--muted); }
+    .hours-table td:first-child { font-weight: 500; color: var(--ink); width: 42%; }
+    .contact-links { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 2rem; }
+    .contact-link { display: flex; align-items: center; gap: 0.8rem; font-size: 0.9rem; font-weight: 300; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .contact-link:hover { color: var(--red); }
+    .contact-link-icon { width: 36px; height: 36px; background: var(--warm); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .location-address { font-size: 1.05rem; font-weight: 300; line-height: 1.8; color: var(--muted); }
+    .location-address strong { display: block; font-size: 1.2rem; font-weight: 500; color: var(--ink); margin-bottom: 0.5rem; }
+
+    .cta-banner { background: var(--red); color: #fff; text-align: center; padding: 5rem 4rem; }
+    .cta-banner .section-label { color: rgba(255,255,255,0.6); }
+    .cta-banner .section-title { color: #fff; margin-bottom: 1.2rem; }
+    .cta-banner p { font-size: 1rem; font-weight: 300; opacity: 0.85; margin-bottom: 2.5rem; max-width: 440px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+
+    footer { background: var(--black); color: rgba(253,250,242,0.4); padding: 3.5rem 4rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+    .footer-logo { font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 700; color: var(--cream); letter-spacing: 0.08em; text-transform: uppercase; }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.8rem; font-weight: 300; }
+    .footer-social { display: flex; gap: 1.2rem; }
+    .footer-social a { color: rgba(253,250,242,0.4); text-decoration: none; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+    .footer-social a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; } .nav-links { gap: 1.5rem; }
+      section { padding: 5rem 1.5rem; }
+      .about { grid-template-columns: 1fr; gap: 3rem; } .about-images { height: 340px; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: 220px 220px; }
+      .gallery-grid img:last-child { display: none; }
+      .why-grid { grid-template-columns: 1fr; }
+      .info-section { grid-template-columns: 1fr; gap: 3.5rem; }
+      .strip { padding: 1.5rem; gap: 2rem; }
+      footer { flex-direction: column; text-align: center; }
+    }
+    @media (max-width: 600px) { .nav-links { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="#"><span>Tasty</span> German Döner</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a href="#visit" class="btn btn-primary" style="padding:0.5rem 1.4rem;">Find Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Now Open in Independence, MO</div>
+      <h1 class="hero-title">Tasty</h1>
+      <div class="hero-title-sub">German Döner</div>
+      <p class="hero-sub">Premium döner kebabs crafted with fresh ingredients, handmade bread, and bold signature sauces. A true taste of European street food — now at Independence Center.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-gold">See the Menu</a>
+        <a href="#visit" class="btn btn-outline">Find Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="scroll-line"></div>Scroll</div>
+  </section>
+
+  <div class="strip">
+    <div class="strip-item"><span class="strip-icon">🥙</span> Authentic German Döner Kebab</div>
+    <div class="strip-item"><span class="strip-icon">🔥</span> Premium Lean Meats &amp; Fresh Bread</div>
+    <div class="strip-item"><span class="strip-icon">📍</span> Independence Center Mall, MO</div>
+    <div class="strip-item"><span class="strip-icon">✨</span> Now Open</div>
+  </div>
+
+  <section id="about">
+    <div class="about">
+      <div class="about-images">
+        <img src="images/food1.jpg" alt="Tasty German Doner kebab" class="about-img-main" />
+        <img src="images/food2.jpg" alt="Tasty German Doner wrap" class="about-img-accent" />
+        <div class="about-tag">Now Open</div>
+      </div>
+      <div>
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">European Street Food<br>Comes to Missouri</h2>
+        <p class="section-body">
+          Tasty German Döner brings the bold, satisfying flavors of authentic German-style döner kebab to Independence, Missouri. Every kebab is built on premium lean meats — beef, chicken, or mixed — served in freshly baked bread with crisp vegetables and our signature sauces.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem;">
+          This is not fast food. This is a tradition. Döner kebab has been feeding cities across Europe for decades — and now Independence Center has its own. Fresh. Bold. Tasty.
+        </p>
+        <div class="about-stats">
+          <div><div class="stat-num">100%</div><div class="stat-label">Fresh Ingredients</div></div>
+          <div><div class="stat-num">3</div><div class="stat-label">Meat Options</div></div>
+          <div><div class="stat-num">IC</div><div class="stat-label">Mall Location</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="menu-inner">
+      <p class="section-label">What We Serve</p>
+      <h2 class="section-title">Bold Flavors,<br>Built Your Way</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-icon">🥙</div>
+          <div class="menu-card-title">Döner Kebabs</div>
+          <div class="menu-card-desc">The classic. Premium meat sliced fresh off the rotisserie, loaded into handmade bread with fresh vegetables and your choice of signature sauce. Beef, chicken, or mixed — your call.</div>
+          <div class="menu-items">
+            <span class="menu-tag">Beef Döner</span>
+            <span class="menu-tag">Chicken Döner</span>
+            <span class="menu-tag">Mixed Döner</span>
+            <span class="menu-tag">Handmade Bread</span>
+            <span class="menu-tag">Signature Sauces</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-icon">🌯</div>
+          <div class="menu-card-title">Wraps, Burgers &amp; Bowls</div>
+          <div class="menu-card-desc">Döner in a flatbread wrap. Döner in a brioche burger bun. Döner over rice. Every format delivers the same bold flavors in a different experience.</div>
+          <div class="menu-items">
+            <span class="menu-tag">Döner Wrap</span>
+            <span class="menu-tag">Döner Burger</span>
+            <span class="menu-tag">Rice Bowl</span>
+            <span class="menu-tag">Döner Spring Rolls</span>
+            <span class="menu-tag">Döner Quesadilla</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-inner">
+      <p class="section-label">Fresh Every Day</p>
+      <h2 class="section-title">Made to Order,<br>Every Time</h2>
+      <div class="gallery-grid">
+        <img src="images/hero.jpg" alt="Döner kebab" />
+        <img src="images/food3.jpg" alt="Fresh ingredients" />
+        <img src="images/food1.jpg" alt="Tasty German Doner" />
+      </div>
+    </div>
+  </section>
+
+  <div class="why-section">
+    <div class="why-inner">
+      <p class="section-label">Why Tasty German Döner</p>
+      <h2 class="section-title">What Makes Us<br>Different</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-card-icon">🥩</div>
+          <div class="why-card-title">Premium Lean Meats</div>
+          <div class="why-card-body">Only the best cuts. Beef and chicken selected for quality and sliced fresh from the rotisserie to order — never pre-packaged.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-card-icon">🍞</div>
+          <div class="why-card-title">Handmade Bread</div>
+          <div class="why-card-body">The bread makes the döner. Ours is made by hand — soft inside, golden outside — the way it has always been done in Germany.</div>
+        </div>
+        <div class="why-card">
+          <div class="why-card-icon">🌶️</div>
+          <div class="why-card-title">Signature Sauces</div>
+          <div class="why-card-body">Our sauces are what people come back for. House-made, bold, and perfectly balanced to complement every bite.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="visit">
+    <div class="info-section">
+      <div>
+        <p class="section-label">When to Visit</p>
+        <h2 class="section-title">Hours of<br>Operation</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><td>Monday &ndash; Saturday</td><td>10:00 AM &ndash; 8:00 PM</td></tr>
+            <tr><td>Sunday</td><td>11:00 AM &ndash; 6:00 PM</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.8rem;color:var(--muted);margin-top:1.2rem;font-weight:300;">Hours follow Independence Center mall schedule.</p>
+      </div>
+      <div>
+        <p class="section-label">Find Us</p>
+        <h2 class="section-title">Inside<br>Independence Center</h2>
+        <div class="location-address" style="margin-top:2.5rem;">
+          <strong>Tasty German Döner</strong>
+          18801 East 39th St S, Suite 2140<br>Independence, MO 64057<br>
+          <span style="font-size:0.85rem;">(Independence Center Mall)</span>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.google.com/maps/search/Tasty+German+Doner+Independence+MO" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">📍</span>Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <p class="section-label">Come Try It</p>
+    <h2 class="section-title">Independence's First<br>Authentic German Döner</h2>
+    <p>No reservations needed. Just walk in at Independence Center, order fresh, and taste the difference that real döner makes.</p>
+    <a href="https://www.google.com/maps/search/Tasty+German+Doner+Independence+MO" target="_blank" rel="noopener" class="btn btn-gold">Find Us &nbsp;→</a>
+  </div>
+
+  <footer>
+    <div class="footer-logo"><span>Tasty</span> German Döner</div>
+    <p>© 2025 Tasty German Döner &nbsp;·&nbsp; Independence Center, Independence, MO</p>
+    <div class="footer-social"></div>
+  </footer>
+
+</body>
+</html>
